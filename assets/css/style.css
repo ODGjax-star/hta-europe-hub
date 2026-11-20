@@ -115,6 +115,14 @@ h2.step .num{flex:none;width:34px;height:34px;border-radius:10px;background:var(
 .pill{display:inline-block;padding:3px 10px;border-radius:999px;font-size:.78rem;font-weight:700;background:#e7efea;color:var(--green)}
 .pill.warn{background:var(--warn-soft);color:var(--warn)}
 .pill.grey{background:var(--soft);color:var(--muted)}
+.timeline{list-style:none;margin:0;padding:0 0 0 14px;border-left:3px solid var(--line)}
+.timeline li{position:relative;display:grid;grid-template-columns:110px minmax(0,1fr);gap:2px 12px;padding:7px 0 7px 6px}
+.timeline li::before{content:"";position:absolute;left:-22px;top:12px;width:11px;height:11px;border-radius:50%;background:var(--green);border:2px solid #fff}
+.timeline li.eu::before{background:var(--orange)}
+.timeline .t-date{font-weight:700;font-size:.86rem}
+.timeline .t-who{font-weight:600;font-size:.9rem}
+.timeline .t-what{grid-column:2;font-size:.86rem;color:var(--muted)}
+@media(max-width:520px){.timeline li{grid-template-columns:1fr}.timeline .t-what{grid-column:1}}
 .facts{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
 .box{display:block;background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;text-decoration:none;color:inherit}
@@ -145,6 +153,10 @@ footer.site a{color:#fff}
 .pickbtn{display:inline-flex;align-items:center;gap:10px;background:#fff;color:var(--ink);text-decoration:none;font-weight:700;padding:12px 20px;border-radius:12px;box-shadow:0 8px 20px rgba(0,0,0,.15);min-height:48px}
 .pickbtn span{font-size:1.4rem}
 .pickbtn:hover{background:var(--orange)}
+.pick-more{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.pickbtn.sm{font-weight:600;font-size:.82rem;padding:5px 10px;min-height:32px;border-radius:999px;box-shadow:none;gap:6px;background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.25)}
+.pickbtn.sm span{font-size:.95rem}
+.pickbtn.sm:hover{background:#fff;color:var(--ink)}
 .cat p.sys{color:var(--ink);font-weight:600;margin-bottom:4px}
 .cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
 @media(max-width:860px){.cols{grid-template-columns:1fr}}

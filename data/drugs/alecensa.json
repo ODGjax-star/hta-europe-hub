@@ -114,5 +114,89 @@
       },
       "outcome_short": "Class H · conditional innovation"
     }
-  }
+  },
+  "eligibility_plain": "Adults with non-small-cell lung cancer (NSCLC) whose tumour has the ALK gene change (ALK-positive), after the tumour has been completely removed by surgery, when the cancer is at high risk of coming back. In the trial and in the NICE and SMC decisions this means stage IB (tumours 4 cm or larger) to stage IIIA (7th edition of the UICC/AJCC staging system). An ALK test of the tumour is needed to know if a patient is eligible.",
+  "population": {
+    "DE": {
+      "coverage": "Full EU indication, assessed in two patient groups",
+      "who": "a) patients who can have platinum-based chemotherapy after surgery; b) patients who already had it or cannot have it",
+      "number": "about 230 to 452 patients",
+      "number_note": "patients in statutory health insurance (GKV), groups a and b together",
+      "conditions": "Treatment should be started and supervised only by specialists experienced in treating NSCLC",
+      "source": "G-BA decision of 16 Jan 2025, section 2",
+      "source_url": "https://g-ba.de/downloads/39-261-7013/2025-01-16_AM-RL-XII_Alectinib_D-1079.pdf"
+    },
+    "FR": {
+      "coverage": "Full EU indication",
+      "who": "All patients in the EU indication (SMR important within the marketing authorisation)",
+      "number": "62 to 118 patients",
+      "number_note": "target population (population cible) estimated by HAS",
+      "conditions": "",
+      "source": "HAS opinion CT-21013, 23 Oct 2024",
+      "source_url": "https://www.has-sante.fr/upload/docs/evamed/CT-21013_ALECENSA_PIC_EI_AvisDef_CT21013.pdf"
+    },
+    "IT": {
+      "coverage": "Full EU indication",
+      "who": "All patients in the EU indication, prescribed through the AIFA monitoring registry",
+      "number": null,
+      "number_note": "AIFA does not publish a patient estimate in the determina",
+      "conditions": "Class H (hospital use); prescription through the AIFA monitoring registry by centres chosen by the regions; mandatory confidential discount",
+      "source": "Determina AIFA Pres. 625/2025",
+      "source_url": "https://www.aifa.gov.it/documents/20142/961234/Determina-Pres-625-2025%20ALECENSA.pdf"
+    }
+  },
+  "other_decisions": [
+    {
+      "country": "GB",
+      "label": "England",
+      "body": "NICE (TA1014)",
+      "date": "2024-11-13",
+      "outcome": "Recommended",
+      "coverage": "Stage IB (tumours 4 cm or larger) to IIIA, within the marketing authorisation",
+      "number": "224 people eligible now, rising to 235; 169 to 211 a year expected to have it",
+      "number_note": "NICE resource impact report",
+      "conditions": "Only with the company's commercial arrangement (confidential discount); NHS funding within 90 days",
+      "url": "https://www.nice.org.uk/guidance/ta1014",
+      "source_url": "https://www.nice.org.uk/guidance/ta1014/resources"
+    },
+    {
+      "country": "GB",
+      "label": "Scotland",
+      "body": "SMC (SMC2749)",
+      "date": "2025-04-07",
+      "outcome": "Accepted for use in NHSScotland",
+      "coverage": "Stage IB (tumours 4 cm or larger) to IIIA, after complete resection",
+      "number": "about 8 patients in year 1, rising to 19 in year 5",
+      "number_note": "company estimate, published by SMC",
+      "conditions": "Only with the Patient Access Scheme (PAS)",
+      "url": "https://scottishmedicines.org.uk/medicines-advice/alectinib-hydrochloride-alecensa-full-smc2749/",
+      "source_url": "https://scottishmedicines.org.uk/media/9081/alectinib-alecensa-final-march-2025-for-website.pdf"
+    },
+    {
+      "country": "DK",
+      "label": "Denmark",
+      "body": "Medicinrådet",
+      "date": "2025-01-29",
+      "outcome": "Not recommended",
+      "coverage": "Not recommended as standard treatment (stage IB–IIIA, AJCC 7th edition)",
+      "number": "8 patients a year",
+      "number_note": "Medicinrådet's own estimate",
+      "conditions": "Main reason: uncertain whether it extends overall survival compared with adjuvant chemotherapy",
+      "url": "https://medicinraadet.dk/anbefalinger-og-vejledninger/laegemidler-og-indikationsudvidelser/a/alectinib-alecensa-adjuverende-behandling-af-alk-positiv-ikke-smacellet-lungekraeft",
+      "source_url": "https://filer.medicinraadet.dk/media/jg0jl1jw/medicinradets-anbefaling-vedr-adjuverende-alectinib-til-alkplusnsclc-vers-1-0-x.pdf"
+    },
+    {
+      "country": "IE",
+      "label": "Ireland",
+      "body": "NCPE (HTA ID 24017)",
+      "date": "2024-07-02",
+      "outcome": "Rapid review: full HTA recommended",
+      "coverage": "No reimbursement decision published yet",
+      "number": null,
+      "number_note": "not published in the rapid review",
+      "conditions": "Full HTA needed on the basis of the proposed price",
+      "url": "https://www.ncpe.ie/alectinib-alecensa-hta-id-24017/",
+      "source_url": "https://www.ncpe.ie/alectinib-alecensa-hta-id-24017/"
+    }
+  ]
 }

@@ -250,7 +250,10 @@
       return '<a class="c-' + code + '" href="#/country/' + code + '"><span class="big">' + c.flag + '</span><div class="lbl"><b>' + esc(c.name) + "</b>" +
         esc(c.bodies[0].name.split(" ")[0]) + " · " + n + " decisions</div></a>";
     }).join("");
-    const pick = COUNTRY_ORDER.map((code) => '<a class="pickbtn" href="#/country/' + code + '"><span>' + state.countries[code].flag + "</span>" + esc(state.countries[code].name) + "</a>").join("");
+    // Countries with decisions tracked come first as large buttons; every other European country follows as a smaller one
+    const pickBtn = (code, small) => '<a class="pickbtn' + (small ? " sm" : "") + '" href="#/country/' + code + '"><span>' + state.countries[code].flag + "</span>" + esc(state.countries[code].name) + "</a>";
+    const pick = COUNTRY_ORDER.map((code) => pickBtn(code, false)).join("") +
+      '</div><div class="pick-more">' + europeCodes().filter((k) => !COUNTRY_ORDER.includes(k)).map((k) => pickBtn(k, true)).join("");
     const cats = COUNTRY_ORDER.map((code) => {
       const c = state.countries[code];
       return '<a href="#/country/' + code + '"><div class="ic t-' + code + '">' + c.flag + "</div><h3>" + esc(c.name) + '</h3><p class="sys">' + esc(c.system) + "</p><p>" +
@@ -372,6 +375,33 @@
         "</td><td>" + fmtDate(p.date) + "</td><td>" + (p.source_url ? ext(p.source_url, p.source) : "—") + (p.note ? '<br><span class="muted small">' + esc(p.note) + "</span>" : "") + "</td></tr>";
     }).join("");
 
+    // Timeline: EU approval, then every national decision, with days since EU approval
+    const others = d.other_decisions || [];
+    const cName = (code, label) => (state.countries[code] ? state.countries[code].flag + " " : "") + esc(label || (state.countries[code] && state.countries[code].name) || code);
+    const euDate = eu.indication_authorisation || eu.initial_authorisation;
+    const days = (iso) => euDate && iso ? Math.round((new Date(iso) - new Date(euDate)) / 86400000) : null;
+    const events = [{ date: eu.chmp_opinion_indication, who: "🇪🇺 EMA – CHMP opinion", what: "Positive opinion" }, { date: euDate, who: "🇪🇺 European Commission", what: "EU approval of this indication", eu: true }]
+      .concat(codes.map((c) => ({ date: d.countries[c].decision_date, who: flagName(c) + " – " + esc(d.countries[c].hta_body), what: d.countries[c].outcome_short || "" })))
+      .concat(others.map((o) => ({ date: o.date, who: cName(o.country, o.label) + " – " + esc(o.body), what: o.outcome })))
+      .filter((e) => e.date).sort((a, b) => a.date.localeCompare(b.date));
+    const timeline = '<ol class="timeline">' + events.map((e) => {
+      const n = days(e.date);
+      return '<li class="' + (e.eu ? "eu" : "") + '"><span class="t-date">' + fmtDate(e.date) + '</span><span class="t-who">' + e.who + '</span><span class="t-what">' + esc(e.what) +
+        (n !== null && !e.eu ? ' <span class="pill grey">' + (n >= 0 ? n + " days after EU approval" : Math.abs(n) + " days before EU approval") + "</span>" : "") + "</span></li>";
+    }).join("") + "</ol>" + COUNTRY_ORDER.filter((c) => !d.countries[c]).map((c) => '<p class="small muted">' + flagName(c) + ": no decision yet.</p>").join("");
+
+    // Who can get it: plain-language eligibility + official patient numbers per country
+    const pop = d.population || {};
+    const popRow = (label, coverage, who, number, note, conditions, srcLabel, srcUrl) => "<tr><td>" + label + "</td><td><b>" + esc(coverage) + "</b>" + (who ? '<br><span class="small">' + esc(who) + "</span>" : "") + "</td><td>" +
+      (number ? "<b>" + esc(number) + "</b>" : '<span class="pill grey">Not published</span>') + (note ? '<br><span class="muted small">' + esc(note) + "</span>" : "") + "</td><td>" + (conditions ? '<span class="small">' + esc(conditions) + "</span>" : "—") + "</td><td>" + (srcUrl ? ext(srcUrl, srcLabel || "Official source") : "—") + "</td></tr>";
+    const popRows = codes.filter((c) => pop[c]).map((c) => popRow(flagName(c), pop[c].coverage, pop[c].who, pop[c].number, pop[c].number_note, pop[c].conditions, pop[c].source, pop[c].source_url)).join("") +
+      others.map((o) => popRow(cName(o.country, o.label) + '<br><span class="muted small">' + esc(o.body) + "</span>", o.coverage, "", o.number, o.number_note, o.conditions, o.body, o.source_url)).join("");
+    const who = (d.eligibility_plain ? '<div class="note" style="border-left-color:var(--green);background:var(--soft)"><b>Who is this medicine for?</b><br>' + esc(d.eligibility_plain) + "</div>" : "") +
+      (popRows ? '<table><thead><tr><th>Country</th><th>Who is covered</th><th>Official patient number</th><th>Conditions</th><th>Source</th></tr></thead><tbody>' + popRows + "</tbody></table>" +
+        '<p class="small muted">Patient numbers are the estimates published by each HTA body in its decision. They are not our forecasts, and methods differ between countries.</p>' : '<p class="muted">Patient numbers not added yet.</p>');
+    const otherOpinions = others.length ? '<p class="small" style="margin:14px 0 6px"><b>Also decided elsewhere in Europe</b></p><table><thead><tr><th>Country</th><th>Date</th><th>Outcome</th></tr></thead><tbody>' +
+      others.map((o) => "<tr><td>" + cName(o.country, o.label) + '<br><span class="muted small">' + esc(o.body) + "</span></td><td>" + fmtDate(o.date) + "</td><td>" + esc(o.outcome) + (o.conditions ? '<br><span class="muted small">' + esc(o.conditions) + "</span>" : "") + '<ul class="docs"><li>' + ext(o.url, "Official decision") + "</li></ul></td></tr>").join("") + "</tbody></table>" : "";
+
     app.innerHTML = '<div class="wrap page">' +
       '<div class="crumbs"><a href="#/">Home</a> › ' + esc(d.therapy_area) + " › " + esc(d.disease_area) + " › " + esc(d.brand) + "</div>" +
       "<h1 class=\"title\">" + esc(d.brand) + ' <span class="muted" style="font-weight:400">(' + esc(d.inn) + ")</span></h1>" +
@@ -380,10 +410,12 @@
       (eu.jca ? '<span class="pill">JCA: ' + esc(eu.jca) + "</span>" : '<span class="pill warn">No EU JCA</span>') + "</div>" +
       '<p class="small"><strong>Indication tracked:</strong> ' + esc(d.indication_tracked) + " (EU authorised " + fmtDate(eu.indication_authorisation) + ")</p>" +
       '<div class="facts"><strong class="small" style="align-self:center">Status by country:</strong>' + COUNTRY_ORDER.map((c) => '<a href="#/country/' + c + '" style="text-decoration:none">' + statusChip(d, c, true) + "</a>").join("") + "</div>" +
+      '<div class="box" style="margin:18px 0"><h3 style="margin-bottom:10px">Timeline: from EU approval to each country</h3>' + timeline + "</div>" +
       step(1, "EPAR summary (EMA)", summary + '<p class="small muted">' + esc(eu.jca_note) + "</p>") +
-      step(2, "HTA opinions by country", '<table><thead><tr><th>Country</th><th>Date</th><th>Opinion and documents</th></tr></thead><tbody>' + opinions + pendingRows + "</tbody></table>") +
-      step(3, "Reimbursement decisions", '<table><thead><tr><th>Country</th><th>Decision</th></tr></thead><tbody>' + reimb + "</tbody></table>") +
-      step(4, "Pricing", '<label class="switch"><input type="checkbox" id="price-toggle"' + (state.showPrices ? " checked" : "") + "> Show pricing</label>" +
+      step(2, "Who can get it, and how many patients", who) +
+      step(3, "HTA opinions by country", '<table><thead><tr><th>Country</th><th>Date</th><th>Opinion and documents</th></tr></thead><tbody>' + opinions + pendingRows + "</tbody></table>" + otherOpinions) +
+      step(4, "Reimbursement decisions", '<table><thead><tr><th>Country</th><th>Decision</th></tr></thead><tbody>' + reimb + "</tbody></table>") +
+      step(5, "Pricing", '<label class="switch"><input type="checkbox" id="price-toggle"' + (state.showPrices ? " checked" : "") + "> Show pricing</label>" +
         '<div id="price-box"' + (state.showPrices ? "" : ' style="display:none"') + '><table><thead><tr><th>Country</th><th>List price</th><th>Date</th><th>Official source</th></tr></thead><tbody>' + prices +
         '</tbody></table><p class="small muted">List prices from official publications. Net prices after confidential discounts are not public.</p></div>') +
       '<p class="small muted">Last checked ' + fmtDate(d.last_checked) + ". Spotted a mistake? Open an issue on GitHub.</p></div>";
