@@ -22,17 +22,33 @@
       {
         "name": "G-BA",
         "role": "Decides on added benefit (AMNOG)",
-        "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/"
+        "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/",
+        "sources": [
+          "EC",
+          "INAHTA",
+          "CPE"
+        ]
       },
       {
         "name": "IQWiG",
         "role": "Prepares the benefit assessment for G-BA",
-        "url": "https://www.iqwig.de/"
+        "url": "https://www.iqwig.de/",
+        "sources": [
+          "EC",
+          "INAHTA"
+        ]
       },
       {
         "name": "GKV-Spitzenverband",
         "role": "Negotiates the reimbursement amount (Erstattungsbetrag)",
         "url": "https://www.gkv-spitzenverband.de/"
+      },
+      {
+        "name": "Federal Ministry of Health",
+        "url": "https://www.bundesgesundheitsministerium.de/en/ministry/the-federal-ministry-of-health.html",
+        "sources": [
+          "EC"
+        ]
       }
     ],
     "system": "AMNOG early benefit assessment",
@@ -48,7 +64,9 @@
         "name": "G-BA – benefit assessments (latest changes)",
         "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/letzte-aenderungen/?rss=1"
       }
-    ]
+    ],
+    "tracked": true,
+    "group": "EU"
   },
   "FR": {
     "name": "France",
@@ -57,7 +75,12 @@
       {
         "name": "HAS – Commission de la Transparence",
         "role": "Rates clinical benefit (SMR) and added value (ASMR)",
-        "url": "https://www.has-sante.fr/"
+        "url": "https://www.has-sante.fr/",
+        "sources": [
+          "EC",
+          "INAHTA",
+          "CPE"
+        ]
       },
       {
         "name": "CEPS",
@@ -68,6 +91,13 @@
         "name": "Base de données publique des médicaments",
         "role": "Official prices and reimbursement rates",
         "url": "https://base-donnees-publique.medicaments.gouv.fr/"
+      },
+      {
+        "name": "Ministry of Health, Families, Autonomy and Disabled People",
+        "url": "https://solidarites-sante.gouv.fr/",
+        "sources": [
+          "EC"
+        ]
       }
     ],
     "system": "HAS Transparency Committee + CEPS pricing",
@@ -83,7 +113,9 @@
         "name": "HAS – opinions on medicines",
         "url": "https://www.has-sante.fr/feed/Rss2.jsp?id=p_3081449"
       }
-    ]
+    ],
+    "tracked": true,
+    "group": "EU"
   },
   "IT": {
     "name": "Italy",
@@ -92,7 +124,25 @@
       {
         "name": "AIFA",
         "role": "Reimbursement class, price and innovation status (published in Gazzetta Ufficiale)",
-        "url": "https://www.aifa.gov.it/"
+        "url": "https://www.aifa.gov.it/",
+        "sources": [
+          "EC",
+          "CPE"
+        ]
+      },
+      {
+        "name": "Ministry of Health – Directorate General Medical Devices and Pharmaceutical Services",
+        "url": "https://www.salute.gov.it/portale/ministro/p4_5_2_4_1.jsp?lingua=italiano&menu=uffCentrali&label=uffCentrali&id=1153",
+        "sources": [
+          "EC"
+        ]
+      },
+      {
+        "name": "Agenas – Agency for Regional Healthcare",
+        "url": "https://www.inahta.org/members/agenas/",
+        "sources": [
+          "INAHTA"
+        ]
       }
     ],
     "system": "AIFA reimbursement and price negotiation",
@@ -107,7 +157,690 @@
       {
         "name": "AIFA – news",
         "url": "https://www.aifa.gov.it/o/feedrss/rss?structureId=93604&groupId=20142&companyId=20115&basePortalURL=https://www.aifa.gov.it&size=50&excludeCategoryId=104878&locale=it_IT",
-        "exclude": ["avviso", "bilanci", "incarich", "concors", "bando", "gara", "amministrazione trasparente", "provvedimenti organi", "diario di bordo", "gmp", "delegazione", "personale", "aggiornamento sezione", "contrattazione integrativa", "tempestività dei pagamenti"]
+        "exclude": [
+          "avviso",
+          "bilanci",
+          "incarich",
+          "concors",
+          "bando",
+          "gara",
+          "amministrazione trasparente",
+          "provvedimenti organi",
+          "diario di bordo",
+          "gmp",
+          "delegazione",
+          "personale",
+          "aggiornamento sezione",
+          "contrattazione integrativa",
+          "tempestività dei pagamenti"
+        ]
+      }
+    ],
+    "tracked": true,
+    "group": "EU"
+  },
+  "AT": {
+    "name": "Austria",
+    "flag": "🇦🇹",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Federal Ministry of Labour, Social Affairs, Health, Care and Consumer Protection / Gesundheit Österreich GmbH (GÖG)",
+        "url": "https://www.sozialministerium.at/en.html",
+        "sources": [
+          "EC",
+          "INAHTA",
+          "CPE"
+        ]
+      },
+      {
+        "name": "Austrian Institute for Health Technology Assessment (AIHTA)",
+        "url": "https://aihta.at/page/homepage/en",
+        "sources": [
+          "EC",
+          "INAHTA"
+        ]
+      },
+      {
+        "name": "Dachverband der Sozialversicherungsträger (DVSV)",
+        "url": "https://www.sozialversicherung.at/cdscontent/?contentid=10007.845634",
+        "sources": [
+          "EC",
+          "INAHTA"
+        ]
+      }
+    ]
+  },
+  "BE": {
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "National Institute for Health and Disability Insurance (RIZIV / INAMI / NIHDI)",
+        "url": "https://www.inami.fgov.be/fr/Pages/default.aspx",
+        "sources": [
+          "EC",
+          "CPE"
+        ]
+      },
+      {
+        "name": "Belgian Health Care Knowledge Centre (KCE)",
+        "url": "https://kce.fgov.be/en",
+        "sources": [
+          "EC",
+          "INAHTA"
+        ]
+      }
+    ]
+  },
+  "BG": {
+    "name": "Bulgaria",
+    "flag": "🇧🇬",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "National Council on Prices and Reimbursement of Medicinal Products (NCPR)",
+        "url": "https://ncpr.bg/en/ncprmp/about-council.html",
+        "sources": [
+          "EC"
+        ]
+      }
+    ]
+  },
+  "HR": {
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Ministry of Health",
+        "url": "https://zdravlje.gov.hr/",
+        "sources": [
+          "EC"
+        ]
+      },
+      {
+        "name": "Croatian Institute of Public Health (HZJZ)",
+        "url": "https://www.hzjz.hr/en/",
+        "sources": [
+          "EC"
+        ]
+      }
+    ]
+  },
+  "CY": {
+    "name": "Cyprus",
+    "flag": "🇨🇾",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Department of Pharmaceutical Services, Ministry of Health",
+        "url": "https://www.moh.gov.cy/moh/phs/phs.nsf/home_en/home_en?openform",
+        "sources": [
+          "EC"
+        ]
+      }
+    ]
+  },
+  "CZ": {
+    "name": "Czech Republic",
+    "flag": "🇨🇿",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "State Institute for Drug Control (SÚKL)",
+        "url": "https://www.sukl.eu/",
+        "sources": [
+          "EC"
+        ]
+      },
+      {
+        "name": "Ministry of Health – advisory body on reimbursement of rare-disease medicines",
+        "url": "https://ppo.mzcr.cz/workGroup/172",
+        "sources": [
+          "CPE"
+        ]
+      }
+    ]
+  },
+  "DK": {
+    "name": "Denmark",
+    "flag": "🇩🇰",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Danish Medicines Agency",
+        "url": "https://laegemiddelstyrelsen.dk/en/about/",
+        "sources": [
+          "EC"
+        ]
+      },
+      {
+        "name": "Danish Medicines Council (Medicinrådet)",
+        "url": "https://medicinraadet.dk/om-os/in-english",
+        "sources": [
+          "EC",
+          "CPE"
+        ]
+      },
+      {
+        "name": "Danish Healthcare Quality Institute (DHQI)",
+        "url": "https://www.sundk.dk/about/",
+        "sources": [
+          "EC",
+          "INAHTA",
+          "CPE"
+        ]
+      }
+    ]
+  },
+  "EE": {
+    "name": "Estonia",
+    "flag": "🇪🇪",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Estonian Health Insurance Fund (EHIF)",
+        "url": "https://tervisekassa.ee/en",
+        "sources": [
+          "EC"
+        ]
+      },
+      {
+        "name": "Centre for Health Technology Assessment, University of Tartu",
+        "url": "https://ut.ee/en/unit-health-information-analysis",
+        "sources": [
+          "EC"
+        ]
+      }
+    ]
+  },
+  "FI": {
+    "name": "Finland",
+    "flag": "🇫🇮",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Finnish Medicines Agency (Fimea)",
+        "url": "https://fimea.fi/en/frontpage",
+        "sources": [
+          "EC"
+        ]
+      },
+      {
+        "name": "Ministry of Social Affairs and Health",
+        "url": "https://stm.fi/en/frontpage",
+        "sources": [
+          "EC"
+        ]
+      },
+      {
+        "name": "Finnish Coordinating Center for Health Technology Assessment (FinCCHTA)",
+        "url": "https://www.inahta.org/members/fincchta/",
+        "sources": [
+          "INAHTA"
+        ]
+      }
+    ]
+  },
+  "GR": {
+    "name": "Greece",
+    "flag": "🇬🇷",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Ministry of Health",
+        "url": "https://www.moh.gov.gr/",
+        "sources": [
+          "EC"
+        ]
+      }
+    ]
+  },
+  "HU": {
+    "name": "Hungary",
+    "flag": "🇭🇺",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "National Center for Public Health and Pharmacy (NCPHP)",
+        "url": "",
+        "sources": [
+          "EC"
+        ]
+      }
+    ]
+  },
+  "IE": {
+    "name": "Ireland",
+    "flag": "🇮🇪",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "National Centre for Pharmacoeconomics (NCPE)",
+        "url": "https://www.ncpe.ie/about/",
+        "sources": [
+          "EC",
+          "CPE"
+        ]
+      },
+      {
+        "name": "Health Information and Quality Authority (HIQA)",
+        "url": "https://www.hiqa.ie/",
+        "sources": [
+          "INAHTA",
+          "CPE"
+        ]
+      }
+    ]
+  },
+  "LV": {
+    "name": "Latvia",
+    "flag": "🇱🇻",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "State Agency of Medicines of the Republic of Latvia",
+        "url": "http://www.zva.gov.lv/",
+        "sources": [
+          "EC"
+        ]
+      }
+    ]
+  },
+  "LT": {
+    "name": "Lithuania",
+    "flag": "🇱🇹",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "State Medicines Control Agency under the Ministry of Health",
+        "url": "https://www.vvkt.lt/Front-Page",
+        "sources": [
+          "EC"
+        ]
+      }
+    ]
+  },
+  "LU": {
+    "name": "Luxembourg",
+    "flag": "🇱🇺",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Ministry of Health, Directorate of Health – Division of Pharmacy and Medicines",
+        "url": "https://msan.gouvernement.lu/en.html",
+        "sources": [
+          "EC"
+        ]
+      }
+    ]
+  },
+  "MT": {
+    "name": "Malta",
+    "flag": "🇲🇹",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Ministry for Health and Active Ageing – Directorate for Pharmaceutical Affairs",
+        "url": "https://healthservices.gov.mt/en/pharmaceutical/Pages/pharmaceutical-affairs.aspx",
+        "sources": [
+          "EC"
+        ]
+      }
+    ]
+  },
+  "NL": {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "National Health Care Institute (Zorginstituut Nederland, ZIN)",
+        "url": "https://www.zorginstituutnederland.nl/",
+        "sources": [
+          "EC",
+          "INAHTA",
+          "CPE"
+        ]
+      },
+      {
+        "name": "Ministry of Health, Welfare and Sport",
+        "url": "https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport",
+        "sources": [
+          "EC"
+        ]
+      },
+      {
+        "name": "Netherlands Organisation for Health Research and Development (ZonMw)",
+        "url": "https://www.inahta.org/members/zonmw/",
+        "sources": [
+          "INAHTA"
+        ]
+      }
+    ]
+  },
+  "PL": {
+    "name": "Poland",
+    "flag": "🇵🇱",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Agency for Health Technology Assessment and Tariff System (AOTMiT)",
+        "url": "https://www.aotm.gov.pl/en/about-us/",
+        "sources": [
+          "EC",
+          "INAHTA",
+          "CPE"
+        ]
+      }
+    ]
+  },
+  "PT": {
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "National Authority of Medicines and Health Products (INFARMED)",
+        "url": "https://www.infarmed.pt/",
+        "sources": [
+          "EC",
+          "CPE"
+        ]
+      }
+    ]
+  },
+  "RO": {
+    "name": "Romania",
+    "flag": "🇷🇴",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "National Agency for Medicines and Medical Devices of Romania (NAMMDR)",
+        "url": "https://www.anm.ro/en/",
+        "sources": [
+          "EC"
+        ]
+      }
+    ]
+  },
+  "SK": {
+    "name": "Slovakia",
+    "flag": "🇸🇰",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "National Institute for Value and Technologies in Healthcare (NIHO)",
+        "url": "https://niho.sk/",
+        "sources": [
+          "EC",
+          "INAHTA"
+        ]
+      }
+    ]
+  },
+  "SI": {
+    "name": "Slovenia",
+    "flag": "🇸🇮",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Slovenian Quality Health Care Agency",
+        "url": "https://www.gov.si/drzavni-organi/organi-v-sestavi/urad-za-nadzor-kakovost-in-investicije-v-zdravstvu/",
+        "sources": [
+          "EC"
+        ]
+      }
+    ]
+  },
+  "ES": {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Spanish Agency of Medicines and Medical Devices (AEMPS)",
+        "url": "https://www.aemps.gob.es/",
+        "sources": [
+          "EC"
+        ]
+      },
+      {
+        "name": "General Directorate of Common Portfolio of Services of the NHS and Pharmacy, Ministry of Health",
+        "url": "https://www.sanidad.gob.es/en/directoa/home.htm",
+        "sources": [
+          "EC"
+        ]
+      },
+      {
+        "name": "Spanish Network of HTA Agencies (RedETS)",
+        "url": "https://redets.sanidad.gob.es/",
+        "sources": [
+          "CPE"
+        ]
+      },
+      {
+        "name": "AETS-ISCIII – Agencia de Evaluación de Tecnologías Sanitarias",
+        "url": "https://www.inahta.org/members/aets/",
+        "sources": [
+          "INAHTA"
+        ]
+      },
+      {
+        "name": "AETSA – Andalusian Agency for HTA",
+        "url": "https://www.inahta.org/members/aetsa/",
+        "sources": [
+          "INAHTA"
+        ]
+      },
+      {
+        "name": "AQuAS – Agency for Health Quality and Assessment of Catalonia",
+        "url": "https://www.inahta.org/members/aquas/",
+        "sources": [
+          "INAHTA"
+        ]
+      },
+      {
+        "name": "AVALIA-T – Galician Agency for HTA",
+        "url": "https://www.inahta.org/members/avalia-t/",
+        "sources": [
+          "INAHTA"
+        ]
+      },
+      {
+        "name": "IACS – Health Sciences Institute in Aragon",
+        "url": "https://www.inahta.org/members/iacs/",
+        "sources": [
+          "INAHTA"
+        ]
+      },
+      {
+        "name": "OSTEBA – Basque Office for HTA",
+        "url": "https://www.inahta.org/members/osteba/",
+        "sources": [
+          "INAHTA"
+        ]
+      }
+    ]
+  },
+  "SE": {
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "group": "EU",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Dental and Pharmaceutical Benefits Agency (TLV)",
+        "url": "https://www.government.se/government-agencies/dental-and-pharmaceutical-benefits-agency-tandvards--och-lakemedelsformansverket-tlv/",
+        "sources": [
+          "EC",
+          "CPE"
+        ]
+      },
+      {
+        "name": "Swedish Agency for HTA and Assessment of Social Services (SBU)",
+        "url": "https://www.sbu.se/en/",
+        "sources": [
+          "EC",
+          "INAHTA"
+        ]
+      }
+    ]
+  },
+  "IS": {
+    "name": "Iceland",
+    "flag": "🇮🇸",
+    "group": "EEA",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Icelandic Medicines Agency",
+        "url": "https://www.ima.is/",
+        "sources": [
+          "EC"
+        ]
+      },
+      {
+        "name": "Ministry of Health",
+        "url": "https://www.government.is/ministries/ministry-of-health/",
+        "sources": [
+          "EC"
+        ]
+      }
+    ]
+  },
+  "LI": {
+    "name": "Liechtenstein",
+    "flag": "🇱🇮",
+    "group": "EEA",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Office of Public Health",
+        "url": "https://www.llv.li/inhalt/1908/amtsstellen/amt-fur-gesundheit",
+        "sources": [
+          "EC"
+        ]
+      }
+    ]
+  },
+  "NO": {
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "group": "EEA",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Norwegian Medical Products Agency (NOMA)",
+        "url": "https://legemiddelverket.no/english",
+        "sources": [
+          "EC"
+        ]
+      },
+      {
+        "name": "Norwegian Regional Health Authorities (Nye Metoder)",
+        "url": "https://www.helse-sorost.no/south-eastern-norway-regional-health-authority",
+        "sources": [
+          "EC"
+        ]
+      },
+      {
+        "name": "Norwegian Institute of Public Health (NIPH)",
+        "url": "https://www.inahta.org/members/niph/",
+        "sources": [
+          "INAHTA"
+        ]
+      }
+    ]
+  },
+  "GB": {
+    "name": "United Kingdom",
+    "flag": "🇬🇧",
+    "group": "Other",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "National Institute for Health and Care Excellence (NICE) – England",
+        "url": "https://www.nice.org.uk/",
+        "sources": [
+          "INAHTA",
+          "CPE"
+        ]
+      },
+      {
+        "name": "Scottish Medicines Consortium (SMC) – Scotland",
+        "url": "https://scottishmedicines.org.uk/",
+        "sources": [
+          "CPE"
+        ]
+      },
+      {
+        "name": "All Wales Medicines Strategy Group (AWMSG) – Wales",
+        "url": "https://awttc.nhs.wales/",
+        "sources": [
+          "CPE"
+        ]
+      },
+      {
+        "name": "Healthcare Improvement Scotland (HIS)",
+        "url": "https://www.inahta.org/members/his/",
+        "sources": [
+          "INAHTA"
+        ]
+      },
+      {
+        "name": "Health Technology Wales (HTW)",
+        "url": "https://www.inahta.org/members/htw/",
+        "sources": [
+          "INAHTA"
+        ]
+      },
+      {
+        "name": "National Institute for Health and Care Research (NIHR)",
+        "url": "https://www.inahta.org/members/nihr/",
+        "sources": [
+          "INAHTA"
+        ]
+      }
+    ]
+  },
+  "CH": {
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "group": "Other",
+    "tracked": false,
+    "bodies": [
+      {
+        "name": "Swiss Federal Office of Public Health (FOPH)",
+        "url": "https://www.inahta.org/members/sfoph/",
+        "sources": [
+          "INAHTA"
+        ]
       }
     ]
   }

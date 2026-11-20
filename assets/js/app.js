@@ -131,6 +131,38 @@
     };
   }
 
+  // ---------- all European HTA bodies ----------
+  const SOURCE_LABEL = { EC: "EU HTA Coordination Group", INAHTA: "INAHTA member", CPE: "CPE map" };
+  const GROUP_LABEL = { EU: "EU member states", EEA: "EEA countries (EU HTA Regulation applies)", Other: "Other European countries" };
+  const europeCodes = () => Object.keys(state.countries).filter((k) => k !== "EU").sort((a, b) => state.countries[a].name.localeCompare(state.countries[b].name));
+  const nDecisions = (code) => state.drugs.filter((d) => d.countries[code]).length;
+  function sourceTags(body) {
+    return (body.sources || []).map((s) => '<span class="pill grey" style="font-size:.68rem;padding:1px 7px">' + esc(SOURCE_LABEL[s] || s) + "</span>").join(" ");
+  }
+  function bodyCard(body, code) {
+    const isInahta = /inahta\.org\/members\//.test(body.url || "");
+    const inner = '<div class="ic t-' + code + '">' + ICON.body + "</div><h3>" + esc(body.name) + "</h3>" + (body.role ? "<p>" + esc(body.role) + "</p>" : "") +
+      '<p style="display:flex;flex-wrap:wrap;gap:4px">' + sourceTags(body) + "</p>" + (body.url ? "<span>" + (isInahta ? "INAHTA profile" : "Official website") + " →</span>" : '<span class="muted">No website listed</span>');
+    return body.url ? '<a target="_blank" rel="noopener" href="' + esc(body.url) + '">' + inner + "</a>" : '<a role="article">' + inner + "</a>";
+  }
+  function countryTile(code) {
+    const c = state.countries[code], n = nDecisions(code);
+    return '<a class="box" href="#/country/' + code + '" style="display:flex;gap:12px;align-items:center"><span style="font-size:1.6rem">' + c.flag + "</span><span><b>" + esc(c.name) + '</b><br><span class="small muted">' +
+      c.bodies.length + " HTA bod" + (c.bodies.length === 1 ? "y" : "ies") + " · " + (c.tracked ? n + " decisions" : "decisions coming soon") + "</span></span></a>";
+  }
+  function viewCountries(app) {
+    const groups = ["EU", "EEA", "Other"].map((g) => {
+      const codes = europeCodes().filter((k) => state.countries[k].group === g);
+      return '<h2 class="step"><span>' + esc(GROUP_LABEL[g]) + " (" + codes.length + ")</span></h2><table><thead><tr><th>Country</th><th>HTA bodies</th><th>Decisions</th></tr></thead><tbody>" +
+        codes.map((k) => { const c = state.countries[k]; return '<tr><td><a href="#/country/' + k + '"><b>' + c.flag + " " + esc(c.name) + "</b></a></td><td>" +
+          c.bodies.map((bd) => (bd.url ? ext(bd.url, bd.name) : esc(bd.name)) + ' <span class="small">' + sourceTags(bd) + "</span>").join("<br>") + "</td><td>" +
+          (c.tracked ? '<span class="pill">' + nDecisions(k) + " tracked</span>" : '<span class="pill grey">Coming soon</span>') + "</td></tr>"; }).join("") + "</tbody></table>";
+    }).join("");
+    app.innerHTML = '<div class="wrap page"><div class="crumbs"><a href="#/">Home</a> › All countries</div><h1 class="title">HTA bodies across Europe</h1>' +
+      '<p class="muted">' + europeCodes().length + " countries, " + europeCodes().reduce((s, k) => s + state.countries[k].bodies.length, 0) + " HTA bodies. Main source: the European Commission's list of members of the HTA Coordination Group (medicinal products), cross-checked with the INAHTA members list and the Cancer Patients Europe HTA map. Each body shows the sources that name it.</p>" +
+      groups + '<p class="small muted">Sources: ' + ext("https://health.ec.europa.eu/health-technology-assessment/implementation-regulation-health-technology-assessment/member-state-coordination-group-hta-htacg_en", "European Commission – HTACG members") + " · " + ext("https://www.inahta.org/members/members_list/", "INAHTA members list") + "</p></div>";
+  }
+
   // Search inside one country: disease + drug name
   function searchBox(code) {
     const s = state.search;
@@ -239,6 +271,8 @@
       '</div><div class="mosaic">' + mosaic + "</div></div></section>" +
       '<div class="wrap overlap"><div class="cat">' + cats + "</div>" +
       '<section class="sec"><div class="sec-head"><div><div class="kicker">What\'s new</div><h2>Latest decisions by country</h2></div></div><div class="cols">' + columns + "</div></section>" +
+      '<section class="sec"><div class="sec-head"><div><div class="kicker">Across Europe</div><h2>All HTA bodies, country by country</h2></div><div class="pills"><a class="btn" href="#/countries">Full list with sources →</a></div></div>' +
+      '<div class="grid">' + europeCodes().map(countryTile).join("") + "</div></section>" +
       newsBlock(null) + "</div>";
     bindGlobalSearch();
   }
@@ -277,12 +311,20 @@
     const c = state.countries[code];
     if (!c) return viewNotFound(app);
     const n = decisions().filter((r) => r.country === code).length;
-    const bodies = c.bodies.slice(0, 3).map((b) =>
-      '<a target="_blank" rel="noopener" href="' + esc(b.url) + '"><div class="ic t-' + code + '">' + ICON.body + "</div><h3>" + esc(b.name) + "</h3><p>" + esc(b.role) + "</p><span>Official website →</span></a>").join("");
+    const bodies = c.bodies.map((bd) => bodyCard(bd, code)).join("");
+    const crumb = '<div class="crumb-light"><a href="#/">Home</a> › <a href="#/countries">All countries</a> › ' + esc(c.name) + "</div>";
+    if (!c.tracked) {
+      app.innerHTML =
+        '<section class="hero" style="padding-bottom:90px"><div class="wrap" style="display:block">' + crumb + "<h1>" + c.flag + " <em>" + esc(c.name) + "</em></h1>" +
+        '<p class="lead">' + c.bodies.length + " HTA bod" + (c.bodies.length === 1 ? "y" : "ies") + " listed below. Decisions, prices and news for " + esc(c.name) + " are coming soon.</p></div></section>" +
+        '<div class="wrap overlap"><div class="cat">' + bodies + "</div>" + (c.news_feeds ? newsBlock(code) : "") +
+        '<p class="small muted" style="margin-top:20px">Want to help add ' + esc(c.name) + "? Suggest official sources on GitHub.</p></div>";
+      return;
+    }
     app.innerHTML =
-      '<section class="hero"><div class="wrap"><div><div class="crumb-light"><a href="#/">Home</a> › ' + esc(c.name) + "</div>" +
+      '<section class="hero"><div class="wrap"><div>' + crumb +
       "<h1>" + c.flag + " <em>" + esc(c.name) + "</em></h1>" +
-      '<p class="lead"><b>' + esc(c.system) + ".</b> " + n + " decision" + (n === 1 ? "" : "s") + " tracked so far. Search by disease or drug name.</p>" +
+      '<p class="lead">' + (c.system ? "<b>" + esc(c.system) + ".</b> " : "") + n + " decision" + (n === 1 ? "" : "s") + " tracked so far. Search by disease or drug name.</p>" +
       searchBox(code) + '</div><div class="howbox"><b>How it works</b>' + processSteps(code) + '<p class="small">' + esc(c.rating || "") + "</p></div></div></section>" +
       '<div class="wrap overlap"><div class="cat">' + bodies + "</div>" + results(code) + newsBlock(code) + "</div>";
     bindSearch(code, () => viewCountry(app, code));
@@ -373,6 +415,7 @@
     if (parts[0] === "country") viewCountry(app, parts[1]);
     else if (parts[0] === "drug") viewDrug(app, parts[1]);
     else if (parts[0] === "drugs") viewDrugs(app, parts[1]);
+    else if (parts[0] === "countries") viewCountries(app);
     else if (parts[0] === "about") viewAbout(app);
     else viewHome(app);
   }
