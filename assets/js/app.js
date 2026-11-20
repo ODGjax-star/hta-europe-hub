@@ -1,7 +1,8 @@
 // HTA Europe Hub — single-page app with hash routes:
 //   #/                 home: search (therapy area -> disease -> country -> drug) + country tiles + result cards
 //   #/country/IT       one country: its HTA bodies + the same search, limited to that country
-//   #/drug/alecensa    one drug: EPAR summary -> opinions -> reimbursement -> pricing
+//   #/drug/alecensa    one drug: status by country, EPAR summary -> opinions -> reimbursement -> pricing
+//   #/drugs[/query]    all drugs A–Z with their status in every country
 (function () {
   "use strict";
 
@@ -97,6 +98,38 @@
     body: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V10m14 11V10M9 21v-6h6v6M2 10l10-6 10 6"/></svg>',
     check: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg>',
   };
+
+  // Where a drug stands in one country: decided / pending / no decision found
+  function status(d, code) {
+    const c = d.countries[code];
+    if (c) return { k: "decided", label: "Decided " + fmtDate(c.decision_date), outcome: c.outcome_short || c.opinion };
+    if (d.pending && d.pending[code]) return { k: "pending", label: "Pending", outcome: d.pending[code] };
+    return { k: "none", label: "No decision found", outcome: "" };
+  }
+  function statusChip(d, code, withName) {
+    const s = status(d, code), cls = s.k === "decided" ? "pill" : s.k === "pending" ? "pill warn" : "pill grey";
+    return '<span class="' + cls + '" title="' + esc(s.outcome) + '">' + (withName ? state.countries[code].flag + " " + esc(state.countries[code].name) + ": " : "") + esc(s.label) + "</span>";
+  }
+
+  // Search across all countries (home page): goes to the drug page or to the All drugs list
+  function globalSearch() {
+    const names = [...new Set(state.drugs.flatMap((d) => [d.brand, d.inn]))].sort();
+    return '<form class="search two" id="gsearch" autocomplete="off" style="grid-template-columns:minmax(0,1fr) auto">' +
+      '<label class="field q">' + ICON.search + '<input id="g-q" list="all-drug-names" placeholder="Search a drug across all countries (brand or INN)"></label>' +
+      '<datalist id="all-drug-names">' + names.map((n) => '<option value="' + esc(n) + '">').join("") + "</datalist>" +
+      '<button type="submit">Search</button></form>' +
+      '<div class="popular"><span>Or:</span><a class="btn" style="min-height:32px;padding:5px 12px;background:transparent;color:#fff;border-color:rgba(255,255,255,.35)" href="#/drugs">Browse all drugs A–Z</a></div>';
+  }
+  function bindGlobalSearch() {
+    const f = document.getElementById("gsearch");
+    if (!f) return;
+    f.onsubmit = (e) => {
+      e.preventDefault();
+      const q = norm(document.getElementById("g-q").value);
+      const exact = state.drugs.find((d) => norm(d.brand) === q || norm(d.inn) === q);
+      location.hash = exact ? "#/drug/" + exact.id : "#/drugs/" + encodeURIComponent(q);
+    };
+  }
 
   // Search inside one country: disease + drug name
   function searchBox(code) {
@@ -202,10 +235,42 @@
       "<h1>HTA decisions, <em>country by country</em>.</h1>" +
       '<p class="lead">See how each country\'s HTA body judged new medicines — the opinion, the reimbursement decision and the list price — straight from official sources.</p>' +
       '<div class="pick"><span>Choose a country</span><div>' + pick + "</div></div>" +
+      '<div class="pick" style="margin-top:22px"><span>Or find a drug</span>' + globalSearch() + "</div>" +
       '</div><div class="mosaic">' + mosaic + "</div></div></section>" +
       '<div class="wrap overlap"><div class="cat">' + cats + "</div>" +
       '<section class="sec"><div class="sec-head"><div><div class="kicker">What\'s new</div><h2>Latest decisions by country</h2></div></div><div class="cols">' + columns + "</div></section>" +
       newsBlock(null) + "</div>";
+    bindGlobalSearch();
+  }
+
+  // All drugs A–Z, with the status in every country (a first comparison view)
+  function viewDrugs(app, q0) {
+    const f = state.drugsFilter || (state.drugsFilter = { q: "", disease: "" });
+    if (q0 !== undefined) f.q = decodeURIComponent(q0);
+    const diseases = [...new Set(state.drugs.map((d) => d.disease_area))].sort();
+    const q = norm(f.q);
+    const list = state.drugs
+      .filter((d) => (!q || norm(d.brand).includes(q) || norm(d.inn).includes(q)) && (!f.disease || d.disease_area === f.disease))
+      .sort((a, b) => a.brand.localeCompare(b.brand));
+    const head = "<tr><th>Drug</th><th>Disease</th><th>EU authorised</th>" + COUNTRY_ORDER.map((c) => "<th>" + state.countries[c].flag + " " + esc(state.countries[c].name) + "</th>").join("") + "</tr>";
+    const rows = list.map((d) => '<tr><td><a href="#/drug/' + d.id + '"><b>' + esc(d.brand) + '</b></a><br><span class="muted small">' + esc(d.inn) + " · " + esc(d.company) + "</span></td><td>" +
+      esc(d.disease_area) + "</td><td>" + fmtDate(d.eu.indication_authorisation || d.eu.initial_authorisation) + "</td>" +
+      COUNTRY_ORDER.map((c) => { const s = status(d, c); return "<td>" + statusChip(d, c) + (s.k === "decided" ? '<br><span class="small">' + esc(s.outcome) + "</span>" : "") + "</td>"; }).join("") + "</tr>").join("");
+    app.innerHTML = '<div class="wrap page"><div class="crumbs"><a href="#/">Home</a> › All drugs</div>' +
+      '<h1 class="title">All drugs</h1><p class="muted">' + state.drugs.length + " drugs tracked. Status of each drug in every country; open a drug for the full path from EMA to price.</p>" +
+      '<form class="search two" id="dsearch" autocomplete="off" style="background:var(--soft);box-shadow:none;margin:14px 0 18px">' +
+      '<label class="field q" style="background:#fff">' + ICON.search + '<input id="d-q" placeholder="Brand or INN" value="' + esc(f.q) + '"></label>' +
+      '<label class="field" style="background:#fff"><small>Disease</small><select id="d-dis"><option value="">All diseases</option>' +
+      diseases.map((x) => '<option' + (x === f.disease ? " selected" : "") + ">" + esc(x) + "</option>").join("") + "</select></label>" +
+      '<button type="submit">Filter</button></form>' +
+      (list.length ? "<table><thead>" + head + "</thead><tbody>" + rows + "</tbody></table>"
+        : '<div class="empty">No drug matches <b>' + esc(f.q) + "</b> yet. Missing a drug? Suggest it on GitHub.</div>") + "</div>";
+    document.getElementById("dsearch").onsubmit = (e) => {
+      e.preventDefault();
+      f.q = document.getElementById("d-q").value; f.disease = document.getElementById("d-dis").value;
+      if (location.hash !== "#/drugs") { lastRoute = "#/drugs"; location.hash = "#/drugs"; } else viewDrugs(app);
+    };
+    document.getElementById("d-dis").onchange = () => document.getElementById("dsearch").requestSubmit();
   }
 
   function viewCountry(app, code) {
@@ -272,6 +337,7 @@
       '<div class="facts"><span class="pill">' + esc(d.therapy_area) + '</span><span class="pill">' + esc(d.disease_area) + '</span><span class="pill good">EU authorised ' + fmtDate(eu.initial_authorisation) + "</span>" +
       (eu.jca ? '<span class="pill">JCA: ' + esc(eu.jca) + "</span>" : '<span class="pill warn">No EU JCA</span>') + "</div>" +
       '<p class="small"><strong>Indication tracked:</strong> ' + esc(d.indication_tracked) + " (EU authorised " + fmtDate(eu.indication_authorisation) + ")</p>" +
+      '<div class="facts"><strong class="small" style="align-self:center">Status by country:</strong>' + COUNTRY_ORDER.map((c) => '<a href="#/country/' + c + '" style="text-decoration:none">' + statusChip(d, c, true) + "</a>").join("") + "</div>" +
       step(1, "EPAR summary (EMA)", summary + '<p class="small muted">' + esc(eu.jca_note) + "</p>") +
       step(2, "HTA opinions by country", '<table><thead><tr><th>Country</th><th>Date</th><th>Opinion and documents</th></tr></thead><tbody>' + opinions + pendingRows + "</tbody></table>") +
       step(3, "Reimbursement decisions", '<table><thead><tr><th>Country</th><th>Decision</th></tr></thead><tbody>' + reimb + "</tbody></table>") +
@@ -306,6 +372,7 @@
     if (location.hash !== lastRoute) { window.scrollTo(0, 0); lastRoute = location.hash; }
     if (parts[0] === "country") viewCountry(app, parts[1]);
     else if (parts[0] === "drug") viewDrug(app, parts[1]);
+    else if (parts[0] === "drugs") viewDrugs(app, parts[1]);
     else if (parts[0] === "about") viewAbout(app);
     else viewHome(app);
   }

@@ -114,6 +114,7 @@ h2.step .num{flex:none;width:34px;height:34px;border-radius:10px;background:var(
 .crumbs{font-size:.86rem;margin-bottom:12px}
 .pill{display:inline-block;padding:3px 10px;border-radius:999px;font-size:.78rem;font-weight:700;background:#e7efea;color:var(--green)}
 .pill.warn{background:var(--warn-soft);color:var(--warn)}
+.pill.grey{background:var(--soft);color:var(--muted)}
 .facts{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
 .box{display:block;background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;text-decoration:none;color:inherit}
