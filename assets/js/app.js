@@ -26,13 +26,15 @@
   }
   async function load() {
     if (window.HTA_DATA) { Object.assign(state, window.HTA_DATA); return; } // preview build
-    const [countries, ids, news] = await Promise.all([
+    const [countries, ids, news, jca] = await Promise.all([
       getJSON("data/countries.json"),
       getJSON("data/drugs/index.json"),
       getJSON("data/news.json").catch(() => ({ items: [] })),
+      getJSON("data/jca.json").catch(() => null),
     ]);
     state.countries = countries;
     state.news = news;
+    state.jca = jca;
     state.drugs = await Promise.all(ids.map((id) => getJSON("data/drugs/" + id + ".json")));
   }
 
@@ -343,6 +345,40 @@
       '<h2 class="step"><span class="num">3</span>How prices are shown</h2><p>List prices from official publications only. Confidential discounts are never public, so a price marked "not public" was not disclosed by the authority.</p></div>';
   }
 
+  // EU Joint Clinical Assessments, from the European Commission's official tracker
+  function jcaMatch(inn) {
+    const j = state.jca, n = norm(inn);
+    if (!j || !n) return null;
+    const hit = (x) => norm(x.inn) === n;
+    return (j.completed.find(hit) && { status: "completed", row: j.completed.find(hit) }) ||
+      (j.ongoing.find(hit) && { status: "ongoing", row: j.ongoing.find(hit) }) ||
+      (j.discontinued.find(hit) && { status: "discontinued", row: j.discontinued.find(hit) }) || null;
+  }
+  function viewJca(app) {
+    const j = state.jca;
+    if (!j) return viewNotFound(app);
+    const ours = (inn) => { const d = state.drugs.find((x) => norm(x.inn) === norm(inn)); return d ? ' <a class="pill" href="#/drug/' + d.id + '">Drug page</a>' : ""; };
+    const team = (r) => esc(r.assessor) + '<br><span class="muted small">Co-assessor: ' + esc(r.co_assessor) + "</span>";
+    const tbl = (head, rows) => "<table><thead><tr>" + head.map((h) => "<th>" + h + "</th>").join("") + "</tr></thead><tbody>" + rows.join("") + "</tbody></table>";
+    const yes = (v) => (v === "Y" ? ' <span class="pill grey">Orphan</span>' : "");
+    const done = j.completed.slice().sort((a, b) => b.published.localeCompare(a.published)).map((r) =>
+      "<tr><td><b>" + esc(r.name) + "</b> (" + esc(r.inn) + ")" + yes(r.orphan) + ours(r.inn) + "</td><td>" + esc(r.indication) + "</td><td>" + fmtDate(r.ma_date) + "</td><td>" + fmtDate(r.published) + "</td><td>" + team(r) + '</td><td><ul class="docs"><li>' + ext(r.report_url, "JCA report") + "</li></ul></td></tr>");
+    const ongoing = j.ongoing.slice().sort((a, b) => b.ema_validation.localeCompare(a.ema_validation)).map((r) =>
+      "<tr><td><b>" + esc(r.inn) + "</b>" + yes(r.orphan) + ours(r.inn) + '<br><span class="muted small">' + esc(r.type) + "</span></td><td>" + esc(r.indication) + "</td><td>" + (/^\d{4}-/.test(r.ema_validation) ? fmtDate(r.ema_validation) : esc(r.ema_validation)) + "</td><td>" + team(r) + "</td></tr>");
+    const stopped = j.discontinued.map((r) =>
+      "<tr><td><b>" + esc(r.inn) + "</b></td><td>" + esc(r.indication) + "</td><td>" + fmtDate(r.discontinued) + "</td><td>" + esc(r.reason) + "</td></tr>");
+    app.innerHTML = '<div class="wrap page"><div class="crumbs"><a href="#/">Home</a> › EU Joint Clinical Assessments</div>' +
+      '<h1 class="title">EU Joint Clinical Assessments (JCA)</h1>' +
+      "<p>Since 12 January 2025, new cancer medicines and advanced therapies (ATMPs) get one joint clinical assessment for the whole EU, under the HTA Regulation (EU) 2021/2282. " +
+      "An HTA body from one country leads it (assessor) with a second one (co-assessor). National bodies then use the report for their own pricing and reimbursement decision.</p>" +
+      '<div class="facts"><span class="pill good">' + j.completed.length + ' reports published</span><span class="pill">' + j.ongoing.length + ' ongoing</span><span class="pill warn">' + j.discontinued.length + " stopped</span></div>" +
+      step(1, "Published JCA reports", tbl(["Medicine", "Indication", "EU approval", "Report published", "Assessed by", "Document"], done)) +
+      step(2, "Ongoing JCAs", tbl(["Medicine (INN)", "Indication (summary)", "EMA validation", "Assessed by"], ongoing)) +
+      step(3, "Stopped JCAs", tbl(["Medicine (INN)", "Indication", "Stopped on", "Reason"], stopped)) +
+      '<p class="small muted">Source: ' + ext(j.source_url, j.source) + " (" + ext(j.tracker_url, "Excel tracker") + ", " + ext(j.reports_url, "published reports") + "). Lists as extracted by the Commission on " +
+      fmtDate(j.extracted.ongoing) + " (ongoing), " + fmtDate(j.extracted.completed) + " (completed) and " + fmtDate(j.extracted.discontinued) + " (stopped).</p></div>";
+  }
+
   function docsList(docs) {
     return docs && docs.length ? '<ul class="docs">' + docs.map((d) => "<li>" + ext(d.url, d.label) + "</li>").join("") + "</ul>" : "";
   }
@@ -407,7 +443,7 @@
       "<h1 class=\"title\">" + esc(d.brand) + ' <span class="muted" style="font-weight:400">(' + esc(d.inn) + ")</span></h1>" +
       '<p class="muted">' + esc(d.condition) + " · " + esc(d.company) + "</p>" +
       '<div class="facts"><span class="pill">' + esc(d.therapy_area) + '</span><span class="pill">' + esc(d.disease_area) + '</span><span class="pill good">EU authorised ' + fmtDate(eu.initial_authorisation) + "</span>" +
-      (eu.jca ? '<span class="pill">JCA: ' + esc(eu.jca) + "</span>" : '<span class="pill warn">No EU JCA</span>') + "</div>" +
+      (jcaMatch(d.inn) ? '<a class="pill" href="#/jca">EU JCA: ' + jcaMatch(d.inn).status + "</a>" : eu.jca ? '<span class="pill">JCA: ' + esc(eu.jca) + "</span>" : '<span class="pill warn">No EU JCA</span>') + "</div>" +
       '<p class="small"><strong>Indication tracked:</strong> ' + esc(d.indication_tracked) + " (EU authorised " + fmtDate(eu.indication_authorisation) + ")</p>" +
       '<div class="facts"><strong class="small" style="align-self:center">Status by country:</strong>' + COUNTRY_ORDER.map((c) => '<a href="#/country/' + c + '" style="text-decoration:none">' + statusChip(d, c, true) + "</a>").join("") + "</div>" +
       '<div class="box" style="margin:18px 0"><h3 style="margin-bottom:10px">Timeline: from EU approval to each country</h3>' + timeline + "</div>" +
@@ -449,6 +485,7 @@
     else if (parts[0] === "drugs") viewDrugs(app, parts[1]);
     else if (parts[0] === "countries") viewCountries(app);
     else if (parts[0] === "about") viewAbout(app);
+    else if (parts[0] === "jca") viewJca(app);
     else viewHome(app);
   }
   const appEl = document.getElementById("app");
