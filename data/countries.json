@@ -1,0 +1,114 @@
+{
+  "EU": {
+    "name": "European Union",
+    "flag": "🇪🇺",
+    "bodies": [
+      {
+        "name": "EMA",
+        "role": "Scientific evaluation and marketing authorisation (EPAR)",
+        "url": "https://www.ema.europa.eu/en/medicines"
+      },
+      {
+        "name": "HTA Coordination Group (JCA)",
+        "role": "Joint Clinical Assessments under the EU HTA Regulation, from 12 Jan 2025",
+        "url": "https://health.ec.europa.eu/health-technology-assessment_en"
+      }
+    ]
+  },
+  "DE": {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "bodies": [
+      {
+        "name": "G-BA",
+        "role": "Decides on added benefit (AMNOG)",
+        "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/"
+      },
+      {
+        "name": "IQWiG",
+        "role": "Prepares the benefit assessment for G-BA",
+        "url": "https://www.iqwig.de/"
+      },
+      {
+        "name": "GKV-Spitzenverband",
+        "role": "Negotiates the reimbursement amount (Erstattungsbetrag)",
+        "url": "https://www.gkv-spitzenverband.de/"
+      }
+    ],
+    "system": "AMNOG early benefit assessment",
+    "process": [
+      "Company submits a benefit dossier at launch",
+      "IQWiG assesses the added benefit",
+      "G-BA decides the extent of added benefit",
+      "GKV-Spitzenverband negotiates the reimbursement amount (Erstattungsbetrag)"
+    ],
+    "rating": "Added benefit: major, considerable, minor, non-quantifiable, not proven, or less benefit",
+    "news_feeds": [
+      {
+        "name": "G-BA – benefit assessments (latest changes)",
+        "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/letzte-aenderungen/?rss=1"
+      }
+    ]
+  },
+  "FR": {
+    "name": "France",
+    "flag": "🇫🇷",
+    "bodies": [
+      {
+        "name": "HAS – Commission de la Transparence",
+        "role": "Rates clinical benefit (SMR) and added value (ASMR)",
+        "url": "https://www.has-sante.fr/"
+      },
+      {
+        "name": "CEPS",
+        "role": "Negotiates the price",
+        "url": "https://sante.gouv.fr/ministere/acteurs/instances-rattachees/article/ceps-comite-economique-des-produits-de-sante"
+      },
+      {
+        "name": "Base de données publique des médicaments",
+        "role": "Official prices and reimbursement rates",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/"
+      }
+    ],
+    "system": "HAS Transparency Committee + CEPS pricing",
+    "process": [
+      "Company applies for reimbursement",
+      "HAS Transparency Committee rates SMR (clinical benefit) and ASMR (added value)",
+      "CEPS negotiates the price",
+      "Price and listing published in the Journal Officiel"
+    ],
+    "rating": "SMR: important, moderate, low, insufficient · ASMR: I (major) to V (no added value)",
+    "news_feeds": [
+      {
+        "name": "HAS – opinions on medicines",
+        "url": "https://www.has-sante.fr/feed/Rss2.jsp?id=p_3081449"
+      }
+    ]
+  },
+  "IT": {
+    "name": "Italy",
+    "flag": "🇮🇹",
+    "bodies": [
+      {
+        "name": "AIFA",
+        "role": "Reimbursement class, price and innovation status (published in Gazzetta Ufficiale)",
+        "url": "https://www.aifa.gov.it/"
+      }
+    ],
+    "system": "AIFA reimbursement and price negotiation",
+    "process": [
+      "Company submits a price and reimbursement dossier",
+      "AIFA Scientific and Economic Committee (CSE) evaluates value and negotiates",
+      "AIFA Board approves reimbursement",
+      "Determina published in the Gazzetta Ufficiale"
+    ],
+    "rating": "Reimbursement class (A, H, C), innovation status, monitoring registries",
+    "news_feeds": [
+      {
+        "name": "AIFA – news",
+        "url": "https://www.aifa.gov.it/o/feedrss/rss?structureId=93604&groupId=20142&companyId=20115&basePortalURL=https://www.aifa.gov.it&size=50&excludeCategoryId=104878&locale=it_IT",
+        "exclude": ["avviso", "bilanci", "incarich", "concors", "bando", "gara", "amministrazione trasparente", "provvedimenti organi", "diario di bordo", "gmp", "delegazione", "personale", "aggiornamento sezione", "contrattazione integrativa", "tempestività dei pagamenti"]
+      }
+    ]
+  }
+}

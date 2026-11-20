@@ -1,0 +1,92 @@
+{
+  "id": "vyloy",
+  "brand": "Vyloy",
+  "inn": "zolbetuximab",
+  "company": "Astellas",
+  "therapy_area": "Oncology",
+  "disease_area": "Gastric cancer",
+  "condition": "Claudin 18.2-positive, HER2-negative locally advanced unresectable or metastatic gastric or gastro-oesophageal junction adenocarcinoma",
+  "indication_tracked": "First-line treatment in combination with fluoropyrimidine- and platinum-based chemotherapy",
+  "last_checked": "2026-11-20",
+  "eu": {
+    "ema_product_number": "",
+    "initial_authorisation": "2024-09-19",
+    "indication_authorisation": "2024-09-19",
+    "chmp_opinion_indication": "",
+    "jca": null,
+    "jca_note": "Not in EU JCA scope: the EU application was filed before the EU HTA Regulation applied (12 January 2025).",
+    "epar_summary": "Vyloy is a cancer medicine that is used to treat adults with gastric or gastro-oesophageal junction adenocarcinoma (a type of cancer of the stomach or the transition between the stomach and oesophagus).\n\nIt is used in combination with chemotherapy when the cancer is locally advanced (has spread nearby) and cannot be removed by surgery or when it is metastatic (has spread to other parts of the body). Vyloy can be used when the cancer cells are HER2 negative and Claudin (CLDN) 18.2 positive; this means they do not have large quantities of the HER2 receptor (target) on their surface but do have a large number of the CLDN18.2 protein.\n\nGastric and gastro-oesophageal adenocarcinoma are rare, and Vyloy was designated an ‘orphan medicine’ (a medicine used in rare diseases) on 26 November 2010.\n\nVyloy contains the active substance zolbetuximab.",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/documents/overview/vyloy-epar-medicine-overview_en.pdf",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vyloy",
+    "epar_summary_copied": "2026-11-20"
+  },
+  "countries": {
+    "DE": {
+      "hta_body": "G-BA (assessment by IQWiG)",
+      "decision_date": "2026-11-05",
+      "outcome_short": "Indication of minor added benefit (PD-L1 CPS <1) · not proven (CPS ≥1)",
+      "opinion": "New full assessment after the orphan-drug revenue threshold was exceeded. PD-L1 CPS <1: indication (Anhaltspunkt) of a minor added benefit vs CAPOX. PD-L1 CPS ≥1: added benefit not proven. (The first decision of 17 Apr 2025 treated it as an orphan drug, with added benefit deemed proven by the authorisation.)",
+      "comparator": "CPS ≥1: pembrolizumab or nivolumab (CPS ≥5) + chemotherapy. CPS <1: fluoropyrimidine/platinum-based chemotherapy",
+      "reimbursement": "Reimbursed by statutory health insurance (GKV); price negotiated with GKV-Spitzenverband.",
+      "documents": [
+        {
+          "label": "G-BA decision, 5 Nov 2026",
+          "url": "https://www.g-ba.de/downloads/39-261-8092/2026-11-05_AM-RL-XII_Zolbetuximab_D-1329.pdf"
+        },
+        {
+          "label": "First G-BA decision (orphan), 17 Apr 2025",
+          "url": "https://www.g-ba.de/downloads/39-261-7163/2025-04-17_AM-RL-XII_Zolbetuximab_D-1111.pdf"
+        }
+      ],
+      "price": {
+        "public": true,
+        "value": "€116,639.74–119,011.56 per patient, first year (zolbetuximab + CAPOX)",
+        "value_short": "€116,640–119,012 / year",
+        "type": "Annual therapy cost in the G-BA decision, including CAPOX chemotherapy; with mFOLFOX6 €128,839.14–131,210.96",
+        "date": "2026-11-05",
+        "source": "G-BA decision, 5 Nov 2026",
+        "source_url": "https://www.g-ba.de/downloads/39-261-8092/2026-11-05_AM-RL-XII_Zolbetuximab_D-1329.pdf",
+        "note": "Includes the chemotherapy partner; zolbetuximab alone is not shown separately here."
+      }
+    },
+    "FR": {
+      "hta_body": "HAS – Commission de la Transparence",
+      "decision_date": "2025-01-15",
+      "outcome_short": "SMR important · ASMR IV",
+      "opinion": "Favourable opinion for reimbursement. SMR important. ASMR IV (minor) versus fluoropyrimidine and platinum-based chemotherapy.",
+      "comparator": "Fluoropyrimidine and platinum-based chemotherapy",
+      "reimbursement": "Favourable opinion; listed on the liste en sus (hospital drugs paid on top of the DRG tariff).",
+      "documents": [
+        {
+          "label": "HAS opinion page",
+          "url": "https://has-sante.fr/jcms/p_3594155/fr/vyloy-zolbetuximab-adenocarcinome-gastrique-et-de-la-jonction-oesogastrique"
+        },
+        {
+          "label": "Full opinion CT-21135 (15 Jan 2025)",
+          "url": "https://www.has-sante.fr/upload/docs/evamed/CT-21135_VYLOY_PIC_INS_AvisDef_CT21135.pdf"
+        }
+      ],
+      "price": {
+        "public": null,
+        "value": "",
+        "type": "",
+        "date": "",
+        "source": "Base de données publique des médicaments",
+        "source_url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62607473/extrait",
+        "note": "A tarif de responsabilité is published in the Journal Officiel (liste en sus); amount not added yet."
+      }
+    }
+  },
+  "pending": {
+    "IT": "No reimbursement decision found yet. AIFA placed Vyloy in class C(nn) (not yet assessed for reimbursement) by Determina PRES 782/2024."
+  },
+  "pending_docs": {
+    "IT": [
+      {
+        "label": "Determina AIFA PRES 782/2024 (class C(nn))",
+        "url": "https://www.aifa.gov.it/documents/20142/2668401/Determina_PRES-782-2024_VYLOY.pdf"
+      }
+    ]
+  }
+}

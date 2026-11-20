@@ -1,0 +1,600 @@
+{
+  "updated": "2026-11-20",
+  "items": [
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-11-20",
+      "title": "DATROWAY (datopotamab déruxtécan)",
+      "url": "https://www.has-sante.fr/jcms/p_4614476/fr/datroway-datopotamab-deruxtecan"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-20",
+      "title": "Esiti runione Commissione Scientifica e Economica del Farmaco (CSE)",
+      "url": "https://www.aifa.gov.it/-/esiti-runione-commissione-scientifica-e-economica-del-farmaco-cse-23"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-20",
+      "title": "Ordine del giorno riunione straordinaria Commissione Scientifica e Economica del Farmaco (CSE)",
+      "url": "https://www.aifa.gov.it/-/ordine-del-giorno-riunione-straordinaria-commissione-scientifica-e-economica-del-farmaco-cse-11"
+    },
+    {
+      "country": "DE",
+      "source": "G-BA – benefit assessments (latest changes)",
+      "date": "2026-11-19",
+      "title": "Blinatumomab (Neubewertung Orphan > 30 Mio: Akute lymphatische B-Zell-Leukämie, Ph-, CD19+, Hochrisiko-Erstrezidiv, Kinder ab ≥1 Monat)",
+      "url": "/bewertungsverfahren/nutzenbewertung/1351/"
+    },
+    {
+      "country": "DE",
+      "source": "G-BA – benefit assessments (latest changes)",
+      "date": "2026-11-19",
+      "title": "Blinatumomab (Neubewertung Orphan > 30 Mio: Akute lymphatische B-Zell-Leukämie, CD19+, rezidiviert oder refraktär, Erwachsene)",
+      "url": "/bewertungsverfahren/nutzenbewertung/1345/"
+    },
+    {
+      "country": "DE",
+      "source": "G-BA – benefit assessments (latest changes)",
+      "date": "2026-11-19",
+      "title": "Blinatumomab (Neubewertung Orphan > 30 Mio: Akute lymphatische B-Zell-Leukämie, Ph-, CD19+, rezidiviert / refraktär, nach ≥ 2 Vortherapien oder nach allogener Stammzelltransplantation, Kinder ≥ 1 Monat)",
+      "url": "/bewertungsverfahren/nutzenbewertung/1348/"
+    },
+    {
+      "country": "DE",
+      "source": "G-BA – benefit assessments (latest changes)",
+      "date": "2026-11-19",
+      "title": "Nivolumab/Relatlimab (Melanom, PD-L1-Expression < 1 %, fortgeschritten, Erstlinie, ≥ 12 Jahre)",
+      "url": "/bewertungsverfahren/nutzenbewertung/1335/"
+    },
+    {
+      "country": "DE",
+      "source": "G-BA – benefit assessments (latest changes)",
+      "date": "2026-11-19",
+      "title": "Blinatumomab (Neubewertung Orphan > 30 Mio: Akute lymphatische B-Zell-Leukämie, Ph-, CD19+, MRD-positiv, Erwachsene)",
+      "url": "/bewertungsverfahren/nutzenbewertung/1349/"
+    },
+    {
+      "country": "DE",
+      "source": "G-BA – benefit assessments (latest changes)",
+      "date": "2026-11-19",
+      "title": "Inotuzumab ozogamicin (Neues Anwendungsgebiet: akute lymphatische Vorläufer B-Zell-Leukämie, rezidiviert/refraktär, nach allogener Stammzelltransplantation oder nach Rezidiv mit sehr hohem Risiko oder nach ≥ 2 Vortherapien, CD22+, pädiatrische Patienten ≥ 1 Jahr)",
+      "url": "/bewertungsverfahren/nutzenbewertung/1358/"
+    },
+    {
+      "country": "DE",
+      "source": "G-BA – benefit assessments (latest changes)",
+      "date": "2026-11-19",
+      "title": "Blinatumomab (Neubewertung Orphan > 30 Mio: Akute lymphatische B-Zell-Leukämie, Ph-, CD19+, neu diagnostiziert, Erwachsene)",
+      "url": "/bewertungsverfahren/nutzenbewertung/1354/"
+    },
+    {
+      "country": "DE",
+      "source": "G-BA – benefit assessments (latest changes)",
+      "date": "2026-11-19",
+      "title": "Remibrutinib (chronische spontane Urtikaria)",
+      "url": "/bewertungsverfahren/nutzenbewertung/1359/"
+    },
+    {
+      "country": "DE",
+      "source": "G-BA – benefit assessments (latest changes)",
+      "date": "2026-11-19",
+      "title": "Clesrovimab (Sekundärprophylaxe von RSV-Erkrankungen, Kinder während ihrer 1. RSV-Saison)",
+      "url": "/bewertungsverfahren/nutzenbewertung/1352/"
+    },
+    {
+      "country": "DE",
+      "source": "G-BA – benefit assessments (latest changes)",
+      "date": "2026-11-19",
+      "title": "Marstacimab (Neues Anwendungsgebiet: Hämophilie B, ≥ 12 Jahre, mit Faktor IX-Inhibitoren)",
+      "url": "/bewertungsverfahren/nutzenbewertung/1357/"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-19",
+      "title": "Aggiornamento scheda Multifarmaco di monitoraggio semplificato intravitreali anti VEGF YESAFILI",
+      "url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-monitoraggio-semplificato-intravitreali-anti-vegf-yesafili"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-19",
+      "title": "Attivazione web Registro di monitoraggio ZIIHERA",
+      "url": "https://www.aifa.gov.it/-/attivazione-web-registro-di-monitoraggio-ziihera"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-19",
+      "title": "Spesa farmaceutica gennaio-giugno 2026: monitoraggio AIFA",
+      "url": "https://www.aifa.gov.it/-/spesa-farmaceutica-gennaio-giugno-2026-monitoraggio-aifa"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-18",
+      "title": "Richiamo alle indicazioni sulle modalità di pagamento della tariffa per la relazione annuale di sicurezza (Annual Safety Report, ASR)",
+      "url": "https://www.aifa.gov.it/-/richiamo-indicazioni-modalita-pagamento-tariffa-relazione-annuale-sicurezza-asr"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-18",
+      "title": "Farmaco per il tumore del pancreas, AIFA già al lavoro",
+      "url": "https://www.aifa.gov.it/-/farmaco-per-il-tumore-del-pancreas-aifa-gia-al-lavoro"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-11-17",
+      "title": "VELARUDIS (Mycobacterium Bovis BCG (bacille de Calmette-Guérin), souche danoise 1331, vivant atténué)",
+      "url": "https://www.has-sante.fr/jcms/p_4611635/fr/velarudis-mycobacterium-bovis-bcg-bacille-de-calmette-guerin-souche-danoise-1331-vivant-attenue"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-17",
+      "title": "Sunset Clause - Warning di prossima decadenza del 17 novembre 2026",
+      "url": "https://www.aifa.gov.it/-/sunset-clause-warning-di-prossima-decadenza-del-17-novembre-2026"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-16",
+      "title": "AIFA aggiorna le Liste di Trasparenza",
+      "url": "https://www.aifa.gov.it/-/aifa-aggiorna-liste-trasparenza-1"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-16",
+      "title": "Cessata commercializzazione di Emend (aprepitant)",
+      "url": "https://www.aifa.gov.it/-/cessata-commercializzazione-di-emend-aprepitant-"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-11-12",
+      "title": "Vaccination contre les infections invasives à pneumocoques : place du vaccin CAPVAXIVE - Recommandation",
+      "url": "https://www.has-sante.fr/jcms/p_4606429/fr/vaccination-contre-les-infections-invasives-a-pneumocoques-place-du-vaccin-capvaxive-recommandation"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-11-12",
+      "title": "REDEMPLO (plozasiran)",
+      "url": "https://www.has-sante.fr/jcms/p_4606369/fr/redemplo-plozasiran"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-10",
+      "title": "Chiarimenti sull’utilizzo delle fonti bibliografiche dei materiali promozionali dei medicinali",
+      "url": "https://www.aifa.gov.it/-/chiarimenti-utilizzo-fonti-bibliografiche-materiali-promozionali-medicinali"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-10",
+      "title": "Proroga autorizzazione transitoria all’uso di apteni per patch test in assenza di alternative cliniche in commercio",
+      "url": "https://www.aifa.gov.it/-/proroga-autorizzazione-transitoria-uso-apteni-patch-test-assenza-alternative-cliniche-in-commercio"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-06",
+      "title": "Spesa farmaceutica gennaio-aprile 2026: monitoraggio AIFA",
+      "url": "https://www.aifa.gov.it/-/spesa-farmaceutica-gennaio-aprile-2026-monitoraggio-aifa"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-06",
+      "title": "Ordine del giorno riunione Commissione Scientifica e Economica del Farmaco (CSE)",
+      "url": "https://www.aifa.gov.it/-/ordine-giorno-riunione-commissione-scientifica-economica-farmaco-cse-1"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-06",
+      "title": "Aggiornamento Registro di monitoraggio Rybrevant (amivantamab) carcinoma polmonare non a piccole cellule (NSCLC)",
+      "url": "https://www.aifa.gov.it/-/aggiornamento-registro-di-monitoraggio-rybrevant-amivantamab-carcinoma-polmonare-non-a-piccole-cellule-nsclc-"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-06",
+      "title": "Aggiornamento Registro di monitoraggio LUNSUMIO",
+      "url": "https://www.aifa.gov.it/-/aggiornamento-registro-di-monitoraggio-lunsumio"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-06",
+      "title": "Aggiornamento Registri di monitoraggio TEVIMBRA",
+      "url": "https://www.aifa.gov.it/-/aggiornamento-registri-di-monitoraggio-tevimbra"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-06",
+      "title": "Aggiornamento Registri di monitoraggio Enhertu",
+      "url": "https://www.aifa.gov.it/-/aggiornamento-registri-di-monitoraggio-enhertu"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-06",
+      "title": "Aggiornamento Registro di monitoraggio Imfinzi neoadiuvante/adiuvante NSCLC",
+      "url": "https://www.aifa.gov.it/-/aggiornamento-registro-di-monitoraggio-imfinzi-neoadiuvante/adiuvante-nsclc"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-06",
+      "title": "Aggiornamento Registri di monitoraggio RYBREVANT",
+      "url": "https://www.aifa.gov.it/-/aggiornamento-registri-di-monitoraggio-rybrevant"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-06",
+      "title": "Attivazione web e pubblicazione schede di monitoraggio – Registro VORANIGO",
+      "url": "https://www.aifa.gov.it/-/attivazione-web-e-pubblicazione-schede-di-monitoraggio-registro-voranigo"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-11-05",
+      "title": "NUSTENDI (acide bempédoïque/ézétimibe)",
+      "url": "https://www.has-sante.fr/jcms/p_4592713/fr/nustendi-acide-bempedoique/ezetimibe"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-11-05",
+      "title": "MYQORZO (aficamten)",
+      "url": "https://www.has-sante.fr/jcms/p_4592681/fr/myqorzo-aficamten"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-11-05",
+      "title": "COFACT (complexe prothrombique humain)",
+      "url": "https://www.has-sante.fr/jcms/p_4592745/fr/cofact-complexe-prothrombique-humain"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-04",
+      "title": "Aggiornamento scheda Multifarmaco di monitoraggio semplificato intravitreali anti VEGF RANLUSPEC",
+      "url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf-ranluspec"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-04",
+      "title": "Aggiornamento Registro di monitoraggio XOSPATA LMA",
+      "url": "https://www.aifa.gov.it/-/aggiornamento-registro-di-monitoraggio-xospata-lma"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-04",
+      "title": "Nota Informativa Importante di qualità su Respreeza",
+      "url": "https://www.aifa.gov.it/-/nota-informativa-importante-qualita-respreeza"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-03",
+      "title": "Aggiornamento dell’elenco dei farmaci innovativi al 31 ottobre 2026",
+      "url": "https://www.aifa.gov.it/-/aggiornamento-elenco-farmaci-innovativi-al-31-ottobre-2026"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-02",
+      "title": "Attivazione web e pubblicazione schede di monitoraggio Registro di monitoraggio NUCALA",
+      "url": "https://www.aifa.gov.it/-/attivazione-web-e-pubblicazione-schede-di-monitoraggio-registro-di-monitoraggio-nucala"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-02",
+      "title": "Chiusura Registro di monitoraggio HOLOCLAR",
+      "url": "https://www.aifa.gov.it/-/chiusura-registro-di-monitoraggio-holoclar"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-02",
+      "title": "Chiusura Managed Entry Agreements (MEA) Registro HOLOCLAR",
+      "url": "https://www.aifa.gov.it/-/chiusura-managed-entry-agreements-mea-registro-holoclar"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-10-30",
+      "title": "Aggiornamento dell’elenco dei farmaci innovativi al 30 settembre 2026",
+      "url": "https://www.aifa.gov.it/-/aggiornamento-elenco-farmaci-innovativi-al-30-settembre-2026"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-10-30",
+      "title": "Aggiornamenti dal PRAC: riunione del 26-29 ottobre 2026",
+      "url": "https://www.aifa.gov.it/-/aggiornamenti-dal-prac-riunione-del-28-30-ottobre-2026"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-10-30",
+      "title": "Modalità di compilazione degli individual case safety reports (ICSRs) secondo lo standard ICH E2B (R3)",
+      "url": "https://www.aifa.gov.it/-/modalita-compilazione-individual-case-safety-reports-icsrs-secondo-standard-ich-e2b-r3"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-10-30",
+      "title": "Nota Informativa Importante di qualità su CAELYX/DOXIL",
+      "url": "https://www.aifa.gov.it/-/nota-informativa-importante-qualita-caelyx-doxil"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-10-29",
+      "title": "Accesso ai Servizi Online AIFA: evoluzione digitale all’insegna della sicurezza e della semplificazione",
+      "url": "https://www.aifa.gov.it/-/accesso-ai-servizi-online-aifa-evoluzione-digitale-all-insegna-della-sicurezza-e-della-semplificazione"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-10-29",
+      "title": "Ripiano della spesa farmaceutica per acquisti diretti per l’anno 2025",
+      "url": "https://www.aifa.gov.it/-/ripiano-spesa-farmaceutica-per-acquisti-diretti-anno-2025"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-10-29",
+      "title": "AIFA avvia una valutazione dei Registri di monitoraggio di lunga durata",
+      "url": "https://www.aifa.gov.it/-/aifa-avvia-una-valutazione-dei-registri-di-monitoraggio-di-lunga-durata"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-10-23",
+      "title": "ISOPROTRACE (gallium (68Ga) gozétotide)",
+      "url": "https://www.has-sante.fr/jcms/p_4586524/fr/isoprotrace-gallium-68ga-gozetotide"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-10-22",
+      "title": "CANRENOATE DE POTASSIUM ESTEVE (canrénoate de potassium)",
+      "url": "https://www.has-sante.fr/jcms/p_4586394/fr/canrenoate-de-potassium-esteve-canrenoate-de-potassium"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-10-21",
+      "title": "CLOBETASOL SUBSTIPHARM (propionate de clobétasol)",
+      "url": "https://www.has-sante.fr/jcms/p_4585749/fr/clobetasol-substipharm-propionate-de-clobetasol"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-10-13",
+      "title": "TESTOSTERONE UNDECANOATE SUN (undécanoate de testostérone)",
+      "url": "https://www.has-sante.fr/jcms/p_4584177/fr/testosterone-undecanoate-sun-undecanoate-de-testosterone"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-10-13",
+      "title": "TESTAVAN (testostérone)",
+      "url": "https://www.has-sante.fr/jcms/p_4584189/fr/testavan-testosterone"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-10-02",
+      "title": "PYRUKYND (mitapivat)",
+      "url": "https://www.has-sante.fr/jcms/p_4528060/fr/pyrukynd-mitapivat"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-09-15",
+      "title": "EXDENSUR (dépémokimab)",
+      "url": "https://www.has-sante.fr/jcms/p_4442712/fr/exdensur-depemokimab"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-09-02",
+      "title": "INDACATEROL/GLYCOPYRRONIUM (indacatérol/glycopyrronium)",
+      "url": "https://www.has-sante.fr/jcms/p_4382509/fr/indacaterol/glycopyrronium-indacaterol/glycopyrronium"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-05-06",
+      "title": "NULIBRY (fosdénoptérine)",
+      "url": "https://www.has-sante.fr/jcms/p_3995725/fr/nulibry-fosdenopterine"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2025-12-10",
+      "title": "EZMEKLY (mirdamétinib)",
+      "url": "https://www.has-sante.fr/jcms/p_3785413/fr/ezmekly-mirdametinib"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2025-12-05",
+      "title": "Recommandation vaccinale contre la varicelle chez les nourrissons de 12 mois et plus – Note de cadrage",
+      "url": "https://www.has-sante.fr/jcms/p_3777770/fr/recommandation-vaccinale-contre-la-varicelle-chez-les-nourrissons-de-12-mois-et-plus-note-de-cadrage"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2025-05-13",
+      "title": "PREVENAR 20 (vaccin pneumococcique polyosidique conjugué (20-valent, adsorbé) ou VPC20)",
+      "url": "https://www.has-sante.fr/jcms/p_3605531/fr/prevenar-20-vaccin-pneumococcique-polyosidique-conjugue-20-valent-adsorbe-ou-vpc20"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2024-10-31",
+      "title": "VUEWAY (gadopiclénol)",
+      "url": "https://www.has-sante.fr/jcms/p_3554683/fr/vueway-gadopiclenol"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2024-10-31",
+      "title": "ELUCIREM (gadopiclénol)",
+      "url": "https://www.has-sante.fr/jcms/p_3554678/fr/elucirem-gadopiclenol"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2024-09-24",
+      "title": "TEVIMBRA (tislélizumab)",
+      "url": "https://www.has-sante.fr/jcms/p_3544505/fr/tevimbra-tislelizumab"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2024-06-03",
+      "title": "TALVEY (talquetamab)",
+      "url": "https://www.has-sante.fr/jcms/p_3520243/fr/talvey-talquetamab"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2024-02-22",
+      "title": "AZELASTINE CHLORHYDRATE / FLUTICASONE PROPIONATE (chlorhydrate d'azelastine / propionate de fluticasone)",
+      "url": "https://www.has-sante.fr/jcms/p_3497183/fr/azelastine-chlorhydrate-/-fluticasone-propionate-chlorhydrate-d-azelastine-/-propionate-de-fluticasone"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2023-12-14",
+      "title": "SOTYKTU (deucravacitinib)",
+      "url": "https://www.has-sante.fr/jcms/p_3479196/fr/sotyktu-deucravacitinib"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2023-12-07",
+      "title": "AKEEGA (niraparib/acétate d’abiratérone)",
+      "url": "https://www.has-sante.fr/jcms/p_3477953/fr/akeega-niraparib/acetate-d-abiraterone"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2023-11-09",
+      "title": "OPZELURA (ruxolitinib)",
+      "url": "https://www.has-sante.fr/jcms/p_3472190/fr/opzelura-ruxolitinib"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2022-11-16",
+      "title": "EVKEEZA (évinacumab)",
+      "url": "https://www.has-sante.fr/jcms/p_3386112/fr/evkeeza-evinacumab"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2022-06-20",
+      "title": "PADCEV (enfortumab vedotin)",
+      "url": "https://www.has-sante.fr/jcms/p_3345565/fr/padcev-enfortumab-vedotin"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2022-05-02",
+      "title": "RYBREVANT (amivantamab)",
+      "url": "https://www.has-sante.fr/jcms/p_3337170/fr/rybrevant-amivantamab"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2022-04-20",
+      "title": "SCEMBLIX (asciminib)",
+      "url": "https://www.has-sante.fr/jcms/p_3333296/fr/scemblix-asciminib"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2022-03-18",
+      "title": "LEVOSIMENDAN (lévosimendan)",
+      "url": "https://www.has-sante.fr/jcms/p_3324932/fr/levosimendan-levosimendan"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2022-02-16",
+      "title": "ASPAVELI (pegcetacoplan)",
+      "url": "https://www.has-sante.fr/jcms/p_3317823/fr/aspaveli-pegcetacoplan"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2022-02-09",
+      "title": "OZAWADE (pitolisant (chlorhydrate))",
+      "url": "https://www.has-sante.fr/jcms/p_3316076/fr/ozawade-pitolisant-chlorhydrate"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2021-06-23",
+      "title": "ENHERTU (trastuzumab déruxtécan)",
+      "url": "https://www.has-sante.fr/jcms/p_3273604/fr/enhertu-trastuzumab-deruxtecan"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2021-05-07",
+      "title": "CALQUENCE (acalabrutinib)",
+      "url": "https://www.has-sante.fr/jcms/p_3265561/fr/calquence-acalabrutinib"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2020-12-18",
+      "title": "BRAFTOVI (encorafenib)",
+      "url": "https://www.has-sante.fr/jcms/p_3225652/fr/braftovi-encorafenib"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2020-05-06",
+      "title": "RINVOQ (upadacitinib)",
+      "url": "https://www.has-sante.fr/jcms/p_3182936/fr/rinvoq-upadacitinib"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2019-06-12",
+      "title": "PROSTATEP (fluorocholine (18F))",
+      "url": "https://www.has-sante.fr/jcms/pprd_2983729/fr/prostatep-fluorocholine-18f"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2019-06-12",
+      "title": "OMNIPAQUE (iohexol)",
+      "url": "https://www.has-sante.fr/jcms/pprd_2983529/fr/omnipaque-iohexol"
+    }
+  ]
+}

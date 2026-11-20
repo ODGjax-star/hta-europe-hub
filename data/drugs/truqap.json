@@ -1,0 +1,108 @@
+{
+  "id": "truqap",
+  "brand": "Truqap",
+  "inn": "capivasertib",
+  "company": "AstraZeneca",
+  "therapy_area": "Oncology",
+  "disease_area": "Breast cancer",
+  "condition": "ER-positive, HER2-negative locally advanced or metastatic breast cancer with PIK3CA/AKT1/PTEN alterations",
+  "indication_tracked": "In combination with fulvestrant, after recurrence or progression on or after endocrine therapy",
+  "last_checked": "2026-11-20",
+  "eu": {
+    "ema_product_number": "",
+    "initial_authorisation": "2024-06-17",
+    "indication_authorisation": "2024-06-17",
+    "chmp_opinion_indication": "",
+    "jca": null,
+    "jca_note": "Not in EU JCA scope: the EU application was filed before the EU HTA Regulation applied (12 January 2025).",
+    "epar_summary": "Truqap is a cancer medicine used in adults to treat breast cancer that is locally advanced (has spread nearby) or metastatic (has spread to other parts of the body) when the cancer has come back or worsened after hormonal treatment. It is used when the cancer cells have receptors (targets) for certain hormones on their surface (ER-positive) and do not have large quantities of another receptor called HER2 (HER2-negative). The cancer cells must also have been shown to have one or more mutations (changes) in the PIK3CA, AKT1 or PTEN genes. Truqap is used in combination with fulvestrant (an anti-oestrogen medicine).\n\nIf Truqap is used in women before the menopause or around the time of menopause (pre-menopausal or peri-menopausal), it should also be given in combination with a luteinising hormone-releasing hormone (LHRH) agonist (a medicine that lowers blood levels of the hormones oestrogen and progesterone).\n\nTruqap contains the active substance capivasertib.",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/documents/overview/truqap-epar-medicine-overview_en.pdf",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/truqap",
+    "epar_summary_copied": "2026-11-20"
+  },
+  "countries": {
+    "DE": {
+      "hta_body": "G-BA (assessment by IQWiG)",
+      "decision_date": "2025-04-03",
+      "outcome_short": "Considerable added benefit (women, advanced setting) · not proven (others)",
+      "opinion": "Women progressing on endocrine therapy in the advanced setting: proof (Hinweis) of a considerable added benefit. Women with recurrence after (neo)adjuvant endocrine therapy, and men: added benefit not proven.",
+      "comparator": "Individual endocrine therapy (incl. CDK4/6 inhibitor combinations); fulvestrant in the trial",
+      "reimbursement": "Reimbursed by statutory health insurance (GKV); price negotiated with GKV-Spitzenverband after the G-BA decision.",
+      "documents": [
+        {
+          "label": "G-BA procedure page",
+          "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1130/"
+        },
+        {
+          "label": "G-BA decision, 3 Apr 2025",
+          "url": "https://g-ba.de/downloads/39-261-7143/2025-04-03_AM-RL-XII_Capivasertib_D-1110.pdf"
+        }
+      ],
+      "price": {
+        "public": true,
+        "value": "€92,010.81 per patient per year (capivasertib)",
+        "value_short": "€92,010.81 / year",
+        "type": "Annual therapy cost in the G-BA decision (Lauer-Taxe 1 Mar 2025); with fulvestrant €96,516.29",
+        "date": "2025-04-03",
+        "source": "G-BA decision, 3 Apr 2025",
+        "source_url": "https://g-ba.de/downloads/39-261-7143/2025-04-03_AM-RL-XII_Capivasertib_D-1110.pdf",
+        "note": "Negotiated Erstattungsbetrag may be confidential under the Medizinforschungsgesetz."
+      }
+    },
+    "FR": {
+      "hta_body": "HAS – Commission de la Transparence",
+      "decision_date": "2025-06-25",
+      "outcome_short": "SMR low (faible) · ASMR V",
+      "opinion": "Favourable opinion for reimbursement. SMR low (faible). ASMR V: no clinical added value versus fulvestrant alone.",
+      "comparator": "Fulvestrant",
+      "reimbursement": "Favourable opinion for reimbursement (first listing).",
+      "documents": [
+        {
+          "label": "HAS opinion page",
+          "url": "https://has-sante.fr/jcms/p_3639102/fr/truqap-capivasertib-cancer-du-sein-her2-negatif"
+        },
+        {
+          "label": "Full opinion CT-21044 (25 Jun 2025)",
+          "url": "https://www.has-sante.fr/upload/docs/evamed/CT-21044_TRUQAP_PIC_INS_AvisDef_CT21044.pdf"
+        }
+      ],
+      "price": {
+        "public": null,
+        "value": "",
+        "type": "",
+        "date": "",
+        "source": "",
+        "source_url": "",
+        "note": "Official price not added yet."
+      }
+    },
+    "IT": {
+      "hta_body": "AIFA",
+      "decision_date": "2025-10-28",
+      "outcome_short": "Reimbursement approved (AIFA Board, Oct 2025)",
+      "opinion": "Reimbursement approved by the AIFA Board of Directors on 28 Oct 2025 (class H in the AIFA summary table).",
+      "comparator": "",
+      "reimbursement": "Approved for reimbursement by the AIFA Board on 28 Oct 2025, in combination with fulvestrant. Determina and Gazzetta Ufficiale details to be added.",
+      "documents": [
+        {
+          "label": "AIFA: drugs admitted to reimbursement, Board 28 Oct 2025",
+          "url": "https://www.aifa.gov.it/-/farmaci-ammessi-alla-rimborsabilita-cda-28.10.2025"
+        },
+        {
+          "label": "AIFA summary table, Board 28 Oct 2025",
+          "url": "https://www.aifa.gov.it/documents/20142/2694929/Tabella_sintesi_nuovi_farmaci_CDA_28.10.2025.pdf"
+        }
+      ],
+      "price": {
+        "public": null,
+        "value": "",
+        "type": "",
+        "date": "",
+        "source": "",
+        "source_url": "",
+        "note": "Price from the AIFA determina not added yet."
+      }
+    }
+  }
+}

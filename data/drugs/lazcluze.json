@@ -1,0 +1,108 @@
+{
+  "id": "lazcluze",
+  "brand": "Lazcluze",
+  "inn": "lazertinib",
+  "company": "Johnson & Johnson (Janssen)",
+  "therapy_area": "Oncology",
+  "disease_area": "Lung cancer",
+  "condition": "Advanced non-small-cell lung cancer (NSCLC) with EGFR exon 19 deletions or exon 21 L858R mutations",
+  "indication_tracked": "First-line treatment in combination with amivantamab (Rybrevant)",
+  "last_checked": "2026-11-20",
+  "eu": {
+    "ema_product_number": "",
+    "initial_authorisation": "2025-01-20",
+    "indication_authorisation": "2025-01-20",
+    "chmp_opinion_indication": "",
+    "jca": null,
+    "jca_note": "Not in EU JCA scope: the EU application was filed before the EU HTA Regulation applied (12 January 2025).",
+    "epar_summary": "Lazcluze is a cancer medicine used to treat adults with advanced non-small cell lung cancer (NSCLC) who have not been treated before. It is used in people whose cancer cells have certain mutations (changes) in the epidermal growth factor receptor (EGFR) gene: exon 19 deletion or exon 21 L858R substitution mutation. Lazcluze is used in combination with another cancer medicine, amivantamab.\n\nLazcluze contains the active substance lazertinib.",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/documents/overview/lazcluze-epar-medicine-overview_en.pdf",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/lazcluze",
+    "epar_summary_copied": "2026-11-20"
+  },
+  "countries": {
+    "DE": {
+      "hta_body": "G-BA (assessment by IQWiG)",
+      "decision_date": "2025-07-17",
+      "outcome_short": "Indication of a minor added benefit vs osimertinib",
+      "opinion": "Indication (Anhaltspunkt) of a minor added benefit of lazertinib + amivantamab versus osimertinib.",
+      "comparator": "Osimertinib (afatinib for exon 19 deletion only)",
+      "reimbursement": "Reimbursed by statutory health insurance (GKV); price negotiated with GKV-Spitzenverband after the G-BA decision.",
+      "documents": [
+        {
+          "label": "G-BA procedure page",
+          "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1173/"
+        },
+        {
+          "label": "G-BA decision (current version), 26 Aug 2025",
+          "url": "https://www.g-ba.de/downloads/91-1385-1173/2025-08-26_Geltende-Fassung_Lazertinib_D-1165.pdf"
+        }
+      ],
+      "price": {
+        "public": true,
+        "value": "€118,537.79 per patient per year (lazertinib)",
+        "value_short": "€118,537.79 / year",
+        "type": "Annual therapy cost in the G-BA decision; with amivantamab €262,349.38–265,490.39",
+        "date": "2025-08-26",
+        "source": "G-BA decision, therapy costs update 26 Aug 2025",
+        "source_url": "https://www.g-ba.de/downloads/91-1385-1173/2025-08-26_Geltende-Fassung_Lazertinib_D-1165.pdf",
+        "note": ""
+      }
+    },
+    "FR": {
+      "hta_body": "HAS – Commission de la Transparence",
+      "decision_date": "2025-07-16",
+      "outcome_short": "SMR moderate · ASMR IV",
+      "opinion": "Favourable opinion for reimbursement. SMR moderate (modéré). ASMR IV: minor clinical added value.",
+      "comparator": "Osimertinib",
+      "reimbursement": "Favourable opinion for reimbursement (with amivantamab).",
+      "documents": [
+        {
+          "label": "HAS opinion page",
+          "url": "https://has-sante.fr/jcms/p_3639093/fr/rybrevant-/-lazcluze-amivantamab-/-lazertinib-cancer-bronchique-non-a-petites-cellules-cbnpc"
+        },
+        {
+          "label": "Full opinion CT-21293 (16 Jul 2025)",
+          "url": "https://www.has-sante.fr/upload/docs/evamed/CT-21293_RYBREVANT_LAZCLUZE_PIC_EI_AvisDef_CT21293.pdf"
+        }
+      ],
+      "price": {
+        "public": null,
+        "value": "",
+        "type": "",
+        "date": "",
+        "source": "",
+        "source_url": "",
+        "note": "Official price not added yet."
+      }
+    },
+    "IT": {
+      "hta_body": "AIFA",
+      "decision_date": "2026-02-25",
+      "outcome_short": "Reimbursement approved (AIFA Board, Feb 2026)",
+      "opinion": "Reimbursement approved by the AIFA Board of Directors on 25 Feb 2026, in combination with amivantamab.",
+      "comparator": "",
+      "reimbursement": "Approved for reimbursement by the AIFA Board on 25 Feb 2026. Determina and Gazzetta Ufficiale details to be added.",
+      "documents": [
+        {
+          "label": "AIFA press release 07/2026",
+          "url": "https://www.aifa.gov.it/documents/20142/3346516/Comunicato_AIFA_07-2026_EN.pdf"
+        },
+        {
+          "label": "AIFA summary table, Board 25 Feb 2026",
+          "url": "https://www.aifa.gov.it/documents/20142/3346516/Tabella_sintesi_nuovi_farmaci_CDA%2025_02_2026.pdf"
+        }
+      ],
+      "price": {
+        "public": null,
+        "value": "",
+        "type": "",
+        "date": "",
+        "source": "",
+        "source_url": "",
+        "note": "Price from the AIFA determina not added yet."
+      }
+    }
+  }
+}

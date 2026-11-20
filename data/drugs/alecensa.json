@@ -1,0 +1,118 @@
+{
+  "id": "alecensa",
+  "brand": "Alecensa",
+  "inn": "alectinib",
+  "company": "Roche",
+  "therapy_area": "Oncology",
+  "disease_area": "Lung cancer",
+  "condition": "ALK-positive non-small-cell lung cancer (NSCLC)",
+  "indication_tracked": "Adjuvant treatment after complete tumour resection in adults with ALK-positive NSCLC at high risk of recurrence",
+  "last_checked": "2026-11-20",
+  "eu": {
+    "ema_product_number": "EMEA/H/C/004164",
+    "initial_authorisation": "2017-02-16",
+    "indication_authorisation": "2024-06-06",
+    "chmp_opinion_indication": "2024-04-26",
+    "jca": null,
+    "jca_note": "No EU Joint Clinical Assessment: this indication was authorised before the EU HTA Regulation applied (12 January 2025).",
+    "epar_summary": "Alecensa is a cancer medicine used to treat a type of lung cancer called non-small-cell lung cancer (NSCLC). It is only used when the cancer is ‘ALK-positive’, which means that cancer cells have changes in the gene that makes a protein called anaplastic lymphoma kinase (ALK).\n\nAlecensa is used on its own in adults with:\n• advanced NSCLC that has never been treated before or has already been treated with a cancer medicine called Xalkori (crizotinib);\n• NSCLC that has been removed by surgery (adjuvant treatment) and is at high risk of coming back.\n\nAlecensa contains the active substance alectinib.",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA Alecensa page (EPAR medicine overview EMA/220238/2024, last updated 19/06/2024). Only the bullet marks were added.",
+    "epar_summary_copied": "2026-11-20",
+    "epar_summary_url": "https://www.ema.europa.eu/en/documents/overview/alecensa-epar-medicine-overview_en.pdf",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/alecensa"
+  },
+  "countries": {
+    "DE": {
+      "hta_body": "G-BA (assessment by IQWiG)",
+      "decision_date": "2025-01-16",
+      "opinion": "Population a) eligible for adjuvant platinum chemotherapy: indication of a considerable added benefit (Anhaltspunkt für einen erheblichen Zusatznutzen). Population b) after or unsuitable for platinum chemotherapy: added benefit not proven.",
+      "comparator": "a) Cisplatin + vinorelbine or cisplatin + pemetrexed; b) watchful waiting",
+      "reimbursement": "Reimbursed by statutory health insurance (GKV); price negotiated with GKV-Spitzenverband after the G-BA decision.",
+      "documents": [
+        {
+          "label": "G-BA procedure page",
+          "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1100/"
+        },
+        {
+          "label": "G-BA decision (Beschluss), 16 Jan 2025",
+          "url": "https://g-ba.de/downloads/39-261-7013/2025-01-16_AM-RL-XII_Alectinib_D-1079.pdf"
+        },
+        {
+          "label": "IQWiG assessment A24-73",
+          "url": "https://doi.org/10.60584/A24-73"
+        }
+      ],
+      "price": {
+        "public": true,
+        "value": "€73,480.50 per patient per year",
+        "type": "Annual therapy cost (Jahrestherapiekosten) stated in the G-BA decision",
+        "date": "2025-01-16",
+        "source": "G-BA decision, 16 Jan 2025",
+        "source_url": "https://g-ba.de/downloads/39-261-7013/2025-01-16_AM-RL-XII_Alectinib_D-1079.pdf",
+        "note": "The negotiated Erstattungsbetrag is listed in the Lauer-Taxe (paid). Since the Medizinforschungsgesetz, companies can opt to keep it confidential.",
+        "value_short": "€73,480.50 / year"
+      },
+      "outcome_short": "Considerable added benefit (pop. a) · not proven (pop. b)"
+    },
+    "FR": {
+      "hta_body": "HAS – Commission de la Transparence",
+      "decision_date": "2024-10-23",
+      "opinion": "SMR: substantial (important). ASMR IV: minor clinical added value.",
+      "comparator": "Platinum-based adjuvant chemotherapy",
+      "reimbursement": "Favourable opinion for reimbursement. Reimbursed at 100%, also approved for hospital use (agrément aux collectivités).",
+      "documents": [
+        {
+          "label": "HAS opinion page",
+          "url": "https://www.has-sante.fr/jcms/p_3557276/en/alecensa-alectinib-non-small-cell-lung-cancer-nsclc"
+        },
+        {
+          "label": "Full opinion CT-21013 (23 Oct 2024)",
+          "url": "https://www.has-sante.fr/jcms/p_3557275/en/alecensa-23102024-avis-ct21013"
+        },
+        {
+          "label": "English summary",
+          "url": "https://www.has-sante.fr/jcms/p_3604129/en/alecensa-231024-summary-ct21013"
+        }
+      ],
+      "price": {
+        "public": true,
+        "value": "€3,836.60 per pack of 224 capsules (150 mg)",
+        "type": "Public price excluding dispensing fee (€3,837.62 including fee); reimbursement rate 100%",
+        "date": "2026-08-03",
+        "source": "Base de données publique des médicaments (page updated 3 Aug 2026)",
+        "source_url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60639892/extrait",
+        "note": "Confidential CEPS discounts are not public.",
+        "value_short": "€3,836.60 / pack"
+      },
+      "outcome_short": "SMR important · ASMR IV"
+    },
+    "IT": {
+      "hta_body": "AIFA",
+      "decision_date": "2025-05-06",
+      "opinion": "Reimbursed in class H for the adjuvant indication. Conditional therapeutic innovation (innovatività condizionata) granted.",
+      "comparator": "",
+      "reimbursement": "Class H. Determina AIFA Pres. 625/2025 of 6 May 2025, published in Gazzetta Ufficiale n. 111 of 15 May 2025; reimbursable from 16 May 2025. Supply regime RNRL (oncologist, pulmonologist, internist). AIFA monitoring registry required. Contract 24 months.",
+      "documents": [
+        {
+          "label": "Determina AIFA Pres. 625/2025",
+          "url": "https://www.aifa.gov.it/documents/20142/961234/Determina-Pres-625-2025%20ALECENSA.pdf"
+        },
+        {
+          "label": "AIFA registry: Alecensa adiuvante (NSCLC)",
+          "url": "https://www.aifa.gov.it/-/attivazione-web-e-pubblicazione-schede-di-monitoraggio-registro-alecensa-adiuvante-nsclc-"
+        }
+      ],
+      "price": {
+        "public": true,
+        "value": "€6,800.00 ex-factory per pack of 224 capsules (150 mg)",
+        "type": "Ex-factory price excl. VAT; public price incl. VAT €11,222.72",
+        "date": "2025-05-06",
+        "source": "Determina AIFA Pres. 625/2025",
+        "source_url": "https://www.aifa.gov.it/documents/20142/961234/Determina-Pres-625-2025%20ALECENSA.pdf",
+        "note": "Mandatory confidential discount on the ex-factory price for public facilities (not public).",
+        "value_short": "€6,800.00 / pack"
+      },
+      "outcome_short": "Class H · conditional innovation"
+    }
+  }
+}

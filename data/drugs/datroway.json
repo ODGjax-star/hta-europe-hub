@@ -1,0 +1,58 @@
+{
+  "id": "datroway",
+  "brand": "Datroway",
+  "inn": "datopotamab deruxtecan",
+  "company": "Daiichi Sankyo / AstraZeneca",
+  "therapy_area": "Oncology",
+  "disease_area": "Breast cancer",
+  "condition": "Unresectable or metastatic HR-positive, HER2-negative breast cancer",
+  "indication_tracked": "After endocrine therapy and at least one line of chemotherapy in the advanced setting",
+  "last_checked": "2026-11-20",
+  "eu": {
+    "ema_product_number": "",
+    "initial_authorisation": "2025-04-04",
+    "indication_authorisation": "2025-04-04",
+    "chmp_opinion_indication": "",
+    "jca": null,
+    "jca_note": "Not in EU JCA scope: the EU application was filed before the EU HTA Regulation applied (12 January 2025).",
+    "epar_summary": "Datroway is a cancer medicine used on its own in adults to treat breast cancer known as triple-negative breast cancer. In triple-negative breast cancer, the cancer cells do not have receptors (targets) for oestrogen and progesterone on their surface and do not make abnormally high levels of a protein called HER2 (HER2-negative). Datroway is used in patients who cannot receive medicines called PD-1/PD-L1 inhibitors, when their cancer cannot be removed by surgery (unresectable) or has spread to other parts of the body (metastatic).\n\nIt is also used in patients whose cancer cells have targets for oestrogen and progesteroneon their surface (HR-positive) and are HER2-negative. It is used in patients who have had endocrine therapy (hormone treatment) as well as one additional cancer treatment, when their cancer is unresectable or metastatic.\n\nDatroway contains the active substances datopotamab deruxtecan.",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/documents/overview/datroway-epar-medicine-overview_en.pdf",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/datroway",
+    "epar_summary_copied": "2026-11-20"
+  },
+  "countries": {
+    "DE": {
+      "hta_body": "G-BA (assessment by IQWiG)",
+      "decision_date": "2025-11-20",
+      "outcome_short": "Added benefit not proven (all groups)",
+      "opinion": "Added benefit not proven in all three groups: HER2 IHC 0 after one chemotherapy line; HER2-low after one chemotherapy line (vs trastuzumab deruxtecan); after two or more chemotherapy lines.",
+      "comparator": "Capecitabine, eribulin or vinorelbine (HER2 IHC 0); trastuzumab deruxtecan (HER2-low); sacituzumab govitecan (later lines)",
+      "reimbursement": "Reimbursed by statutory health insurance (GKV); price negotiated with GKV-Spitzenverband after the G-BA decision.",
+      "documents": [
+        {
+          "label": "G-BA procedure page",
+          "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1224/"
+        },
+        {
+          "label": "G-BA decision, 20 Nov 2025",
+          "url": "https://www.g-ba.de/downloads/39-261-7538/2025-11-20_AM-RL-XII_Datopotamab-deruxtecan_D-1203_BAnz.pdf"
+        }
+      ],
+      "price": {
+        "public": true,
+        "value": "€167,545.47 per patient per year",
+        "value_short": "€167,545.47 / year",
+        "type": "Annual therapy cost in the G-BA decision (Lauer-Taxe 15 Sep 2025)",
+        "date": "2025-11-20",
+        "source": "G-BA decision, 20 Nov 2025",
+        "source_url": "https://www.g-ba.de/downloads/39-261-7538/2025-11-20_AM-RL-XII_Datopotamab-deruxtecan_D-1203_BAnz.pdf",
+        "note": ""
+      }
+    }
+  },
+  "pending": {
+    "FR": "No HAS Transparency Committee opinion found yet for this indication.",
+    "IT": "No AIFA reimbursement decision found yet."
+  }
+}
