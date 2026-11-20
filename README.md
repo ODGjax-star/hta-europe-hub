@@ -75,7 +75,6 @@ Both scripts use only Python's standard library (Python 3.9+), respect each site
 
 - **European Commission** – members of the HTA Coordination Group, medicinal products (EU 27 + Iceland, Liechtenstein, Norway)
 - **INAHTA** – members list (some national bodies, such as AIFA or AEMPS, are not INAHTA members)
-- **Cancer Patients Europe** – HTA patient-involvement map (checked by hand)
 
 Edit the lists in the script, then run `python scripts/build_hta_bodies.py`.
 

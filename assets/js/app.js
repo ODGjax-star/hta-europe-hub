@@ -132,7 +132,7 @@
   }
 
   // ---------- all European HTA bodies ----------
-  const SOURCE_LABEL = { EC: "EU HTA Coordination Group", INAHTA: "INAHTA member", CPE: "CPE map" };
+  const SOURCE_LABEL = { EC: "EU HTA Coordination Group", INAHTA: "INAHTA member" };
   const GROUP_LABEL = { EU: "EU member states", EEA: "EEA countries (EU HTA Regulation applies)", Other: "Other European countries" };
   const europeCodes = () => Object.keys(state.countries).filter((k) => k !== "EU").sort((a, b) => state.countries[a].name.localeCompare(state.countries[b].name));
   const nDecisions = (code) => state.drugs.filter((d) => d.countries[code]).length;
@@ -159,7 +159,7 @@
           (c.tracked ? '<span class="pill">' + nDecisions(k) + " tracked</span>" : '<span class="pill grey">Coming soon</span>') + "</td></tr>"; }).join("") + "</tbody></table>";
     }).join("");
     app.innerHTML = '<div class="wrap page"><div class="crumbs"><a href="#/">Home</a> › All countries</div><h1 class="title">HTA bodies across Europe</h1>' +
-      '<p class="muted">' + europeCodes().length + " countries, " + europeCodes().reduce((s, k) => s + state.countries[k].bodies.length, 0) + " HTA bodies. Main source: the European Commission's list of members of the HTA Coordination Group (medicinal products), cross-checked with the INAHTA members list and the Cancer Patients Europe HTA map. Each body shows the sources that name it.</p>" +
+      '<p class="muted">' + europeCodes().length + " countries, " + europeCodes().reduce((s, k) => s + state.countries[k].bodies.length, 0) + " HTA bodies. Main source: the European Commission's list of members of the HTA Coordination Group (medicinal products), cross-checked with the INAHTA members list. Each body shows the sources that name it.</p>" +
       groups + '<p class="small muted">Sources: ' + ext("https://health.ec.europa.eu/health-technology-assessment/implementation-regulation-health-technology-assessment/member-state-coordination-group-hta-htacg_en", "European Commission – HTACG members") + " · " + ext("https://www.inahta.org/members/members_list/", "INAHTA members list") + "</p></div>";
   }
 

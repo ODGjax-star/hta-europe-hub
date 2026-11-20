@@ -25,8 +25,7 @@
         "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/",
         "sources": [
           "EC",
-          "INAHTA",
-          "CPE"
+          "INAHTA"
         ]
       },
       {
@@ -78,8 +77,7 @@
         "url": "https://www.has-sante.fr/",
         "sources": [
           "EC",
-          "INAHTA",
-          "CPE"
+          "INAHTA"
         ]
       },
       {
@@ -126,8 +124,7 @@
         "role": "Reimbursement class, price and innovation status (published in Gazzetta Ufficiale)",
         "url": "https://www.aifa.gov.it/",
         "sources": [
-          "EC",
-          "CPE"
+          "EC"
         ]
       },
       {
@@ -190,8 +187,7 @@
         "url": "https://www.sozialministerium.at/en.html",
         "sources": [
           "EC",
-          "INAHTA",
-          "CPE"
+          "INAHTA"
         ]
       },
       {
@@ -222,8 +218,7 @@
         "name": "National Institute for Health and Disability Insurance (RIZIV / INAMI / NIHDI)",
         "url": "https://www.inami.fgov.be/fr/Pages/default.aspx",
         "sources": [
-          "EC",
-          "CPE"
+          "EC"
         ]
       },
       {
@@ -300,13 +295,6 @@
         "sources": [
           "EC"
         ]
-      },
-      {
-        "name": "Ministry of Health – advisory body on reimbursement of rare-disease medicines",
-        "url": "https://ppo.mzcr.cz/workGroup/172",
-        "sources": [
-          "CPE"
-        ]
       }
     ]
   },
@@ -327,8 +315,7 @@
         "name": "Danish Medicines Council (Medicinrådet)",
         "url": "https://medicinraadet.dk/om-os/in-english",
         "sources": [
-          "EC",
-          "CPE"
+          "EC"
         ]
       },
       {
@@ -336,8 +323,7 @@
         "url": "https://www.sundk.dk/about/",
         "sources": [
           "EC",
-          "INAHTA",
-          "CPE"
+          "INAHTA"
         ]
       }
     ]
@@ -433,16 +419,14 @@
         "name": "National Centre for Pharmacoeconomics (NCPE)",
         "url": "https://www.ncpe.ie/about/",
         "sources": [
-          "EC",
-          "CPE"
+          "EC"
         ]
       },
       {
         "name": "Health Information and Quality Authority (HIQA)",
-        "url": "https://www.hiqa.ie/",
+        "url": "https://www.inahta.org/members/hiqa/",
         "sources": [
-          "INAHTA",
-          "CPE"
+          "INAHTA"
         ]
       }
     ]
@@ -518,8 +502,7 @@
         "url": "https://www.zorginstituutnederland.nl/",
         "sources": [
           "EC",
-          "INAHTA",
-          "CPE"
+          "INAHTA"
         ]
       },
       {
@@ -549,8 +532,7 @@
         "url": "https://www.aotm.gov.pl/en/about-us/",
         "sources": [
           "EC",
-          "INAHTA",
-          "CPE"
+          "INAHTA"
         ]
       }
     ]
@@ -565,8 +547,7 @@
         "name": "National Authority of Medicines and Health Products (INFARMED)",
         "url": "https://www.infarmed.pt/",
         "sources": [
-          "EC",
-          "CPE"
+          "EC"
         ]
       }
     ]
@@ -638,13 +619,6 @@
         ]
       },
       {
-        "name": "Spanish Network of HTA Agencies (RedETS)",
-        "url": "https://redets.sanidad.gob.es/",
-        "sources": [
-          "CPE"
-        ]
-      },
-      {
         "name": "AETS-ISCIII – Agencia de Evaluación de Tecnologías Sanitarias",
         "url": "https://www.inahta.org/members/aets/",
         "sources": [
@@ -698,8 +672,7 @@
         "name": "Dental and Pharmaceutical Benefits Agency (TLV)",
         "url": "https://www.government.se/government-agencies/dental-and-pharmaceutical-benefits-agency-tandvards--och-lakemedelsformansverket-tlv/",
         "sources": [
-          "EC",
-          "CPE"
+          "EC"
         ]
       },
       {
@@ -786,24 +759,9 @@
     "bodies": [
       {
         "name": "National Institute for Health and Care Excellence (NICE) – England",
-        "url": "https://www.nice.org.uk/",
+        "url": "https://www.inahta.org/members/nice/",
         "sources": [
-          "INAHTA",
-          "CPE"
-        ]
-      },
-      {
-        "name": "Scottish Medicines Consortium (SMC) – Scotland",
-        "url": "https://scottishmedicines.org.uk/",
-        "sources": [
-          "CPE"
-        ]
-      },
-      {
-        "name": "All Wales Medicines Strategy Group (AWMSG) – Wales",
-        "url": "https://awttc.nhs.wales/",
-        "sources": [
-          "CPE"
+          "INAHTA"
         ]
       },
       {
