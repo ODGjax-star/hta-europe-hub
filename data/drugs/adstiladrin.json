@@ -1,0 +1,31 @@
+{
+  "id": "adstiladrin",
+  "brand": "Adstiladrin",
+  "inn": "nadofaragene firadenovec",
+  "company": "Ferring Pharmaceuticals A/S",
+  "therapy_area": "Oncology",
+  "disease_area": "Kidney and bladder cancers",
+  "condition": "Non-Muscle Invasive Bladder Neoplasms",
+  "indication_tracked": "Adstiladrin is indicated as monotherapy for the treatment of adult patients with Bacillus Calmette-Guérin (BCG)-unresponsive non-muscle invasive bladder cancer (NMIBC) with carcinoma in situ (CIS) with or without papillary tumours.",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [
+      "Conditional approval",
+      "Advanced therapy (ATMP)"
+    ],
+    "initial_authorisation": "2026-05-28",
+    "indication_authorisation": "2026-05-28",
+    "chmp_opinion_indication": "2026-03-26",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Adstiladrin is a gene therapy medicine used to treat adults with non-muscle invasive bladder cancer (NMIBC), a type of cancer that affects the lining of the bladder. It is intended for people with cancer that has not spread beyond the inner lining of the bladder (known as carcinoma in situ).\n\nAdstiladrin is used when the cancer has not responded to treatment with Bacillus Calmette-Guérin (BCG), a standard bladder cancer treatment that stimulates the immune system (the body’s natural defences).\n\nThe medicine contains the active substance nadofaragene firadenovec.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/adstiladrin",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/adstiladrin",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

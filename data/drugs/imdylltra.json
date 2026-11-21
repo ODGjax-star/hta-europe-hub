@@ -1,0 +1,30 @@
+{
+  "id": "imdylltra",
+  "brand": "Imdylltra",
+  "inn": "tarlatamab",
+  "company": "Amgen Europe B.V.",
+  "therapy_area": "Oncology",
+  "disease_area": "Lung cancer",
+  "condition": "Small Cell Lung Carcinoma",
+  "indication_tracked": "Imdylltra is indicated as monotherapy for the treatment of adult patients with extensive-stage small cell lung cancer (ES-SCLC), who require systemic therapy following disease progression on or after first-line treatment with platinum-based chemotherapy.",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [
+      "Orphan medicine"
+    ],
+    "initial_authorisation": "2026-05-29",
+    "indication_authorisation": "2026-05-29",
+    "chmp_opinion_indication": "2026-03-26",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Imdylltra is a medicine used to treat people with extensive-stage small cell lung cancer (SCLC) whose disease got worse during or after a first treatment with chemotherapy.\n\nSCLC is a type of rapidly growing lung cancer. Extensive stage means that the cancer has spread within the lungs or to other parts of the body.\n\nExtensive-stage SCLC is rare, and Imdylltra was designated an ‘orphan medicine’ (a medicine used in rare diseases) on 12 January 2024.\n\nImdylltra contains the active substance tarlatamab.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/imdylltra",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/imdylltra",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

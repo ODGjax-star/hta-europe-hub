@@ -1,0 +1,30 @@
+{
+  "id": "anktiva",
+  "brand": "Anktiva",
+  "inn": "nogapendekin alfa inbakicept",
+  "company": "Immunitybio Ireland Limited",
+  "therapy_area": "Oncology",
+  "disease_area": "Kidney and bladder cancers",
+  "condition": "Non-Muscle Invasive Bladder Neoplasms",
+  "indication_tracked": "Anktiva in combination with Bacillus Calmette-Guérin (BCG) is indicated for the treatment of adult patients with BCG-unresponsive non-muscle invasive bladder cancer (NMIBC) with carcinoma in situ (CIS) with or without papillary tumours.",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [
+      "Conditional approval"
+    ],
+    "initial_authorisation": "2026-02-16",
+    "indication_authorisation": "2026-02-16",
+    "chmp_opinion_indication": "2025-12-11",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Anktiva is a medicine used to treat adults with non-muscle invasive bladder cancer (NMIBC), a type of cancer that affects the lining of the bladder. It is intended for people with cancer that has not spread beyond the inner lining of the bladder (known as carcinoma in situ).\n\nAnktiva is used with Bacillus Calmette-Guérin (BCG), a standard bladder cancer treatment that stimulates the immune system, when the cancer has not responded to treatment with BCG alone.\n\nThe medicine contains the active substance nogapendekin alfa inbakicept.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/anktiva",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/anktiva",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

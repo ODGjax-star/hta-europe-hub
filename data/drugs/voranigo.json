@@ -1,0 +1,30 @@
+{
+  "id": "voranigo",
+  "brand": "Voranigo",
+  "inn": "vorasidenib",
+  "company": "Les Laboratoires Servier",
+  "therapy_area": "Oncology",
+  "disease_area": "Brain tumours",
+  "condition": "Oligodendroglioma, Astrocytoma",
+  "indication_tracked": "Voranigo as monotherapy is indicated for the treatment of predominantly non‑enhancing Grade 2 astrocytoma or oligodendroglioma with an IDH1 R132 or IDH2 R172 mutation in adult and adolescent patients aged 12 years and older and weighing at least 40 kg who only had surgical intervention and are not in immediate need of radiotherapy or chemotherapy (see section 5.1).",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [
+      "Orphan medicine"
+    ],
+    "initial_authorisation": "2025-09-17",
+    "indication_authorisation": "2025-09-17",
+    "chmp_opinion_indication": "2025-07-24",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Voranigo is a cancer medicine used to treat cancers of the brain called astrocytoma or oligodendroglioma in adults and adolescents from 12 years of age who weigh at least 40 kg, have had surgery as their only treatment and do not need other treatments such as radiotherapy or chemotherapy immediately.\n\nIt is used for tumours that are mainly slow growing (grade 2) and when the cancer cells have specific changes in the genes (mutations) that make proteins known as isocitrate dehydrogenase-1 (IDH1) and isocitrate dehydrogenase-2 (IDH2).\n\nVoranigo contains the active substance vorasidenib.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/voranigo",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/voranigo",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

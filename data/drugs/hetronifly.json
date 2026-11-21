@@ -1,0 +1,28 @@
+{
+  "id": "hetronifly",
+  "brand": "Hetronifly",
+  "inn": "serplulimab",
+  "company": "Accord Healthcare S.L.U.",
+  "therapy_area": "Oncology",
+  "disease_area": "Lung cancer",
+  "condition": "Small Cell Lung Carcinoma, Carcinoma, Non-Small-Cell Lung, Esophageal Squamous Cell Carcinoma",
+  "indication_tracked": "Small cell lung cancer (SCLC) Hetronifly in combination with carboplatin and etoposide is indicated for the first‑line treatment of adult patients with extensive‑stage small cell lung cancer (ES‑SCLC). Non-small cell lung carcinoma (NSCLC) Hetronifly in combination with carboplatin and pemetrexed is indicated for the first-line treatment of adult non-squamous NSCLC patients with no EGFR, ALK or ROS1 positive mutations and who have: locally advanced NSCLC who are not candidates for surgery or radiotherapy, or metastatic NSCLC. Oesophageal squamous cell carcinoma (OSCC) Hetronifly in combination with fluoropyrimidine- and platinum-based chemotherapy is indicated for the first-line treatment of adult patients with unresectable, locally advanced, recurrent or metastatic oesophageal squamous cell carcinoma whose tumours express PD-L1 with a CPS ≥ 5.",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [],
+    "initial_authorisation": "2025-02-03",
+    "indication_authorisation": "2025-02-03",
+    "chmp_opinion_indication": "2024-09-19",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Hetronifly is a cancer medicine used in adults to treat\n\nsmall cell lung cancer (SCLC) that has grown extensively in the lung or spread to other parts of the body (extensive-stage SCLC) and has not been treated previously. It is given together with carboplatin and etoposide (chemotherapy medicines);\n\nnon-squamous non-small cell lung cancer (NSCLC) that has not been treated previously and is locally advanced (has spread nearby) in people who cannot undergo surgery or receive radiotherapy or is metastatic (has spread to other parts of the body). It can only be used in people who do not have mutations (changes) in the EGFR, ALK or ROS1 genes. It is given together with carboplatin and pemetrexed (chemotherapy medicines);\n\nsquamous NSCLC that has not been treated before, is unresectable (cannot be removed by surgery), locally advanced or metastatic. It is given with carboplatin and nab-paclitaxel (chemotherapy medicines);\n\noesophageal squamous cell carcinoma that cannot be removed by surgery, is locally advanced, has come back or is metastatic. It can only be used when the tumour produces certain levels of a protein known as PD-L1. It is given together with fluoropyrimidine- and platinum-based chemotherapy (other cancer medicines).\n\nHetronifly contains the active substance serplulimab.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/hetronifly",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/hetronifly",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

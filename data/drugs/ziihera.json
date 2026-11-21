@@ -1,0 +1,31 @@
+{
+  "id": "ziihera",
+  "brand": "Ziihera",
+  "inn": "zanidatamab",
+  "company": "Jazz Pharmaceuticals Ireland Limited",
+  "therapy_area": "Oncology",
+  "disease_area": "Liver and biliary cancers",
+  "condition": "Biliary Tract Neoplasms",
+  "indication_tracked": "Ziihera as monotherapy is indicated for the treatment of adults with unresectable locally advanced or metastatic HER2-positive (IHC3+) biliary tract cancer (BTC) previously treated with at least one prior line of systemic therapy (for biomarker-based patient selection, see section 4.2).",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [
+      "Orphan medicine",
+      "Conditional approval"
+    ],
+    "initial_authorisation": "2025-06-27",
+    "indication_authorisation": "2025-06-27",
+    "chmp_opinion_indication": "2025-04-25",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Ziihera is a medicine used in adults to treat biliary tract cancer (cancer of the structures that store and transport bile) when the cancer has high levels of a protein called HER2, measured with a test called immunohistochemistry. High levels of HER2 help the tumour cells grow more quickly. Ziihera is used when the cancer is unresectable (cannot be removed by surgery) and is locally advanced (has spread to nearby tissues) or metastatic (has spread to other parts of the body) and has previously been treated with at least one other systemic cancer medicine. Systemic means that the medicine works throughout the whole body.\n\nZiihera contains the active substance zanidatamab.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ziihera",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ziihera",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

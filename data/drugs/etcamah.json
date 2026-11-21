@@ -1,0 +1,28 @@
+{
+  "id": "etcamah",
+  "brand": "Etcamah",
+  "inn": "camizestrant",
+  "company": "AstraZeneca AB",
+  "therapy_area": "Oncology",
+  "disease_area": "Breast cancer",
+  "condition": "Breast Neoplasms",
+  "indication_tracked": "Etcamah in combination with a CDK4/6 inhibitor (palbociclib, ribociclib, or abemaciclib) is indicated for the treatment of adult patients with ER-positive, HER2-negative, locally advanced or metastatic breast cancer upon detection of ESR1‑mutation and without disease progression during first-line endocrine therapy in combination with a CDK4/6 inhibitor (for biomarker based patient-selection, see section 4.2 and 5.1).",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [],
+    "initial_authorisation": "2026-07-20",
+    "indication_authorisation": "2026-07-20",
+    "chmp_opinion_indication": "2026-05-21",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Etcamah is a cancer medicine used to treat adults with breast cancer that is locally advanced (has spread nearby) or metastatic (has spread to other parts of the body); it is used in combination with a medicine belonging to the class of CDK4/6 inhibitors (palbociclib, ribociclib, or abemaciclib).\n\nEtcamah is used when the cancer cells have receptors (targets) for the hormone oestrogen on their surface (oestrogen receptor-positive; ER-positive) and do not have large quantities of a receptor for human epidermal growth factor called HER2 (HER2-negative). The cancer cells must also have been shown to have a specific mutation (change) in the gene called ESR1. Etcamah is used in patients whose cancer has not progressed during hormone treatment plus a CDK4/6 inhibitor.\n\nWhen the medicine is used in women who have not yet reached the menopause (pre-menopausal or perimenopausal) and in men, it should be given with a luteinising hormone-releasing hormone (LHRH) agonist or antagonist (a medicine that lowers blood levels of the hormones oestrogen and progesterone).\n\nEtcamah contains the active substance camizestrant.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/etcamah",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/etcamah",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

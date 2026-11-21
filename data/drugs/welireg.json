@@ -1,0 +1,30 @@
+{
+  "id": "welireg",
+  "brand": "Welireg",
+  "inn": "belzutifan",
+  "company": "Merck Sharp & Dohme B.V.",
+  "therapy_area": "Oncology",
+  "disease_area": "Kidney and bladder cancers",
+  "condition": "Carcinoma, Renal Cell, von Hippel-Lindau Disease",
+  "indication_tracked": "Renal cell carcinoma (RCC) Welireg is indicated as monotherapy for the treatment of adult patients with advanced clear cell renal cell carcinoma that progressed following two or more lines of therapy that included a PD-(L)1 inhibitor and at least two VEGF-targeted therapies. von Hippel-Lindau (VHL) disease-associated tumours Welireg is indicated as monotherapy for the treatment of adult patients with von Hippel-Lindau disease who require therapy for associated, localised renal cell carcinoma (RCC), central nervous system (CNS) haemangioblastomas, or pancreatic neuroendocrine tumours (pNET), and for whom localised procedures are unsuitable.",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [
+      "Conditional approval"
+    ],
+    "initial_authorisation": "2025-02-12",
+    "indication_authorisation": "2025-02-12",
+    "chmp_opinion_indication": "2024-12-12",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Welireg is a cancer medicine used to treat:\n• adults with advanced clear cell renal cell carcinoma (a type of kidney cancer) that has worsened despite two or more previous treatments, including a PD-(L)1 inhibitor and at least two types of VEGF-targeted medicines. ‘Advanced’ means that the cancer has started to spread;\n• adults with von Hippel-Lindau (VHL) disease who need treatment for associated, localised (confined to one area of the body) renal cell carcinoma, central nervous system haemangioblastomas (a type of brain cancer) or pancreatic neuroendocrine tumours (a type of pancreatic cancer), and who cannot have surgery or other local treatments. VHL disease is a genetic condition that causes tumours and cysts to grow in certain parts of the body.\n\nWelireg contains the active substance belzutifan.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/welireg",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/welireg",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

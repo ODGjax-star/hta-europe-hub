@@ -1,0 +1,31 @@
+{
+  "id": "ezmekly",
+  "brand": "Ezmekly",
+  "inn": "mirdametinib",
+  "company": "Merck Europe B.V.",
+  "therapy_area": "Oncology",
+  "disease_area": "Sarcoma and rare tumours",
+  "condition": "Neurofibromatosis 1, Neurofibroma, Plexiform",
+  "indication_tracked": "Ezmekly as monotherapy is indicated for the treatment of symptomatic, inoperable plexiform neurofibromas (PN) in paediatric and adult patients with neurofibromatosis type 1 (NF1) aged 2 years and above.",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [
+      "Orphan medicine",
+      "Conditional approval"
+    ],
+    "initial_authorisation": "2025-07-17",
+    "indication_authorisation": "2025-07-17",
+    "chmp_opinion_indication": "2025-05-22",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Ezmekly is a medicine used to treat plexiform neurofibromas, benign (non-cancerous) tumours that grow along nerves, in adults and children 2 years and older with neurofibromatosis type 1 (NF1). It is used when the tumours cause symptoms (such as pain and weakness) and cannot be removed by surgery.\n\nNeurofibromatosis is rare, and Ezmekly was designated an ‘orphan medicine’ (a medicine used in rare diseases) on 25 July 2019.\n\nEzmekly contains the active substance mirdametinib.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ezmekly",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ezmekly",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

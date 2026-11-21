@@ -1,0 +1,31 @@
+{
+  "id": "aucatzyl",
+  "brand": "Aucatzyl",
+  "inn": "obecabtagene autoleucel",
+  "company": "Autolus GmbH",
+  "therapy_area": "Oncology",
+  "disease_area": "Haematological cancers",
+  "condition": "Precursor B-Cell Lymphoblastic Leukemia-Lymphoma",
+  "indication_tracked": "Aucatzyl is indicated for the treatment of adult patients 26 years of age and above with relapsed or refractory (r/r) B cell precursor acute lymphoblastic leukaemia (B ALL).",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [
+      "Conditional approval",
+      "Advanced therapy (ATMP)"
+    ],
+    "initial_authorisation": "2025-07-17",
+    "indication_authorisation": "2025-07-17",
+    "chmp_opinion_indication": "2025-05-22",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Aucatzyl is a medicine used to treat a type of blood cancer that affects B cells (a type of white blood cell) called B-cell precursor acute lymphoblastic leukaemia (ALL). It is used in adults aged 26 years and above whose cancer did not respond to or has come back after previous treatment.\n\nAucatzyl contains the active substance obecabtagene autoleucel (consisting of genetically modified white blood cells).",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/aucatzyl",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/aucatzyl",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

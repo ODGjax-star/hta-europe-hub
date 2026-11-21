@@ -1,0 +1,31 @@
+{
+  "id": "ojemda",
+  "brand": "Ojemda",
+  "inn": "tovorafenib",
+  "company": "Ipsen Pharma",
+  "therapy_area": "Oncology",
+  "disease_area": "Brain tumours",
+  "condition": "Glioma",
+  "indication_tracked": "Ojemda is indicated as monotherapy for the treatment of patients 6 months of age and older with paediatric low-grade glioma (LGG) harbouring a BRAF fusion or rearrangement, or BRAF V600 mutation, who have progressed after one or more prior systemic therapies (for biomarkers-based patient selection, see section 4.2)",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [
+      "Orphan medicine",
+      "Conditional approval"
+    ],
+    "initial_authorisation": "2026-04-20",
+    "indication_authorisation": "2026-04-20",
+    "chmp_opinion_indication": "2026-02-26",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Ojemda is a medicine used to treat patients aged six months and older with paediatric low-grade glioma (a type of brain tumour). It can be used when the tumour has certain changes in the BRAF gene (such as a BRAF fusion or rearrangement or V600 mutation) in patients whose disease has worsened despite previous treatment with one or more systemic medicines (medicines affecting the whole body).\n\nGlioma is rare, and Ojemda was designated an ‘orphan medicine’ (a medicine used in rare diseases) on 20 May 2021.\n\nOjemda contains the active substance tovorafenib.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ojemda",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ojemda",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

@@ -1,0 +1,28 @@
+{
+  "id": "sepalna",
+  "brand": "Sepalna",
+  "inn": "senaparib",
+  "company": "—",
+  "therapy_area": "Oncology",
+  "disease_area": "Gynaecological cancers",
+  "condition": "Fallopian Tube Neoplasms, Peritoneal Neoplasms, Carcinoma, Ovarian Epithelial",
+  "indication_tracked": "Sepalna is indicated as monotherapy for the maintenance treatment of adult patients with advanced (FIGO Stages III and IV) epithelial high-grade ovarian, fallopian tube or primary peritoneal cancer who are in response (complete or partial) following completion of first-line platinum-based chemotherapy.",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [],
+    "initial_authorisation": "2026-11-12",
+    "indication_authorisation": "2026-11-12",
+    "chmp_opinion_indication": "2026-09-17",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Sepalna is a cancer medicine used on its own in adults with the following cancers:\n• epithelial ovarian cancer (cancer that forms in the tissue covering the ovaries);\n• fallopian tube cancer (cancer of the tissue lining the tubes connecting the ovaries to the womb);\n• primary peritoneal cancer (cancer that forms in the membrane lining the abdomen).\n\nIt is used in adults whose cancer is advanced, high-grade (fast-growing) and in whom the cancer has shrunk or there is no detectable sign of it after a platinum-based treatment.\n\nSepalna contains the active substance senaparib.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/sepalna",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/sepalna",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

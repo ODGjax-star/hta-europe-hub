@@ -1,0 +1,30 @@
+{
+  "id": "ogsiveo",
+  "brand": "Ogsiveo",
+  "inn": "nirogacestat",
+  "company": "Merck Europe B.V.",
+  "therapy_area": "Oncology",
+  "disease_area": "Sarcoma and rare tumours",
+  "condition": "Desmoid Tumors",
+  "indication_tracked": "Ogsiveo as monotherapy is indicated for the treatment of adult patients with progressing desmoid tumours who require systemic treatment.",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [
+      "Orphan medicine"
+    ],
+    "initial_authorisation": "2025-08-14",
+    "indication_authorisation": "2025-08-14",
+    "chmp_opinion_indication": "2025-06-19",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Ogsiveo is a medicine used to treat adults with progressing desmoid tumours who need systemic treatment (medicines that travel through the bloodstream and affect the whole body).\n\nDesmoid tumours develop from the soft, supporting tissues of the body. They can grow rapidly and damage nearby tissues and organs.\n\nProgressing desmoid tumours are rare, and Ogsiveo was designated an ‘orphan medicine’ (a medicine used in rare diseases) on 17 October 2019.\n\nOgsiveo contains the active substance nirogacestat.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ogsiveo",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ogsiveo",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

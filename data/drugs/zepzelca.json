@@ -1,0 +1,30 @@
+{
+  "id": "zepzelca",
+  "brand": "Zepzelca",
+  "inn": "lurbinectedin",
+  "company": "Pharma Mar S.A.",
+  "therapy_area": "Oncology",
+  "disease_area": "Lung cancer",
+  "condition": "Small Cell Lung Carcinoma",
+  "indication_tracked": "Zepzelca, in combination with atezolizumab, is indicated for the maintenance treatment of adult patients with extensive-stage small cell lung cancer (ES-SCLC) whose disease has not progressed after first-line induction therapy with atezolizumab, carboplatin and etoposide.",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [
+      "Orphan medicine"
+    ],
+    "initial_authorisation": "2026-05-29",
+    "indication_authorisation": "2026-05-29",
+    "chmp_opinion_indication": "2026-03-26",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Zepzelca is a medicine used to treat extensive-stage small cell lung cancer (SCLC). SCLC is a type of rapidly growing lung cancer. Extensive-stage means that the cancer has spread within the lungs or to other parts of the body.\n\nZepzelca is used together with another cancer medicine, atezolizumab, as maintenance (continued) treatment in adults whose cancer has not got worse after treatment with atezolizumab, carboplatin and etoposide (other cancer medicines).\n\nExtensive-stage SCLC is rare, and Zepzelca was designated an ‘orphan medicine’ (a medicine used in rare diseases) on 26 February 2019. Further information on the orphan designation can be found on the EMA website.\n\nZepzelca contains the active substance lurbinectedin.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zepzelca",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zepzelca",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

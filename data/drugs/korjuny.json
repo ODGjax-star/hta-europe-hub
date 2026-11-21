@@ -1,0 +1,28 @@
+{
+  "id": "korjuny",
+  "brand": "Korjuny",
+  "inn": "catumaxomab",
+  "company": "Atnahs Pharma Netherlands B.V.",
+  "therapy_area": "Oncology",
+  "disease_area": "Other cancers",
+  "condition": "Ascites",
+  "indication_tracked": "Korjuny is indicated for the intraperitoneal treatment of malignant ascites in adults with epithelial cellular adhesion molecule (EpCAM)-positive carcinomas, who are not eligible for further systemic anticancer therapy.",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [],
+    "initial_authorisation": "2025-02-10",
+    "indication_authorisation": "2025-02-10",
+    "chmp_opinion_indication": "2024-10-17",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Korjuny is a medicine used to treat adults with malignant ascites (a build-up of fluid in the abdomen) caused by cancers that are EpCAM-positive (meaning that the cancer cells have a molecule on their surface called epithelial cellular adhesion molecule). Korjuny is used in patients who cannot have any further cancer treatment.\n\nKorjuny contains the active substance catumaxomab.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/korjuny",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/korjuny",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

@@ -1,0 +1,30 @@
+{
+  "id": "rytelo",
+  "brand": "Rytelo",
+  "inn": "imetelstat",
+  "company": "Geron Netherlands B.V.",
+  "therapy_area": "Oncology",
+  "disease_area": "Haematological cancers",
+  "condition": "Anemia, Myelodysplastic Syndromes",
+  "indication_tracked": "Treatment of transfusion-dependent anaemia in adults with low- to intermediate-1 risk myelodysplastic syndromes (MDS) who have failed to respond or have lost response to or are ineligible for erythropoiesis-stimulating agents (ESA).",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [
+      "Orphan medicine"
+    ],
+    "initial_authorisation": "2025-03-07",
+    "indication_authorisation": "2025-03-07",
+    "chmp_opinion_indication": "2024-12-12",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Rytelo is a medicine used to treat anaemia (low levels of red blood cells) in adults with myelodysplastic syndromes, a group of conditions where the bone marrow produces abnormal blood cells and too few healthy ones.\n\nRytelo is used in patients whose condition does not have an isolated deletion 5q cytogenetic (non-del 5q) abnormality, and who need regular blood transfusions and have a very low to intermediate risk of their condition developing into acute myeloid leukaemia (a blood cancer). It is used in patients for whom erythropoietin (a hormone that stimulates the production of red blood cells) does not work well enough or who cannot be treated with erythropoietin.\n\nMyelodysplastic syndromes are rare, and Rytelo was designated an ‘orphan medicine’ (a medicine used in rare diseases) on 27 July 2020.\n\nRytelo contains the active substance imetelstat.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rytelo",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rytelo",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

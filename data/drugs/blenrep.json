@@ -1,0 +1,28 @@
+{
+  "id": "blenrep",
+  "brand": "Blenrep",
+  "inn": "belantamab mafodotin",
+  "company": "GlaxoSmithKline Trading Services Limited",
+  "therapy_area": "Oncology",
+  "disease_area": "Haematological cancers",
+  "condition": "Multiple Myeloma",
+  "indication_tracked": "Blenrep is indicated in adults for the treatment of relapsed or refractory multiple myeloma: in combination with bortezomib and dexamethasone in patients who have received at least one prior therapy; and in combination with pomalidomide and dexamethasone in patients who have received at least one prior therapy including lenalidomide.",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [],
+    "initial_authorisation": "2025-07-23",
+    "indication_authorisation": "2025-07-23",
+    "chmp_opinion_indication": "2025-05-22",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Blenrep is a cancer medicine used to treat adults with multiple myeloma (a cancer of the bone marrow) when the cancer has come back (relapsed) or has not responded to treatment (refractory).\n\nIt is used together with other medicines: bortezomib and dexamethasone in people who have received at least one previous treatment; or pomalidomide and dexamethasone in people who have received at least one previous treatment including lenalidomide.\n\nBlenrep contains the active substance belantamab mafodotin.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/blenrep",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/blenrep",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

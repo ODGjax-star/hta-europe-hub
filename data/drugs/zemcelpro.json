@@ -1,0 +1,32 @@
+{
+  "id": "zemcelpro",
+  "brand": "Zemcelpro",
+  "inn": "allogeneic umbilical cord-derived CD34- cells, non-expanded / dorocubicel",
+  "company": "Cordex Biologics International Limited",
+  "therapy_area": "Oncology",
+  "disease_area": "Haematological cancers",
+  "condition": "Hematologic Neoplasms, Hematopoietic Stem Cell Transplantation",
+  "indication_tracked": "Treatment of adult patients with haematological malignancies requiring an allogeneic haematopoietic stem cell transplantation following myeloablative conditioning for whom no other type of suitable donor cells is available",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [
+      "Orphan medicine",
+      "Conditional approval",
+      "Advanced therapy (ATMP)"
+    ],
+    "initial_authorisation": "2025-08-25",
+    "indication_authorisation": "2025-08-25",
+    "chmp_opinion_indication": "2025-06-19",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Zemcelpro is a stem-cell medicine used to treat adults with haematological malignancies (blood cell cancers) who need an allogeneic haematopoietic stem cell transplantation (allo-HSCT) and for whom no other type of suitable donor cells is available.\n\nAllo-HSCT is a procedure where the patient's bone marrow (spongy tissue inside the large bones where blood cells are produced) is cleared of cells, which are then replaced by cells from a matched donor; the transplanted cells multiply and develop into healthy specialised blood and immune cells. Zemcelpro is given after patients have received conditioning (preparatory) treatment with cancer medicines to clear cells from the bone marrow.\n\nHSCT is a rare procedure, and Zemcelpro was designated an ‘orphan medicine’ (a medicine used in rare diseases) for use in patients needing an HSCT on 22 April 2020.\n\nZemcelpro is made specifically for each patient. It contains two types of stem cells from donated umbilical cord blood: dorocubicel (expanded CD34+ cells; expanded means that the cells have been grown and multiplied in the laboratory) and unexpanded CD34- cells.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zemcelpro",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zemcelpro",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

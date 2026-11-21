@@ -1,0 +1,28 @@
+{
+  "id": "inluriyo",
+  "brand": "Inluriyo",
+  "inn": "imlunestrant",
+  "company": "Eli Lilly Nederland B.V.",
+  "therapy_area": "Oncology",
+  "disease_area": "Breast cancer",
+  "condition": "Breast Neoplasms",
+  "indication_tracked": "Inluriyo is indicated as monotherapy for the treatment of adult patients with oestrogen receptor (ER)-positive, HER2-negative, locally advanced or metastatic breast cancer with an activating ESR1-mutation, who have disease progression following prior treatment with an endocrine based regimen (for biomarker-based patient selection, see section 4.2).In pre- or perimenopausal women, or men, Inluriyo should be combined with a luteinising hormone-releasing hormone (LHRH) agonist.",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [],
+    "initial_authorisation": "2026-01-09",
+    "indication_authorisation": "2026-01-09",
+    "chmp_opinion_indication": "2025-11-13",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Inluriyo is an anti-hormonal cancer medicine used on its own in adults to treat breast cancer that is locally advanced (has spread nearby) or metastatic (has spread to other parts of the body).\n\nIt can only be used when the cancer cells have receptors (targets) for the hormone oestrogen on their surface (oestrogen receptor-positive; ER-positive) and do not have large quantities of a receptor for human epidermal growth factor called HER2 (HER2-negative). The cancer cells must also have been shown to have a specific mutation (change) in the gene called ESR1.\n\nInluriyo is used in adults whose cancer has progressed further following previous treatment with hormone-based medicines. When the medicine is used in women who have not yet reached the menopause (pre-menopausal or perimenopausal) and men, it should be given with a luteinising hormone-releasing hormone (LHRH) agonist (a medicine that lowers blood levels of the hormones oestrogen and progesterone).\n\nInluriyo contains the active substance imlunestrant.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/inluriyo",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/inluriyo",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

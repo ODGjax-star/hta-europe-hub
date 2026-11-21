@@ -1,0 +1,28 @@
+{
+  "id": "aumseqa",
+  "brand": "Aumseqa",
+  "inn": "Aumolertinib",
+  "company": "SFL Pharmaceuticals Deutschland GmbH",
+  "therapy_area": "Oncology",
+  "disease_area": "Lung cancer",
+  "condition": "Carcinoma, Non-Small-Cell Lung",
+  "indication_tracked": "Aumseqa as monotherapy is indicated for:- the first-line treatment of adult patients with advanced non-small cell lung cancer (NSCLC)whose tumours have EGFR exon 19 deletions or exon 21 (L858R) substitution mutations (forbiomarker-based patient selection, see section 4.2).- the treatment of adult patients with advanced EGFR T790M mutation-positive NSCLC (forbiomarker-based patient selection, see section 4.2)",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Revoked",
+    "flags": [],
+    "initial_authorisation": "2026-02-12",
+    "indication_authorisation": "2026-02-12",
+    "chmp_opinion_indication": "2025-12-11",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "On 25 September 2026, the European Commission revoked the marketing authorisation for Aumseqa (aumolertinib) in the European Union (EU). The marketing authorisation holder for the medicine was SFL Pharmaceuticals Deutschland GmbH.\n\nThe revocation of the marketing authorisation followed a review by EMA, and a final decision by the European Commission, which concluded that the marketing authorisation application for Aumseqa relied in part on data from another medicine, which at the time of submission of the application were under regulatory data protection.\n\nFurther information in relation to the revocation of the marketing authorisation for Aumseqa can be found in the Commission Implementing Decision C(2026) 6955 final revoking the marketing authorisation, which is available on the Union Register of medicinal products for human use. Aumseqa was granted marketing authorisation in the EU on 12 February 2026 for the treatment of non-small cell lung cancer.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/aumseqa-0",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/aumseqa-0",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

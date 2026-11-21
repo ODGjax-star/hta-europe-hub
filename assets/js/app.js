@@ -10,7 +10,8 @@
   // Therapy areas shown in the search. Only those with data are selectable for now.
   const THERAPY_AREAS = ["Oncology", "Haematology", "Immunology", "Neurology", "Rare diseases"];
   const DISEASES = {
-    Oncology: ["Lung cancer", "Breast cancer", "Gastric cancer", "Prostate cancer", "Colorectal cancer", "Melanoma", "Haematological cancers", "Other cancers"],
+    Oncology: ["Lung cancer", "Breast cancer", "Gastric cancer", "Gynaecological cancers", "Kidney and bladder cancers", "Liver and biliary cancers", "Brain tumours",
+      "Prostate cancer", "Colorectal cancer", "Melanoma", "Haematological cancers", "Sarcoma and rare tumours", "Other cancers"],
   };
 
   const state = {
@@ -106,6 +107,7 @@
     const c = d.countries[code];
     if (c) return { k: "decided", label: "Decided " + fmtDate(c.decision_date), outcome: c.outcome_short || c.opinion };
     if (d.pending && d.pending[code]) return { k: "pending", label: "Pending", outcome: d.pending[code] };
+    if (d.countries_checked === false) return { k: "none", label: "Not checked yet", outcome: "National decisions not added yet" };
     return { k: "none", label: "No decision found", outcome: "" };
   }
   function statusChip(d, code, withName) {
@@ -402,8 +404,8 @@
         (c.comparator ? '<br><span class="muted small">Comparator: ' + esc(c.comparator) + "</span>" : "") + docsList(c.documents) + "</td></tr>";
     }).join("");
     const pendingRows = COUNTRY_ORDER.filter((c) => !d.countries[c]).map((code) =>
-      "<tr><td>" + flagName(code) + '</td><td>—</td><td><span class="pill warn">No decision found yet</span><br><span class="muted small">' +
-      esc((d.pending && d.pending[code]) || "Not tracked yet.") + "</span>" + docsList(d.pending_docs && d.pending_docs[code]) + "</td></tr>").join("");
+      "<tr><td>" + flagName(code) + '</td><td>—</td><td><span class="pill ' + (d.countries_checked === false ? 'grey">Not checked yet' : 'warn">No decision found yet') + '</span><br><span class="muted small">' +
+      esc((d.pending && d.pending[code]) || (d.countries_checked === false ? "" : "Not tracked yet.")) + "</span>" + docsList(d.pending_docs && d.pending_docs[code]) + "</td></tr>").join("");
     const reimb = codes.map((code) => "<tr><td>" + flagName(code) + "</td><td>" + esc(d.countries[code].reimbursement) + "</td></tr>").join("");
     const prices = codes.map((code) => {
       const p = d.countries[code].price || {};
@@ -424,7 +426,8 @@
       const n = days(e.date);
       return '<li class="' + (e.eu ? "eu" : "") + '"><span class="t-date">' + fmtDate(e.date) + '</span><span class="t-who">' + e.who + '</span><span class="t-what">' + esc(e.what) +
         (n !== null && !e.eu ? ' <span class="pill grey">' + (n >= 0 ? n + " days after EU approval" : Math.abs(n) + " days before EU approval") + "</span>" : "") + "</span></li>";
-    }).join("") + "</ol>" + COUNTRY_ORDER.filter((c) => !d.countries[c]).map((c) => '<p class="small muted">' + flagName(c) + ": no decision yet.</p>").join("");
+    }).join("") + "</ol>" + COUNTRY_ORDER.filter((c) => !d.countries[c]).map((c) => '<p class="small muted">' + flagName(c) + (d.countries_checked === false ? ": not checked yet." : ": no decision yet.") + "</p>").join("");
+    const emptyRow = (n) => codes.length ? "" : '<tr><td colspan="' + n + '" class="muted">National decisions not added yet.</td></tr>';
 
     // Who can get it: plain-language eligibility + official patient numbers per country
     const pop = d.population || {};
@@ -443,16 +446,19 @@
       "<h1 class=\"title\">" + esc(d.brand) + ' <span class="muted" style="font-weight:400">(' + esc(d.inn) + ")</span></h1>" +
       '<p class="muted">' + esc(d.condition) + " · " + esc(d.company) + "</p>" +
       '<div class="facts"><span class="pill">' + esc(d.therapy_area) + '</span><span class="pill">' + esc(d.disease_area) + '</span><span class="pill good">EU authorised ' + fmtDate(eu.initial_authorisation) + "</span>" +
-      (jcaMatch(d.inn) ? '<a class="pill" href="#/jca">EU JCA: ' + jcaMatch(d.inn).status + "</a>" : eu.jca ? '<span class="pill">JCA: ' + esc(eu.jca) + "</span>" : '<span class="pill warn">No EU JCA</span>') + "</div>" +
-      '<p class="small"><strong>Indication tracked:</strong> ' + esc(d.indication_tracked) + " (EU authorised " + fmtDate(eu.indication_authorisation) + ")</p>" +
+      (jcaMatch(d.inn) ? '<a class="pill" href="#/jca">EU JCA: ' + jcaMatch(d.inn).status + "</a>" : eu.jca ? '<span class="pill">JCA: ' + esc(eu.jca) + "</span>" : '<span class="pill grey">Not on the EU JCA list</span>') +
+      (eu.flags || []).map((f) => '<span class="pill grey">' + esc(f) + "</span>").join("") +
+      (eu.ema_status && eu.ema_status !== "Authorised" ? '<span class="pill warn">EU status: ' + esc(eu.ema_status) + "</span>" : "") + "</div>" +
+      '<p class="small"><strong>Indication tracked:</strong> ' + esc(d.indication_tracked) + " (EU authorised " + fmtDate(eu.indication_authorisation) + ")" +
+      (d.indication_source ? '<br><span class="muted">' + esc(d.indication_source) + "</span>" : "") + "</p>" +
       '<div class="facts"><strong class="small" style="align-self:center">Status by country:</strong>' + COUNTRY_ORDER.map((c) => '<a href="#/country/' + c + '" style="text-decoration:none">' + statusChip(d, c, true) + "</a>").join("") + "</div>" +
       '<div class="box" style="margin:18px 0"><h3 style="margin-bottom:10px">Timeline: from EU approval to each country</h3>' + timeline + "</div>" +
       step(1, "EPAR summary (EMA)", summary + '<p class="small muted">' + esc(eu.jca_note) + "</p>") +
       step(2, "Who can get it, and how many patients", who) +
       step(3, "HTA opinions by country", '<table><thead><tr><th>Country</th><th>Date</th><th>Opinion and documents</th></tr></thead><tbody>' + opinions + pendingRows + "</tbody></table>" + otherOpinions) +
-      step(4, "Reimbursement decisions", '<table><thead><tr><th>Country</th><th>Decision</th></tr></thead><tbody>' + reimb + "</tbody></table>") +
+      step(4, "Reimbursement decisions", '<table><thead><tr><th>Country</th><th>Decision</th></tr></thead><tbody>' + reimb + emptyRow(2) + "</tbody></table>") +
       step(5, "Pricing", '<label class="switch"><input type="checkbox" id="price-toggle"' + (state.showPrices ? " checked" : "") + "> Show pricing</label>" +
-        '<div id="price-box"' + (state.showPrices ? "" : ' style="display:none"') + '><table><thead><tr><th>Country</th><th>List price</th><th>Date</th><th>Official source</th></tr></thead><tbody>' + prices +
+        '<div id="price-box"' + (state.showPrices ? "" : ' style="display:none"') + '><table><thead><tr><th>Country</th><th>List price</th><th>Date</th><th>Official source</th></tr></thead><tbody>' + prices + emptyRow(4) +
         '</tbody></table><p class="small muted">List prices from official publications. Net prices after confidential discounts are not public.</p></div>') +
       '<p class="small muted">Last checked ' + fmtDate(d.last_checked) + ". Spotted a mistake? Open an issue on GitHub.</p></div>";
 

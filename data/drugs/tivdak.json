@@ -1,0 +1,28 @@
+{
+  "id": "tivdak",
+  "brand": "Tivdak",
+  "inn": "tisotumab vedotin",
+  "company": "Genmab A/S",
+  "therapy_area": "Oncology",
+  "disease_area": "Gynaecological cancers",
+  "condition": "Uterine Cervical Neoplasms",
+  "indication_tracked": "Tivdak as monotherapy is indicated for the treatment of adult patients with recurrent or metastatic cervical cancer with disease progression on or after systemic therapy (see section 5.1).",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [],
+    "initial_authorisation": "2025-03-28",
+    "indication_authorisation": "2025-03-28",
+    "chmp_opinion_indication": "2025-01-30",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Tivdak is a cancer medicine used to treat adults with cervical cancer (a cancer of the cervix) when the disease has worsened during or after previous systemic (whole-body) treatment. It is used on its own in patients whose cancer has come back or is metastatic (has spread to other parts of the body).\n\nTivdak contains the active substance tisotumab vedotin.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/tivdak",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/tivdak",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

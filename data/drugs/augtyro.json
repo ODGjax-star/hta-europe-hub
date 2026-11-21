@@ -1,0 +1,30 @@
+{
+  "id": "augtyro",
+  "brand": "Augtyro",
+  "inn": "repotrectinib",
+  "company": "Bristol-Myers Squibb Pharma EEIG",
+  "therapy_area": "Oncology",
+  "disease_area": "Lung cancer",
+  "condition": "Carcinoma, Non-Small-Cell Lung, Cancer",
+  "indication_tracked": "Augtyro as monotherapy is indicated for the treatment of adult patients with ROS1-positive advanced non-small cell lung cancer (NSCLC). Augtyro as monotherapy is indicated for the treatment of adult and paediatric patients 12 years of age and older with advanced solid tumours expressing a NTRK gene fusion, and who have received a prior NTRK inhibitor, or have not received a prior NTRK inhibitor and treatment options not targeting NTRK provide limited clinical benefit, or have been exhausted (see sections 4.4 and 5.1)",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [
+      "Conditional approval"
+    ],
+    "initial_authorisation": "2025-01-13",
+    "indication_authorisation": "2025-01-13",
+    "chmp_opinion_indication": "2024-11-14",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Augtyro is a cancer medicine which is used for:\n• treating adults with advanced non-small-cell lung cancer (NSCLC). It is used when the cancer has a genetic abnormality called ROS1 gene fusion, or;\n• treating adults and adolescents 12 years and older with solid tumours (cancer growths in organs, bones, and soft tissues) that have a genetic abnormality called NTRK gene fusion. It is used in patients who have been treated previously with medicines that work in the same way as Augtyro (known as NTRK inhibitors), or if the patient has not been treated with such medicines and other treatment options have stopped working or offer limited benefits.\n\nAugtyro contains the active substance repotrectinib.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/augtyro",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/augtyro",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}

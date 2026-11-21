@@ -1,0 +1,30 @@
+{
+  "id": "romvimza",
+  "brand": "Romvimza",
+  "inn": "vimseltinib",
+  "company": "Deciphera Pharmaceuticals (Netherlands) B.V.",
+  "therapy_area": "Oncology",
+  "disease_area": "Sarcoma and rare tumours",
+  "condition": "Giant Cell Tumor of Tendon Sheath",
+  "indication_tracked": "Romvimza is indicated for treatment of adult patients with symptomatic tenosynovial giant cell tumour (TGCT) associated with clinically relevant physical function deterioration and in whom surgical options have been exhausted or would induce unacceptable morbidity or disability.",
+  "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
+  "last_checked": "2026-11-21",
+  "countries_checked": false,
+  "eu": {
+    "ema_status": "Authorised",
+    "flags": [
+      "Orphan medicine"
+    ],
+    "initial_authorisation": "2025-09-17",
+    "indication_authorisation": "2025-09-17",
+    "chmp_opinion_indication": "2025-07-24",
+    "jca": null,
+    "jca_note": "",
+    "epar_summary": "Romvimza is a medicine used to treat adults with symptomatic tenosynovial giant cell tumour (TGCT); it is used in people with TGCT who have serious movement limitations and for whom surgery is no longer an option or would cause serious long-term problems.\n\nTGCT is a condition where a non-cancerous tumour develops around a joint and tendons and can damage surrounding tissues. It usually affects a single joint, most often the knee or ankle of young and middle-aged adults. Symptoms usually include pain, swelling, stiffness and difficulty moving the joint.\n\nTGCT is rare, and Romvimza was designated an ‘orphan medicine’ (a medicine used in rare diseases) on 16 December 2019.\n\nRomvimza contains the active substance vimseltinib.",
+    "epar_summary_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/romvimza",
+    "epar_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/romvimza",
+    "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
+    "epar_summary_copied": "2026-11-21"
+  },
+  "countries": {}
+}
