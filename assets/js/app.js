@@ -107,6 +107,7 @@
     const c = d.countries[code];
     if (c) return { k: "decided", label: "Decided " + fmtDate(c.decision_date), outcome: c.outcome_short || c.opinion };
     if (d.pending && d.pending[code]) return { k: "pending", label: "Pending", outcome: d.pending[code] };
+    if (d.no_decision && d.no_decision[code]) return { k: "none", label: "No decision found", outcome: d.no_decision[code] };
     if (d.countries_checked === false) return { k: "none", label: "Not checked yet", outcome: "National decisions not added yet" };
     return { k: "none", label: "No decision found", outcome: "" };
   }
@@ -404,8 +405,8 @@
         (c.comparator ? '<br><span class="muted small">Comparator: ' + esc(c.comparator) + "</span>" : "") + docsList(c.documents) + "</td></tr>";
     }).join("");
     const pendingRows = COUNTRY_ORDER.filter((c) => !d.countries[c]).map((code) =>
-      "<tr><td>" + flagName(code) + '</td><td>—</td><td><span class="pill ' + (d.countries_checked === false ? 'grey">Not checked yet' : 'warn">No decision found yet') + '</span><br><span class="muted small">' +
-      esc((d.pending && d.pending[code]) || (d.countries_checked === false ? "" : "Not tracked yet.")) + "</span>" + docsList(d.pending_docs && d.pending_docs[code]) + "</td></tr>").join("");
+      "<tr><td>" + flagName(code) + '</td><td>—</td><td><span class="pill ' + (d.countries_checked === false ? 'grey">Not checked yet' : d.pending && d.pending[code] ? 'warn">Pending' : 'grey">No decision found') + '</span><br><span class="muted small">' +
+      esc((d.pending && d.pending[code]) || (d.no_decision && d.no_decision[code]) || (d.countries_checked === false ? "" : "Not tracked yet.")) + "</span>" + docsList(d.pending_docs && d.pending_docs[code]) + "</td></tr>").join("");
     const reimb = codes.map((code) => "<tr><td>" + flagName(code) + "</td><td>" + esc(d.countries[code].reimbursement) + "</td></tr>").join("");
     const prices = codes.map((code) => {
       const p = d.countries[code].price || {};
@@ -427,7 +428,7 @@
       return '<li class="' + (e.eu ? "eu" : "") + '"><span class="t-date">' + fmtDate(e.date) + '</span><span class="t-who">' + e.who + '</span><span class="t-what">' + esc(e.what) +
         (n !== null && !e.eu ? ' <span class="pill grey">' + (n >= 0 ? n + " days after EU approval" : Math.abs(n) + " days before EU approval") + "</span>" : "") + "</span></li>";
     }).join("") + "</ol>" + COUNTRY_ORDER.filter((c) => !d.countries[c]).map((c) => '<p class="small muted">' + flagName(c) + (d.countries_checked === false ? ": not checked yet." : ": no decision yet.") + "</p>").join("");
-    const emptyRow = (n) => codes.length ? "" : '<tr><td colspan="' + n + '" class="muted">National decisions not added yet.</td></tr>';
+    const emptyRow = (n) => codes.length ? "" : '<tr><td colspan="' + n + '" class="muted">' + (d.countries_checked === false ? "National decisions not added yet." : "No national decision yet.") + '</td></tr>';
 
     // Who can get it: plain-language eligibility + official patient numbers per country
     const pop = d.population || {};

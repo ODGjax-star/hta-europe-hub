@@ -8,8 +8,8 @@
   "condition": "Carcinoma, Non-Small-Cell Lung, Cancer",
   "indication_tracked": "Augtyro as monotherapy is indicated for the treatment of adult patients with ROS1-positive advanced non-small cell lung cancer (NSCLC). Augtyro as monotherapy is indicated for the treatment of adult and paediatric patients 12 years of age and older with advanced solid tumours expressing a NTRK gene fusion, and who have received a prior NTRK inhibitor, or have not received a prior NTRK inhibitor and treatment options not targeting NTRK provide limited clinical benefit, or have been exhausted (see sections 4.4 and 5.1)",
   "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
-  "last_checked": "2026-11-21",
-  "countries_checked": false,
+  "last_checked": "2026-11-22",
+  "countries_checked": true,
   "eu": {
     "ema_status": "Authorised",
     "flags": [
@@ -26,5 +26,64 @@
     "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
     "epar_summary_copied": "2026-11-21"
   },
-  "countries": {}
+  "countries": {
+    "DE": {
+      "hta_body": "G-BA (assessment by IQWiG)",
+      "decision_date": "2025-10-16",
+      "outcome_short": "Added benefit not proven (all groups)",
+      "opinion": "Added benefit not proven in all three NSCLC patient groups. The decision is limited in time until 1 Jul 2027. The NTRK indication was assessed separately: added benefit not proven.",
+      "comparator": "a) crizotinib; b) immunotherapy-based options (e.g. pembrolizumab, atezolizumab, nivolumab + ipilimumab + chemotherapy)",
+      "reimbursement": "Reimbursed by statutory health insurance (GKV); price negotiated with GKV-Spitzenverband after the G-BA decision.",
+      "documents": [
+        {
+          "label": "G-BA procedure page (NSCLC)",
+          "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1205/"
+        },
+        {
+          "label": "G-BA decision, 16 Oct 2025 (NSCLC)",
+          "url": "https://www.g-ba.de/downloads/39-261-7482/2025-10-16_AM-RL-XII_Repotrectinib_D-1199_BAnz.pdf"
+        },
+        {
+          "label": "G-BA procedure page (NTRK solid tumours)",
+          "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1204/"
+        }
+      ],
+      "price": {
+        "public": true,
+        "value": "€115,083.04 per patient per year",
+        "value_short": "€115,083.04 / year",
+        "type": "Annual therapy cost in the G-BA decision (after statutory discounts, Lauer-Taxe 15 Aug 2025)",
+        "date": "2025-08-15",
+        "source": "G-BA decision of 16 Oct 2025",
+        "source_url": "https://www.g-ba.de/downloads/39-261-7482/2025-10-16_AM-RL-XII_Repotrectinib_D-1199_BAnz.pdf",
+        "note": ""
+      }
+    }
+  },
+  "eligibility_plain": "Adults with advanced non-small-cell lung cancer whose tumour has a ROS1 gene change (ROS1-positive). It is also approved for adults and children from 12 years with advanced solid tumours that have an NTRK gene fusion, when other treatments are not suitable. A test of the tumour is needed to know if a patient is eligible.",
+  "population": {
+    "DE": {
+      "coverage": "Full EU indication, assessed in three patient groups (NSCLC)",
+      "who": "a) not treated before with a ROS1 inhibitor; b1) treated before with a ROS1 inhibitor, PD-L1 ≥ 50%; b2) treated before with a ROS1 inhibitor, PD-L1 < 50%",
+      "number": "a) about 390 to 1,090; b1) about 55 to 150; b2) about 140 to 380 patients",
+      "number_note": "patients in statutory health insurance (GKV), G-BA decision section 2",
+      "conditions": "Separate G-BA decision for the NTRK indication (also added benefit not proven; about 330 to 560 patients in group a)",
+      "source": "G-BA decision of 16 Oct 2025 (D-1199), section 2",
+      "source_url": "https://www.g-ba.de/downloads/39-261-7482/2025-10-16_AM-RL-XII_Repotrectinib_D-1199_BAnz.pdf"
+    }
+  },
+  "pending": {
+    "IT": "Class C(nn) since 7 Apr 2025: authorised in Italy but not yet reimbursed (price and reimbursement negotiation with AIFA). Determina 479/2025."
+  },
+  "pending_docs": {
+    "IT": [
+      {
+        "label": "AIFA Determina 479/2025, Gazzetta Ufficiale 2025-04-16",
+        "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2025-04-16&atto.codiceRedazionale=25A02300"
+      }
+    ]
+  },
+  "no_decision": {
+    "FR": "Not listed in the French public medicines database (BDPM); no HAS opinion found there (checked 22 Nov 2026)."
+  }
 }

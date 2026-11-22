@@ -8,8 +8,8 @@
   "condition": "Carcinoma, Non-Small-Cell Lung",
   "indication_tracked": "Aumseqa as monotherapy is indicated for:- the first-line treatment of adult patients with advanced non-small cell lung cancer (NSCLC)whose tumours have EGFR exon 19 deletions or exon 21 (L858R) substitution mutations (forbiomarker-based patient selection, see section 4.2).- the treatment of adult patients with advanced EGFR T790M mutation-positive NSCLC (forbiomarker-based patient selection, see section 4.2)",
   "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
-  "last_checked": "2026-11-21",
-  "countries_checked": false,
+  "last_checked": "2026-11-22",
+  "countries_checked": true,
   "eu": {
     "ema_status": "Revoked",
     "flags": [],
@@ -24,5 +24,21 @@
     "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
     "epar_summary_copied": "2026-11-21"
   },
-  "countries": {}
+  "countries": {},
+  "eligibility_plain": "Adults with advanced non-small-cell lung cancer with EGFR exon 19 deletions or exon 21 L858R mutations (first treatment), or with the EGFR T790M mutation. Note: the EU marketing authorisation has been revoked.",
+  "pending": {
+    "IT": "Class C(nn) since 26 May 2026: authorised in Italy but not yet reimbursed (price and reimbursement negotiation with AIFA). Determina 692/2026."
+  },
+  "pending_docs": {
+    "IT": [
+      {
+        "label": "AIFA Determina 692/2026, Gazzetta Ufficiale 2026-06-10",
+        "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2026-06-10&atto.codiceRedazionale=26A02781"
+      }
+    ]
+  },
+  "no_decision": {
+    "DE": "No G-BA benefit assessment found (checked 22 Nov 2026).",
+    "FR": "Not listed in the French public medicines database (BDPM), checked 22 Nov 2026."
+  }
 }

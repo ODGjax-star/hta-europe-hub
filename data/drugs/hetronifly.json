@@ -8,8 +8,8 @@
   "condition": "Small Cell Lung Carcinoma, Carcinoma, Non-Small-Cell Lung, Esophageal Squamous Cell Carcinoma",
   "indication_tracked": "Small cell lung cancer (SCLC) Hetronifly in combination with carboplatin and etoposide is indicated for the first‑line treatment of adult patients with extensive‑stage small cell lung cancer (ES‑SCLC). Non-small cell lung carcinoma (NSCLC) Hetronifly in combination with carboplatin and pemetrexed is indicated for the first-line treatment of adult non-squamous NSCLC patients with no EGFR, ALK or ROS1 positive mutations and who have: locally advanced NSCLC who are not candidates for surgery or radiotherapy, or metastatic NSCLC. Oesophageal squamous cell carcinoma (OSCC) Hetronifly in combination with fluoropyrimidine- and platinum-based chemotherapy is indicated for the first-line treatment of adult patients with unresectable, locally advanced, recurrent or metastatic oesophageal squamous cell carcinoma whose tumours express PD-L1 with a CPS ≥ 5.",
   "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
-  "last_checked": "2026-11-21",
-  "countries_checked": false,
+  "last_checked": "2026-11-22",
+  "countries_checked": true,
   "eu": {
     "ema_status": "Authorised",
     "flags": [],
@@ -24,5 +24,125 @@
     "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
     "epar_summary_copied": "2026-11-21"
   },
-  "countries": {}
+  "countries": {
+    "DE": {
+      "hta_body": "G-BA",
+      "decision_date": "2025-10-16",
+      "outcome_short": "Indication of a non-quantifiable added benefit (orphan)",
+      "opinion": "Indication (Anhaltspunkt) of a non-quantifiable added benefit, because the data do not allow quantification (orphan medicine; ES-SCLC, first line, with carboplatin and etoposide).",
+      "comparator": "Not set: orphan medicine, added benefit deemed proven by the authorisation",
+      "reimbursement": "Reimbursed by statutory health insurance (GKV); price negotiated with GKV-Spitzenverband after the G-BA decision.",
+      "documents": [
+        {
+          "label": "G-BA procedure page (SCLC)",
+          "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1206/"
+        },
+        {
+          "label": "G-BA decision, 16 Oct 2025",
+          "url": "https://www.g-ba.de/downloads/39-261-7474/2025-10-16_AM-RL-XII_Serplulimab_D-1193_BAnz.pdf"
+        }
+      ],
+      "price": {
+        "public": true,
+        "value": "€92,126.74 per patient per year (serplulimab)",
+        "value_short": "€92,126.74 / year",
+        "type": "Annual therapy cost in the G-BA decision; with carboplatin and etoposide €100,738.64–103,112.54 (Lauer-Taxe 15 Aug 2025)",
+        "date": "2025-08-15",
+        "source": "G-BA decision of 16 Oct 2025",
+        "source_url": "https://www.g-ba.de/downloads/39-261-7474/2025-10-16_AM-RL-XII_Serplulimab_D-1193_BAnz.pdf",
+        "note": ""
+      }
+    },
+    "FR": {
+      "hta_body": "HAS – Commission de la Transparence",
+      "decision_date": "2025-11-19",
+      "outcome_short": "SMR important · ASMR IV",
+      "opinion": "SMR important in the indication of the marketing authorisation. ASMR IV (minor clinical added value), based on longer overall survival with serplulimab + chemotherapy than with chemotherapy alone.",
+      "comparator": "Carboplatin + etoposide (placebo-controlled trial)",
+      "reimbursement": "Opinion for initial listing (inscription). Hospital medicine (approved for hospital use, agréé collectivités).",
+      "documents": [
+        {
+          "label": "HAS opinion page (CT-21507)",
+          "url": "https://www.has-sante.fr/jcms/p_3802175"
+        },
+        {
+          "label": "BDPM entry (SMR/ASMR source)",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/extrait.php?specid=68851406"
+        }
+      ],
+      "price": {
+        "public": null,
+        "value": "",
+        "type": "",
+        "date": "",
+        "source": "",
+        "source_url": "",
+        "note": "No public price in BDPM (hospital medicine). Checked in the French public medicines database (BDPM) on 22 Nov 2026."
+      }
+    },
+    "IT": {
+      "hta_body": "AIFA",
+      "decision_date": "2026-01-16",
+      "outcome_short": "Reimbursed · class H · AIFA registry",
+      "opinion": "Reimbursement class decided by AIFA (DET/PRES 20/2026, effective 28 Jan 2026). Before that, class C(nn) since May 2025 (Determina 689/2025).",
+      "comparator": "",
+      "reimbursement": "Class H (hospital use), reimbursed by the national health service, with an AIFA monitoring registry.",
+      "documents": [
+        {
+          "label": "AIFA DET/PRES 20/2026 (TrovaNormeFarmaco)",
+          "url": "https://trovanorme.aifa.gov.it/#/ricerca-rapida/dettaglio/TNF/11d8f4a0-ef27-40a9-a6d7-32e7ced66306"
+        },
+        {
+          "label": "Determina 689/2025, class C(nn), Gazzetta Ufficiale 26 May 2025",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2025-05-26&atto.codiceRedazionale=25A03031"
+        },
+        {
+          "label": "Determina 57/2026, registry conditions, Gazzetta Ufficiale 21 Oct 2026",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2026-10-21&atto.codiceRedazionale=26A05500"
+        }
+      ],
+      "price": {
+        "public": true,
+        "value": "€1,694.62 ex-factory per 10 ml vial (10 mg/ml)",
+        "value_short": "€1,694.62 / vial",
+        "type": "Ex-factory price (public price €2,796.79); confidential discounts may apply",
+        "date": "2026-06-30",
+        "source": "AIFA list of class H medicines, 30 Jun 2026",
+        "source_url": "https://www.aifa.gov.it/liste-farmaci-a-h",
+        "note": ""
+      }
+    }
+  },
+  "eligibility_plain": "Adults with extensive-stage small cell lung cancer who have not had treatment for it yet, together with carboplatin and etoposide chemotherapy. It is also approved for some adults with non-small-cell lung cancer (non-squamous, without EGFR, ALK or ROS1 changes) and for oesophageal squamous cell cancer with PD-L1 CPS ≥ 5.",
+  "population": {
+    "DE": {
+      "coverage": "Small cell lung cancer indication (first line)",
+      "who": "Adults with extensive-stage small cell lung cancer (ES-SCLC), first line",
+      "number": "about 3,210 to 7,719 patients",
+      "number_note": "patients in statutory health insurance (GKV), G-BA decision section 2",
+      "conditions": "Assessed as an orphan medicine. The newer indications (NSCLC, oesophageal cancer) are in separate G-BA procedures that are still open",
+      "source": "G-BA decision of 16 Oct 2025 (D-1193), section 2",
+      "source_url": "https://www.g-ba.de/downloads/39-261-7474/2025-10-16_AM-RL-XII_Serplulimab_D-1193_BAnz.pdf"
+    },
+    "FR": {
+      "coverage": "Indication of the marketing authorisation",
+      "who": "SMR important in the indication of the marketing authorisation",
+      "number": null,
+      "number_note": "HAS target population not added yet (HAS website check pending)",
+      "conditions": "",
+      "source": "HAS opinion CT-21507, 19 Nov 2025",
+      "source_url": "https://www.has-sante.fr/jcms/p_3802175"
+    },
+    "IT": {
+      "coverage": "Reimbursed indication as in the AIFA determina",
+      "who": "Prescription through the AIFA monitoring registry",
+      "number": null,
+      "number_note": "AIFA does not publish a patient estimate in the determina",
+      "conditions": "Class H (hospital use); AIFA monitoring registry (conditions changed by Determina 57/2026, Oct 2026)",
+      "source": "AIFA DET/PRES 20/2026",
+      "source_url": "https://trovanorme.aifa.gov.it/#/ricerca-rapida/dettaglio/TNF/11d8f4a0-ef27-40a9-a6d7-32e7ced66306"
+    }
+  },
+  "pending": {},
+  "pending_docs": {}
 }

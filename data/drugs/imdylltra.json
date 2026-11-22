@@ -8,8 +8,8 @@
   "condition": "Small Cell Lung Carcinoma",
   "indication_tracked": "Imdylltra is indicated as monotherapy for the treatment of adult patients with extensive-stage small cell lung cancer (ES-SCLC), who require systemic therapy following disease progression on or after first-line treatment with platinum-based chemotherapy.",
   "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
-  "last_checked": "2026-11-21",
-  "countries_checked": false,
+  "last_checked": "2026-11-22",
+  "countries_checked": true,
   "eu": {
     "ema_status": "Authorised",
     "flags": [
@@ -26,5 +26,25 @@
     "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
     "epar_summary_copied": "2026-11-21"
   },
-  "countries": {}
+  "countries": {},
+  "eligibility_plain": "Adults with extensive-stage small cell lung cancer whose disease got worse during or after first treatment with platinum-based chemotherapy.",
+  "pending": {
+    "DE": "G-BA benefit assessment started 1 Jul 2026; decision being prepared.",
+    "FR": "Marketed in France (declared 31 Jul 2026); no HAS opinion in BDPM yet. Checked in the French public medicines database (BDPM) on 22 Nov 2026.",
+    "IT": "Class C(nn) since 5 Aug 2026: authorised in Italy but not yet reimbursed (price and reimbursement negotiation with AIFA). Determina 1129/2026."
+  },
+  "pending_docs": {
+    "DE": [
+      {
+        "label": "G-BA procedure page",
+        "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1367/"
+      }
+    ],
+    "IT": [
+      {
+        "label": "AIFA Determina 1129/2026, Gazzetta Ufficiale 2026-08-24",
+        "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2026-08-24&atto.codiceRedazionale=26A04260"
+      }
+    ]
+  }
 }

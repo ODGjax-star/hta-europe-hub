@@ -8,8 +8,8 @@
   "condition": "Small Cell Lung Carcinoma",
   "indication_tracked": "Zepzelca, in combination with atezolizumab, is indicated for the maintenance treatment of adult patients with extensive-stage small cell lung cancer (ES-SCLC) whose disease has not progressed after first-line induction therapy with atezolizumab, carboplatin and etoposide.",
   "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
-  "last_checked": "2026-11-21",
-  "countries_checked": false,
+  "last_checked": "2026-11-22",
+  "countries_checked": true,
   "eu": {
     "ema_status": "Authorised",
     "flags": [
@@ -26,5 +26,27 @@
     "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
     "epar_summary_copied": "2026-11-21"
   },
-  "countries": {}
+  "countries": {},
+  "eligibility_plain": "Adults with extensive-stage small cell lung cancer whose disease has not got worse after first treatment with atezolizumab, carboplatin and etoposide. It is used as maintenance treatment together with atezolizumab.",
+  "pending": {
+    "DE": "G-BA benefit assessment started 1 Jul 2026; decision being prepared.",
+    "IT": "Class C(nn) since 5 Aug 2026: authorised in Italy but not yet reimbursed (price and reimbursement negotiation with AIFA). Determina 1131/2026."
+  },
+  "pending_docs": {
+    "DE": [
+      {
+        "label": "G-BA procedure page",
+        "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1369/"
+      }
+    ],
+    "IT": [
+      {
+        "label": "AIFA Determina 1131/2026, Gazzetta Ufficiale 2026-08-24",
+        "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2026-08-24&atto.codiceRedazionale=26A04262"
+      }
+    ]
+  },
+  "no_decision": {
+    "FR": "Not listed in the French public medicines database (BDPM), checked 22 Nov 2026."
+  }
 }
