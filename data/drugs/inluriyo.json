@@ -8,8 +8,8 @@
   "condition": "Breast Neoplasms",
   "indication_tracked": "Inluriyo is indicated as monotherapy for the treatment of adult patients with oestrogen receptor (ER)-positive, HER2-negative, locally advanced or metastatic breast cancer with an activating ESR1-mutation, who have disease progression following prior treatment with an endocrine based regimen (for biomarker-based patient selection, see section 4.2).In pre- or perimenopausal women, or men, Inluriyo should be combined with a luteinising hormone-releasing hormone (LHRH) agonist.",
   "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
-  "last_checked": "2026-11-21",
-  "countries_checked": false,
+  "last_checked": "2026-11-22",
+  "countries_checked": true,
   "eu": {
     "ema_status": "Authorised",
     "flags": [],
@@ -24,5 +24,59 @@
     "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
     "epar_summary_copied": "2026-11-21"
   },
-  "countries": {}
+  "countries": {
+    "DE": {
+      "hta_body": "G-BA (assessment by IQWiG)",
+      "decision_date": "2026-09-03",
+      "outcome_short": "Indication of non-quantifiable added benefit (women, after therapy for advanced disease)",
+      "opinion": "b1) Women whose disease progressed after hormone therapy for advanced disease: indication (Anhaltspunkt) of a non-quantifiable added benefit. a1) and a2) (progression after (neo)adjuvant therapy) and b2) men after therapy for advanced disease: added benefit not proven.",
+      "comparator": "a) Endocrine therapy options: tamoxifen, letrozole, exemestane, anastrozole, fulvestrant, everolimus + exemestane, or a CDK4/6 inhibitor (ribociclib, abemaciclib, palbociclib) with an aromatase inhibitor or fulvestrant (men: tamoxifen or palbociclib + an aromatase inhibitor); b) individualised therapy with a switch of endocrine therapy",
+      "reimbursement": "Reimbursed by statutory health insurance (GKV); price negotiated with GKV-Spitzenverband after the G-BA decision.",
+      "documents": [
+        {
+          "label": "G-BA procedure page",
+          "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1326/"
+        },
+        {
+          "label": "G-BA decision, 3 Sep 2026",
+          "url": "https://www.g-ba.de/downloads/39-261-7993/2026-09-03_AM-RL-XII_Imlunestrant_D-1313_BAnz.pdf"
+        }
+      ],
+      "price": {
+        "public": true,
+        "value": "€227,442.32 per patient per year",
+        "value_short": "€227,442.32 / year",
+        "type": "Annual therapy cost in the G-BA decision (after statutory discounts, Lauer-Taxe 1 Jul 2026)",
+        "date": "2026-07-01",
+        "source": "G-BA decision of 3 Sep 2026",
+        "source_url": "https://www.g-ba.de/downloads/39-261-7993/2026-09-03_AM-RL-XII_Imlunestrant_D-1313_BAnz.pdf",
+        "note": ""
+      }
+    }
+  },
+  "eligibility_plain": "Adults with advanced or metastatic breast cancer that is hormone receptor (ER) positive, HER2 negative and has an ESR1 gene change, when the cancer got worse after earlier hormone therapy. It is taken alone (women before menopause and men also get an LHRH agonist). A test for the ESR1 mutation is needed.",
+  "population": {
+    "DE": {
+      "coverage": "Full EU indication, assessed in four patient groups",
+      "who": "a1) women and a2) men progressing after (neo)adjuvant hormone therapy, no treatment yet for advanced disease; b1) women and b2) men progressing after hormone therapy for advanced disease",
+      "number": "a1) about 220 to 2,000; a2) about 3 to 20; b1) about 1,800 to 16,500; b2) about 17 to 180 patients",
+      "number_note": "patients in statutory health insurance (GKV), G-BA decision section 2",
+      "conditions": "ESR1 mutation must be confirmed by a validated test",
+      "source": "G-BA decision of 3 Sep 2026 (D-1313), section 2",
+      "source_url": "https://www.g-ba.de/downloads/39-261-7993/2026-09-03_AM-RL-XII_Imlunestrant_D-1313_BAnz.pdf"
+    }
+  },
+  "pending": {
+    "FR": "Marketed in France (declared 22 Jun 2026); no HAS opinion in BDPM yet. Checked in the French public medicines database (BDPM) on 22 Nov 2026.",
+    "IT": "Class C(nn): authorised in Italy but not yet reimbursed (price and reimbursement negotiation with AIFA). Determina 541/2026, Gazzetta Ufficiale 2026-04-30."
+  },
+  "no_decision": {},
+  "pending_docs": {
+    "IT": [
+      {
+        "label": "AIFA Determina 541/2026, Gazzetta Ufficiale 2026-04-30",
+        "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2026-04-30&atto.codiceRedazionale=26A02054"
+      }
+    ]
+  }
 }

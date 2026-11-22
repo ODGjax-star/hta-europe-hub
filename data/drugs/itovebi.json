@@ -8,8 +8,8 @@
   "condition": "Breast Neoplasms",
   "indication_tracked": "Itovebi, in combination with palbociclib and fulvestrant, is indicated for the treatment of adult patients with PIK3CA-mutated, oestrogen receptor (ER)-positive, HER2-negative, locally advanced or metastatic breast cancer, following recurrence on or within 12 months of completing adjuvant endocrine treatment (see section 5.1). Patients previously treated with a CDK 4/6 inhibitor in the (neo)adjuvant setting should have had an interval of at least 12 months between termination of CDK 4/6 inhibitor treatment and the detection of recurrence. In pre/perimenopausal women and in men, endocrine therapy should be combined with a luteinising hormone releasing hormone (LHRH) agonist.",
   "indication_source": "Therapeutic indication as published in EMA's medicines data (word for word)",
-  "last_checked": "2026-11-21",
-  "countries_checked": false,
+  "last_checked": "2026-11-22",
+  "countries_checked": true,
   "eu": {
     "ema_status": "Authorised",
     "flags": [],
@@ -24,5 +24,112 @@
     "epar_summary_note": "Copied word for word from the Overview section of the EMA medicine page. Only paragraph breaks and bullet marks were added.",
     "epar_summary_copied": "2026-11-21"
   },
-  "countries": {}
+  "countries": {
+    "DE": {
+      "hta_body": "G-BA (assessment by IQWiG)",
+      "decision_date": "2026-02-19",
+      "outcome_short": "Indication of considerable added benefit (women without prior CDK4/6 inhibitor)",
+      "opinion": "a1) Women not treated before with a CDK4/6 inhibitor in the (neo)adjuvant setting: indication (Anhaltspunkt) of a considerable added benefit (overall survival advantage; more treatment stops due to side effects). a2) Women treated before with a CDK4/6 inhibitor: added benefit not proven. b) Men: added benefit not proven.",
+      "comparator": "a) Endocrine therapy options: tamoxifen, letrozole, exemestane, anastrozole, fulvestrant, everolimus + exemestane, or a CDK4/6 inhibitor (ribociclib, abemaciclib, palbociclib) with an aromatase inhibitor or fulvestrant; b) tamoxifen or palbociclib + an aromatase inhibitor. The trial compared inavolisib + palbociclib + fulvestrant with palbociclib + fulvestrant.",
+      "reimbursement": "Reimbursed by statutory health insurance (GKV); price negotiated with GKV-Spitzenverband after the G-BA decision.",
+      "documents": [
+        {
+          "label": "G-BA procedure page",
+          "url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/1253/"
+        },
+        {
+          "label": "G-BA decision, 19 Feb 2026",
+          "url": "https://www.g-ba.de/downloads/39-261-7695/2026-02-19_AM-RL-XII-XIIa_Inavolisib_D-1222_BAnz.pdf"
+        }
+      ],
+      "price": {
+        "public": true,
+        "value": "€190,025.00 per patient per year (inavolisib)",
+        "value_short": "€190,025.00 / year",
+        "type": "Annual therapy cost in the G-BA decision; with palbociclib and fulvestrant €217,654.49 (after statutory discounts, Lauer-Taxe 15 Dec 2025)",
+        "date": "2025-12-15",
+        "source": "G-BA decision of 19 Feb 2026",
+        "source_url": "https://www.g-ba.de/downloads/39-261-7695/2026-02-19_AM-RL-XII-XIIa_Inavolisib_D-1222_BAnz.pdf",
+        "note": ""
+      }
+    },
+    "FR": {
+      "hta_body": "HAS – Commission de la Transparence",
+      "decision_date": "2026-01-14",
+      "outcome_short": "SMR important · ASMR IV",
+      "opinion": "SMR important in the indication of the marketing authorisation. ASMR IV (minor clinical added value) versus palbociclib + fulvestrant, based on longer progression-free and overall survival; HAS noted that palbociclib is a debatable comparator, that no gain in quality of life was shown, and that serious side effects (including high blood sugar) were more frequent.",
+      "comparator": "Palbociclib + fulvestrant",
+      "reimbursement": "Opinion for initial listing (inscription). Marketed in France (declared 8 Jan 2026); no reimbursement rate or price in BDPM yet.",
+      "documents": [
+        {
+          "label": "HAS opinion page (CT-21527)",
+          "url": "https://www.has-sante.fr/jcms/p_3826119"
+        },
+        {
+          "label": "BDPM entry (SMR/ASMR source)",
+          "url": "https://base-donnees-publique.medicaments.gouv.fr/extrait.php?specid=68964635"
+        }
+      ],
+      "price": {
+        "public": null,
+        "value": "",
+        "type": "",
+        "date": "",
+        "source": "",
+        "source_url": "",
+        "note": "No price in BDPM yet. Checked in the French public medicines database (BDPM) on 22 Nov 2026."
+      }
+    },
+    "IT": {
+      "hta_body": "AIFA",
+      "decision_date": "2026-09-03",
+      "outcome_short": "Reimbursed (class A–H decision)",
+      "opinion": "AIFA reimbursement decision DET PRES/UPR 1184/2026 (3 Sep 2026, effective 11 Sep 2026), type 'Modifica classe di rimborsabilità (classi A-H)'. Before that, class C(nn) since Oct 2025 (Determina 1364/2025).",
+      "comparator": "",
+      "reimbursement": "Reimbursed by the national health service (class A or H). The exact class and conditions are in the determina on TrovaNormeFarmaco.",
+      "documents": [
+        {
+          "label": "AIFA DET PRES/UPR 1184/2026 (TrovaNormeFarmaco)",
+          "url": "https://trovanorme.aifa.gov.it/#/ricerca-rapida/dettaglio/TNF/d6fcf76c-7761-4bb2-8349-c88c7c431589"
+        },
+        {
+          "label": "Determina 1364/2025, class C(nn), Gazzetta Ufficiale 30 Oct 2025",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2025-10-30&atto.codiceRedazionale=25A05782"
+        }
+      ],
+      "price": {
+        "public": null,
+        "value": "",
+        "type": "",
+        "date": "",
+        "source": "",
+        "source_url": "",
+        "note": "Not yet in AIFA's public class A/H lists (latest list 30 Jun 2026 is older than this decision)."
+      }
+    }
+  },
+  "eligibility_plain": "Adults with advanced or metastatic breast cancer that is hormone receptor (ER) positive, HER2 negative and has a PIK3CA gene change, when the cancer came back during or within 12 months after finishing hormone therapy given after surgery. It is taken together with palbociclib and fulvestrant. A tumour test for PIK3CA is needed.",
+  "population": {
+    "DE": {
+      "coverage": "Full EU indication, assessed in three patient groups",
+      "who": "a1) women not treated before with a CDK4/6 inhibitor (neo)adjuvant; a2) women treated before with a CDK4/6 inhibitor (neo)adjuvant; b) men",
+      "number": "a) women (a1 + a2): about 860 to 3,590; b) men: about 8 to 35 patients",
+      "number_note": "patients in statutory health insurance (GKV), G-BA decision section 2",
+      "conditions": "PIK3CA mutation must be confirmed by a validated test",
+      "source": "G-BA decision of 19 Feb 2026 (D-1222), section 2",
+      "source_url": "https://www.g-ba.de/downloads/39-261-7695/2026-02-19_AM-RL-XII-XIIa_Inavolisib_D-1222_BAnz.pdf"
+    },
+    "FR": {
+      "coverage": "Indication of the marketing authorisation",
+      "who": "SMR important in the indication of the marketing authorisation",
+      "number": null,
+      "number_note": "HAS target population not added yet (HAS website check pending)",
+      "conditions": "",
+      "source": "HAS opinion CT-21527, 14 Jan 2026",
+      "source_url": "https://www.has-sante.fr/jcms/p_3826119"
+    }
+  },
+  "pending": {},
+  "no_decision": {},
+  "pending_docs": {}
 }
