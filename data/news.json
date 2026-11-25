@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "items": [
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-24",
+      "title": "Tabelle farmaci di classe A e H al 31/07/2026",
+      "url": "https://www.aifa.gov.it/-/tabelle-farmaci-di-classe-a-e-h-al-31-07-2026"
+    },
     {
       "country": "IT",
       "source": "AIFA – news",
