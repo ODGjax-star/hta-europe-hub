@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "items": [
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-25",
+      "title": "Ordine del giorno riunione straordinaria Commissione Scientifica e Economica del Farmaco (CSE)",
+      "url": "https://www.aifa.gov.it/-/ordine-del-giorno-riunione-straordinaria-commissione-scientifica-e-economica-del-farmaco-cse-13"
+    },
     {
       "country": "IT",
       "source": "AIFA – news",
@@ -392,13 +399,6 @@
       "date": "2026-10-29",
       "title": "Ripiano della spesa farmaceutica per acquisti diretti per l’anno 2025",
       "url": "https://www.aifa.gov.it/-/ripiano-spesa-farmaceutica-per-acquisti-diretti-anno-2025"
-    },
-    {
-      "country": "IT",
-      "source": "AIFA – news",
-      "date": "2026-10-29",
-      "title": "AIFA avvia una valutazione dei Registri di monitoraggio di lunga durata",
-      "url": "https://www.aifa.gov.it/-/aifa-avvia-una-valutazione-dei-registri-di-monitoraggio-di-lunga-durata"
     },
     {
       "country": "FR",
