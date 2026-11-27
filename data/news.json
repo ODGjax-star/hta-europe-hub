@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "items": [
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-26",
+      "title": "Esiti runione straordinaria Commissione Scientifica e Economica del Farmaco (CSE)",
+      "url": "https://www.aifa.gov.it/-/esiti-runione-straordinaria-commissione-scientifica-e-economica-del-farmaco-cse-5"
+    },
     {
       "country": "IT",
       "source": "AIFA – news",
@@ -63,6 +70,13 @@
       "date": "2026-11-20",
       "title": "Ordine del giorno riunione straordinaria Commissione Scientifica e Economica del Farmaco (CSE)",
       "url": "https://www.aifa.gov.it/-/ordine-del-giorno-riunione-straordinaria-commissione-scientifica-e-economica-del-farmaco-cse-11"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-11-20",
+      "title": "DATROWAY (datopotamab déruxtécan)",
+      "url": "https://has-sante.fr/jcms/p_4614476/fr/datroway-datopotamab-deruxtecan"
     },
     {
       "country": "DE",
@@ -184,6 +198,13 @@
       "url": "https://www.aifa.gov.it/-/sunset-clause-warning-di-prossima-decadenza-del-17-novembre-2026"
     },
     {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-11-17",
+      "title": "VELARUDIS (Mycobacterium Bovis BCG (bacille de Calmette-Guérin), souche danoise 1331, vivant atténué)",
+      "url": "https://has-sante.fr/jcms/p_4611635/fr/velarudis-mycobacterium-bovis-bcg-bacille-de-calmette-guerin-souche-danoise-1331-vivant-attenue"
+    },
+    {
       "country": "IT",
       "source": "AIFA – news",
       "date": "2026-11-16",
@@ -210,6 +231,20 @@
       "date": "2026-11-12",
       "title": "REDEMPLO (plozasiran)",
       "url": "https://www.has-sante.fr/jcms/p_4606369/fr/redemplo-plozasiran"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-11-12",
+      "title": "Vaccination contre les infections invasives à pneumocoques : place du vaccin CAPVAXIVE - Recommandation",
+      "url": "https://has-sante.fr/jcms/p_4606429/fr/vaccination-contre-les-infections-invasives-a-pneumocoques-place-du-vaccin-capvaxive-recommandation"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-11-12",
+      "title": "REDEMPLO (plozasiran)",
+      "url": "https://has-sante.fr/jcms/p_4606369/fr/redemplo-plozasiran"
     },
     {
       "country": "IT",
@@ -310,6 +345,27 @@
       "url": "https://www.has-sante.fr/jcms/p_4592745/fr/cofact-complexe-prothrombique-humain"
     },
     {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-11-05",
+      "title": "NUSTENDI (acide bempédoïque/ézétimibe)",
+      "url": "https://has-sante.fr/jcms/p_4592713/fr/nustendi-acide-bempedoique/ezetimibe"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-11-05",
+      "title": "MYQORZO (aficamten)",
+      "url": "https://has-sante.fr/jcms/p_4592681/fr/myqorzo-aficamten"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-11-05",
+      "title": "COFACT (complexe prothrombique humain)",
+      "url": "https://has-sante.fr/jcms/p_4592745/fr/cofact-complexe-prothrombique-humain"
+    },
+    {
       "country": "IT",
       "source": "AIFA – news",
       "date": "2026-11-04",
@@ -394,13 +450,6 @@
       "url": "https://www.aifa.gov.it/-/accesso-ai-servizi-online-aifa-evoluzione-digitale-all-insegna-della-sicurezza-e-della-semplificazione"
     },
     {
-      "country": "IT",
-      "source": "AIFA – news",
-      "date": "2026-10-29",
-      "title": "Ripiano della spesa farmaceutica per acquisti diretti per l’anno 2025",
-      "url": "https://www.aifa.gov.it/-/ripiano-spesa-farmaceutica-per-acquisti-diretti-anno-2025"
-    },
-    {
       "country": "FR",
       "source": "HAS – opinions on medicines",
       "date": "2026-10-23",
@@ -410,9 +459,23 @@
     {
       "country": "FR",
       "source": "HAS – opinions on medicines",
+      "date": "2026-10-23",
+      "title": "ISOPROTRACE (gallium (68Ga) gozétotide)",
+      "url": "https://has-sante.fr/jcms/p_4586524/fr/isoprotrace-gallium-68ga-gozetotide"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
       "date": "2026-10-22",
       "title": "CANRENOATE DE POTASSIUM ESTEVE (canrénoate de potassium)",
       "url": "https://www.has-sante.fr/jcms/p_4586394/fr/canrenoate-de-potassium-esteve-canrenoate-de-potassium"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-10-22",
+      "title": "CANRENOATE DE POTASSIUM ESTEVE (canrénoate de potassium)",
+      "url": "https://has-sante.fr/jcms/p_4586394/fr/canrenoate-de-potassium-esteve-canrenoate-de-potassium"
     },
     {
       "country": "FR",
@@ -452,9 +515,23 @@
     {
       "country": "FR",
       "source": "HAS – opinions on medicines",
+      "date": "2026-09-15",
+      "title": "EXDENSUR (dépémokimab)",
+      "url": "https://has-sante.fr/jcms/p_4442712/fr/exdensur-depemokimab"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
       "date": "2026-09-02",
       "title": "INDACATEROL/GLYCOPYRRONIUM (indacatérol/glycopyrronium)",
       "url": "https://www.has-sante.fr/jcms/p_4382509/fr/indacaterol/glycopyrronium-indacaterol/glycopyrronium"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-09-02",
+      "title": "INDACATEROL/GLYCOPYRRONIUM (indacatérol/glycopyrronium)",
+      "url": "https://has-sante.fr/jcms/p_4382509/fr/indacaterol/glycopyrronium-indacaterol/glycopyrronium"
     },
     {
       "country": "FR",
@@ -466,9 +543,23 @@
     {
       "country": "FR",
       "source": "HAS – opinions on medicines",
+      "date": "2026-05-06",
+      "title": "NULIBRY (fosdénoptérine)",
+      "url": "https://has-sante.fr/jcms/p_3995725/fr/nulibry-fosdenopterine"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
       "date": "2025-12-10",
       "title": "EZMEKLY (mirdamétinib)",
       "url": "https://www.has-sante.fr/jcms/p_3785413/fr/ezmekly-mirdametinib"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2025-12-10",
+      "title": "EZMEKLY (mirdamétinib)",
+      "url": "https://has-sante.fr/jcms/p_3785413/fr/ezmekly-mirdametinib"
     },
     {
       "country": "FR",
@@ -480,9 +571,23 @@
     {
       "country": "FR",
       "source": "HAS – opinions on medicines",
+      "date": "2025-06-27",
+      "title": "WELIREG (belzutifan)",
+      "url": "https://has-sante.fr/jcms/p_3633425/fr/welireg-belzutifan"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
       "date": "2025-05-13",
       "title": "PREVENAR 20 (vaccin pneumococcique polyosidique conjugué (20-valent, adsorbé) ou VPC20)",
       "url": "https://www.has-sante.fr/jcms/p_3605531/fr/prevenar-20-vaccin-pneumococcique-polyosidique-conjugue-20-valent-adsorbe-ou-vpc20"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2025-05-13",
+      "title": "PREVENAR 20 (vaccin pneumococcique polyosidique conjugué (20-valent, adsorbé) ou VPC20)",
+      "url": "https://has-sante.fr/jcms/p_3605531/fr/prevenar-20-vaccin-pneumococcique-polyosidique-conjugue-20-valent-adsorbe-ou-vpc20"
     },
     {
       "country": "FR",
@@ -501,6 +606,13 @@
     {
       "country": "FR",
       "source": "HAS – opinions on medicines",
+      "date": "2024-10-31",
+      "title": "VUEWAY (gadopiclénol)",
+      "url": "https://has-sante.fr/jcms/p_3554683/fr/vueway-gadopiclenol"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
       "date": "2024-09-24",
       "title": "TEVIMBRA (tislélizumab)",
       "url": "https://www.has-sante.fr/jcms/p_3544505/fr/tevimbra-tislelizumab"
@@ -508,128 +620,16 @@
     {
       "country": "FR",
       "source": "HAS – opinions on medicines",
+      "date": "2024-09-24",
+      "title": "TEVIMBRA (tislélizumab)",
+      "url": "https://has-sante.fr/jcms/p_3544505/fr/tevimbra-tislelizumab"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
       "date": "2024-06-03",
       "title": "TALVEY (talquetamab)",
       "url": "https://www.has-sante.fr/jcms/p_3520243/fr/talvey-talquetamab"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2024-02-22",
-      "title": "AZELASTINE CHLORHYDRATE / FLUTICASONE PROPIONATE (chlorhydrate d'azelastine / propionate de fluticasone)",
-      "url": "https://www.has-sante.fr/jcms/p_3497183/fr/azelastine-chlorhydrate-/-fluticasone-propionate-chlorhydrate-d-azelastine-/-propionate-de-fluticasone"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2023-12-14",
-      "title": "SOTYKTU (deucravacitinib)",
-      "url": "https://www.has-sante.fr/jcms/p_3479196/fr/sotyktu-deucravacitinib"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2023-12-07",
-      "title": "AKEEGA (niraparib/acétate d’abiratérone)",
-      "url": "https://www.has-sante.fr/jcms/p_3477953/fr/akeega-niraparib/acetate-d-abiraterone"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2023-11-09",
-      "title": "OPZELURA (ruxolitinib)",
-      "url": "https://www.has-sante.fr/jcms/p_3472190/fr/opzelura-ruxolitinib"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2022-11-16",
-      "title": "EVKEEZA (évinacumab)",
-      "url": "https://www.has-sante.fr/jcms/p_3386112/fr/evkeeza-evinacumab"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2022-06-20",
-      "title": "PADCEV (enfortumab vedotin)",
-      "url": "https://www.has-sante.fr/jcms/p_3345565/fr/padcev-enfortumab-vedotin"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2022-05-02",
-      "title": "RYBREVANT (amivantamab)",
-      "url": "https://www.has-sante.fr/jcms/p_3337170/fr/rybrevant-amivantamab"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2022-04-20",
-      "title": "SCEMBLIX (asciminib)",
-      "url": "https://www.has-sante.fr/jcms/p_3333296/fr/scemblix-asciminib"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2022-03-18",
-      "title": "LEVOSIMENDAN (lévosimendan)",
-      "url": "https://www.has-sante.fr/jcms/p_3324932/fr/levosimendan-levosimendan"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2022-02-16",
-      "title": "ASPAVELI (pegcetacoplan)",
-      "url": "https://www.has-sante.fr/jcms/p_3317823/fr/aspaveli-pegcetacoplan"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2022-02-09",
-      "title": "OZAWADE (pitolisant (chlorhydrate))",
-      "url": "https://www.has-sante.fr/jcms/p_3316076/fr/ozawade-pitolisant-chlorhydrate"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2021-06-23",
-      "title": "ENHERTU (trastuzumab déruxtécan)",
-      "url": "https://www.has-sante.fr/jcms/p_3273604/fr/enhertu-trastuzumab-deruxtecan"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2021-05-07",
-      "title": "CALQUENCE (acalabrutinib)",
-      "url": "https://www.has-sante.fr/jcms/p_3265561/fr/calquence-acalabrutinib"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2020-12-18",
-      "title": "BRAFTOVI (encorafenib)",
-      "url": "https://www.has-sante.fr/jcms/p_3225652/fr/braftovi-encorafenib"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2020-05-06",
-      "title": "RINVOQ (upadacitinib)",
-      "url": "https://www.has-sante.fr/jcms/p_3182936/fr/rinvoq-upadacitinib"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2019-06-12",
-      "title": "PROSTATEP (fluorocholine (18F))",
-      "url": "https://www.has-sante.fr/jcms/pprd_2983729/fr/prostatep-fluorocholine-18f"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2019-06-12",
-      "title": "OMNIPAQUE (iohexol)",
-      "url": "https://www.has-sante.fr/jcms/pprd_2983529/fr/omnipaque-iohexol"
     }
   ]
 }
