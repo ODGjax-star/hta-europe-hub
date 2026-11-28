@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "items": [
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2026-11-27",
+      "title": "PAXNEURY (guanfacine)",
+      "url": "https://www.has-sante.fr/jcms/p_4621193/fr/paxneury-guanfacine"
+    },
+    {
+      "country": "IT",
+      "source": "AIFA – news",
+      "date": "2026-11-27",
+      "title": "Esiti runione straordinaria Commissione Scientifica e Economica del Farmaco (CSE)",
+      "url": "https://www.aifa.gov.it/-/esiti-runione-straordinaria-commissione-scientifica-e-economica-del-farmaco-cse-6"
+    },
     {
       "country": "IT",
       "source": "AIFA – news",
@@ -443,13 +457,6 @@
       "url": "https://www.aifa.gov.it/-/nota-informativa-importante-qualita-caelyx-doxil"
     },
     {
-      "country": "IT",
-      "source": "AIFA – news",
-      "date": "2026-10-29",
-      "title": "Accesso ai Servizi Online AIFA: evoluzione digitale all’insegna della sicurezza e della semplificazione",
-      "url": "https://www.aifa.gov.it/-/accesso-ai-servizi-online-aifa-evoluzione-digitale-all-insegna-della-sicurezza-e-della-semplificazione"
-    },
-    {
       "country": "FR",
       "source": "HAS – opinions on medicines",
       "date": "2026-10-23",
@@ -536,6 +543,13 @@
     {
       "country": "FR",
       "source": "HAS – opinions on medicines",
+      "date": "2026-05-28",
+      "title": "KYGEVVI (doxécitine/doxribtimine)",
+      "url": "https://www.has-sante.fr/jcms/p_4023264/fr/kygevvi-doxecitine/doxribtimine"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
       "date": "2026-05-06",
       "title": "NULIBRY (fosdénoptérine)",
       "url": "https://www.has-sante.fr/jcms/p_3995725/fr/nulibry-fosdenopterine"
@@ -546,6 +560,13 @@
       "date": "2026-05-06",
       "title": "NULIBRY (fosdénoptérine)",
       "url": "https://has-sante.fr/jcms/p_3995725/fr/nulibry-fosdenopterine"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
+      "date": "2025-12-18",
+      "title": "RICIMED (fragments F(ab')2 d’immunoglobuline équine anti-ricine)",
+      "url": "https://www.has-sante.fr/jcms/p_3806165/fr/ricimed-fragments-f-ab-2-d-immunoglobuline-equine-anti-ricine"
     },
     {
       "country": "FR",
@@ -578,6 +599,13 @@
     {
       "country": "FR",
       "source": "HAS – opinions on medicines",
+      "date": "2025-06-27",
+      "title": "WELIREG (belzutifan)",
+      "url": "https://www.has-sante.fr/jcms/p_3633425/fr/welireg-belzutifan"
+    },
+    {
+      "country": "FR",
+      "source": "HAS – opinions on medicines",
       "date": "2025-05-13",
       "title": "PREVENAR 20 (vaccin pneumococcique polyosidique conjugué (20-valent, adsorbé) ou VPC20)",
       "url": "https://www.has-sante.fr/jcms/p_3605531/fr/prevenar-20-vaccin-pneumococcique-polyosidique-conjugue-20-valent-adsorbe-ou-vpc20"
@@ -602,34 +630,6 @@
       "date": "2024-10-31",
       "title": "ELUCIREM (gadopiclénol)",
       "url": "https://www.has-sante.fr/jcms/p_3554678/fr/elucirem-gadopiclenol"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2024-10-31",
-      "title": "VUEWAY (gadopiclénol)",
-      "url": "https://has-sante.fr/jcms/p_3554683/fr/vueway-gadopiclenol"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2024-09-24",
-      "title": "TEVIMBRA (tislélizumab)",
-      "url": "https://www.has-sante.fr/jcms/p_3544505/fr/tevimbra-tislelizumab"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2024-09-24",
-      "title": "TEVIMBRA (tislélizumab)",
-      "url": "https://has-sante.fr/jcms/p_3544505/fr/tevimbra-tislelizumab"
-    },
-    {
-      "country": "FR",
-      "source": "HAS – opinions on medicines",
-      "date": "2024-06-03",
-      "title": "TALVEY (talquetamab)",
-      "url": "https://www.has-sante.fr/jcms/p_3520243/fr/talvey-talquetamab"
     }
   ]
 }
